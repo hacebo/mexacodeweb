@@ -1,0 +1,211 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Properties\PublishProfiles\MexacodeWeb20170504111501 - Web Deploy.pubxml" />
+    <None Remove="Properties\PublishProfiles\Mexatest - Web Deploy.pubxml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\css\estilos.css" />
+    <Content Include="wwwroot\images\1.png" />
+    <Content Include="wwwroot\images\2.jpg" />
+    <Content Include="wwwroot\images\3.jpg" />
+    <Content Include="wwwroot\images\4.jpg" />
+    <Content Include="wwwroot\images\5.jpg" />
+    <Content Include="wwwroot\images\6.jpg" />
+    <Content Include="wwwroot\images\7.jpg" />
+    <Content Include="wwwroot\images\8.jpg" />
+    <Content Include="wwwroot\images\icon1.png" />
+    <Content Include="wwwroot\images\icon2.png" />
+    <Content Include="wwwroot\images\icon3.png" />
+    <Content Include="wwwroot\images\mexacodergb.jpg" />
+    <Content Include="wwwroot\Index.html" />
+    <Content Include="wwwroot\js\app\controllers\contactUsController.js" />
+    <Content Include="wwwroot\js\app\mexacodeApp.js" />
+    <Content Include="wwwroot\js\app\services\contactUsService.js" />
+    <Content Include="wwwroot\lib\lodash\.bower.json" />
+    <Content Include="wwwroot\lib\lodash\.editorconfig" />
+    <Content Include="wwwroot\lib\lodash\.gitattributes" />
+    <Content Include="wwwroot\lib\lodash\.gitignore" />
+    <Content Include="wwwroot\lib\lodash\.jscsrc" />
+    <Content Include="wwwroot\lib\lodash\.markdown-doctest-setup.js" />
+    <Content Include="wwwroot\lib\lodash\.travis.yml" />
+    <Content Include="wwwroot\lib\lodash\CHANGELOG" />
+    <Content Include="wwwroot\lib\lodash\dist\lodash.core.js" />
+    <Content Include="wwwroot\lib\lodash\dist\lodash.core.min.js" />
+    <Content Include="wwwroot\lib\lodash\dist\lodash.fp.js" />
+    <Content Include="wwwroot\lib\lodash\dist\lodash.fp.min.js" />
+    <Content Include="wwwroot\lib\lodash\dist\lodash.js" />
+    <Content Include="wwwroot\lib\lodash\dist\lodash.min.js" />
+    <Content Include="wwwroot\lib\lodash\dist\mapping.fp.js" />
+    <Content Include="wwwroot\lib\lodash\doc\README.md" />
+    <Content Include="wwwroot\lib\lodash\fp\placeholder.js" />
+    <Content Include="wwwroot\lib\lodash\fp\_baseConvert.js" />
+    <Content Include="wwwroot\lib\lodash\fp\_convertBrowser.js" />
+    <Content Include="wwwroot\lib\lodash\fp\_mapping.js" />
+    <Content Include="wwwroot\lib\lodash\lib\common\file.js" />
+    <Content Include="wwwroot\lib\lodash\lib\common\mapping.js" />
+    <Content Include="wwwroot\lib\lodash\lib\common\minify.js" />
+    <Content Include="wwwroot\lib\lodash\lib\common\uglify.options.js" />
+    <Content Include="wwwroot\lib\lodash\lib\common\util.js" />
+    <Content Include="wwwroot\lib\lodash\lib\fp\build-dist.js" />
+    <Content Include="wwwroot\lib\lodash\lib\fp\build-doc.js" />
+    <Content Include="wwwroot\lib\lodash\lib\fp\build-modules.js" />
+    <Content Include="wwwroot\lib\lodash\lib\fp\template\doc\wiki.jst" />
+    <Content Include="wwwroot\lib\lodash\lib\fp\template\modules\alias.jst" />
+    <Content Include="wwwroot\lib\lodash\lib\fp\template\modules\category.jst" />
+    <Content Include="wwwroot\lib\lodash\lib\fp\template\modules\convert.jst" />
+    <Content Include="wwwroot\lib\lodash\lib\fp\template\modules\fp.jst" />
+    <Content Include="wwwroot\lib\lodash\lib\fp\template\modules\module.jst" />
+    <Content Include="wwwroot\lib\lodash\lib\fp\template\modules\thru.jst" />
+    <Content Include="wwwroot\lib\lodash\lib\fp\template\modules\_falseOptions.jst" />
+    <Content Include="wwwroot\lib\lodash\lib\fp\template\modules\_util.jst" />
+    <Content Include="wwwroot\lib\lodash\lib\main\build-dist.js" />
+    <Content Include="wwwroot\lib\lodash\lib\main\build-doc.js" />
+    <Content Include="wwwroot\lib\lodash\lib\main\build-modules.js" />
+    <Content Include="wwwroot\lib\lodash\lib\main\build-site.js" />
+    <Content Include="wwwroot\lib\lodash\LICENSE" />
+    <Content Include="wwwroot\lib\lodash\lodash.js" />
+    <Content Include="wwwroot\lib\lodash\package.json" />
+    <Content Include="wwwroot\lib\lodash\perf\asset\perf-ui.js" />
+    <Content Include="wwwroot\lib\lodash\perf\index.html" />
+    <Content Include="wwwroot\lib\lodash\perf\perf.js" />
+    <Content Include="wwwroot\lib\lodash\README.md" />
+    <Content Include="wwwroot\lib\lodash\test\asset\test-ui.js" />
+    <Content Include="wwwroot\lib\lodash\test\asset\worker.js" />
+    <Content Include="wwwroot\lib\lodash\test\backbone.html" />
+    <Content Include="wwwroot\lib\lodash\test\fp.html" />
+    <Content Include="wwwroot\lib\lodash\test\index.html" />
+    <Content Include="wwwroot\lib\lodash\test\remove.js" />
+    <Content Include="wwwroot\lib\lodash\test\saucelabs.js" />
+    <Content Include="wwwroot\lib\lodash\test\test-fp.js" />
+    <Content Include="wwwroot\lib\lodash\test\test.js" />
+    <Content Include="wwwroot\lib\lodash\test\underscore.html" />
+    <Content Include="wwwroot\lib\lodash\vendor\backbone\backbone.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\backbone\LICENSE" />
+    <Content Include="wwwroot\lib\lodash\vendor\backbone\test\collection.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\backbone\test\events.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\backbone\test\model.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\backbone\test\noconflict.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\backbone\test\router.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\backbone\test\setup\dom-setup.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\backbone\test\setup\environment.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\backbone\test\sync.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\backbone\test\view.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\license.txt" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\blank.gif" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\buttonBg.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\buttonBgHover.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\debugger.css" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\detach.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\detachHover.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\disable.gif" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\disable.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\disableHover.gif" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\disableHover.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\down.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\downActive.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\downHover.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\errorIcon-sm.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\errorIcon.gif" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\errorIcon.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\firebug-1.3a2.css" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\firebug.css" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\firebug.html" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\firebug.IE6.css" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\firebug.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\group.gif" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\html.css" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\infoIcon.gif" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\infoIcon.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\loading_16.gif" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\min.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\minHover.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\off.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\offHover.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\pixel_transparent.gif" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\roundCorner.svg" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\search.gif" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\search.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\shadow.gif" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\shadow2.gif" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\shadowAlpha.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\sprite.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\tabHoverLeft.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\tabHoverMid.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\tabHoverRight.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\tabLeft.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\tabMenuCheckbox.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\tabMenuPin.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\tabMenuRadio.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\tabMenuTarget.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\tabMenuTargetHover.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\tabMid.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\tabRight.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\textEditorBorders.gif" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\textEditorBorders.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\textEditorCorners.gif" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\textEditorCorners.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\titlebarMid.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\toolbarMid.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\tree_close.gif" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\tree_open.gif" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\twistyClosed.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\twistyOpen.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\up.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\upActive.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\upHover.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\warningIcon.gif" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\skin\xp\warningIcon.png" />
+    <Content Include="wwwroot\lib\lodash\vendor\firebug-lite\src\firebug-lite-debug.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\json-js\json2.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\underscore\LICENSE" />
+    <Content Include="wwwroot\lib\lodash\vendor\underscore\test\arrays.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\underscore\test\chaining.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\underscore\test\collections.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\underscore\test\cross-document.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\underscore\test\functions.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\underscore\test\objects.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\underscore\test\utility.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\underscore\underscore-min.js" />
+    <Content Include="wwwroot\lib\lodash\vendor\underscore\underscore.js" />
+    <Content Include="wwwroot\lib\lodash\yarn.lock" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AngularJS.Core" Version="1.6.4" />
+    <PackageReference Include="MailKit" Version="1.16.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.1.0" />
+    <PackageReference Include="Restangular" Version="1.4.0" />
+    <PackageReference Include="Serilog" Version="2.4.0" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="1.4.0" />
+    <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\lib\lodash\.github\CONTRIBUTING.md" />
+  </ItemGroup>
+
+</Project>
