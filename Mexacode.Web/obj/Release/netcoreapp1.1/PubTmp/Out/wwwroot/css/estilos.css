@@ -1,0 +1,609 @@
+﻿
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+* {
+
+	font-family: "Titillium Web"
+}
+
+
+
+body {
+
+	margin: 0;
+	position: relative;
+	display: block;
+
+	
+}
+
+
+#fondo {
+
+	background-color: yellow;
+	height: 100%;
+	position: relative;
+	display: block;
+	margin: 0;
+
+
+}
+
+/*Empieza header*/
+
+#superior {
+
+	width: 100%;
+	height: 100px;
+	display: block;
+	position: relative;
+	margin: 0;
+	
+}
+
+#header {
+
+	height: 100px;
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+	
+}
+
+
+#header-inner {
+
+	background-color: white;
+	margin: 0 auto;
+    height: 100px;
+    width: 80%;
+
+}
+
+#logo-cont {
+
+	width: 30%;
+	height: 100px;
+	background-color: white;
+	display: inline-block;
+	
+}
+
+#logo {
+
+	height: 90px;
+	position: relative;
+  	top: 50%; 
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+
+}
+
+#nav {
+
+    width: 70%;
+	float: right;
+	background-color: white;
+	display: inline-block;
+	height: 100px;
+
+}
+
+#menu {
+
+  position: relative;
+  top: 40%;
+  transform: translateY(-40%);
+  left: 28%;
+
+
+}
+
+#menu a {
+
+	text-decoration: none;
+	color: grey;
+}
+
+
+#menu a:hover {
+
+	color:black;
+}
+
+#menu, .list1 {
+
+    list-style-type: none;
+	display: inline-block;
+	margin: 15px;
+	padding: 5px;
+	font-weight: bold;
+
+}
+
+.list1 {
+
+	background-color: white;
+
+}
+
+
+/*Termina header*/
+
+
+
+
+#wrap1 {
+
+	margin: 0 auto;
+	height: 100%;
+	background-color: red;
+	display: block;
+	position: relative;
+
+
+}
+
+#encabezado {
+
+	font-size: 35px;
+	color: white;
+	position: absolute;
+	top: 110px;
+	left: 40%;
+	width: 50%;
+	text-align: right;
+	padding-right: 20px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+
+
+}
+
+#img1 {
+
+	height: 550px;
+	margin: 0;
+
+}
+
+.opciones {
+
+	color: white;
+	display: block;
+	margin: 0;
+
+}
+
+
+#textoazul {
+
+color: #0098DA;
+
+}
+
+
+#seccion1 {
+
+	background-color: black;
+	margin: 0 auto;
+	width: 100%;
+    position: relative;
+	height: 550px;
+    display: block;
+}
+
+.cuadros {
+	
+	margin: 0 auto;
+	height: 700px;
+	padding-top: 100px;
+	
+
+}
+
+#scroll {
+
+	background-color: white;
+	display: block;
+	margin: 0;
+
+
+}
+
+
+.h {
+
+	padding-top: 15px;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 0;
+	
+}
+
+
+#somos {
+
+	font-size: 18px;
+	padding-left: 100px;
+	text-align: center;
+	padding-top: 20px;
+	line-height: 40px;
+	margin: 0;
+
+}
+
+#img2 {
+
+	position: relative;
+	top: 10%; 
+  	left: 20%;
+  	transform: translate( -10%, 5%);
+  	margin: 0;
+  	
+
+}
+
+
+#text1 {
+
+	width: 40%;
+	position: absolute;
+	margin: 0;
+
+}
+
+#cajaimg {
+
+	width: 60%;
+	position: relative;
+	float: right;
+	margin: 0;
+
+}
+
+
+#scroll2 {
+
+	background-color: white;
+	position: relative;
+	margin: 0;
+
+
+}
+
+.serv {
+
+
+  	display: inline;
+  	width: 300px;
+     height: 300px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     position: relative;
+     float: left;
+     background-color: white;
+     margin: 15px;
+     padding: 10px;
+     top: 35%; 
+  	left: 15%;
+  	border-style: solid;
+  	border-width: 1px;
+  	border-color: grey;
+  	transform: translate( -15%, -50%);
+    box-shadow: 10px -10px #777; 
+    -moz-box-shadow: 10px -10px #777; 
+    -webkit-box-shadow: 10px 10px 20px 0px #777; 
+    -o-box-shadow: 10px -10px #777;
+    cursor:pointer;
+
+}
+
+
+.h3 {
+
+	font-size: 30px;
+	color: #0098DA;
+	text-align: center;
+	font-weight: normal;
+	position: relative;
+	top:18%;
+	margin: 0;
+
+
+}
+
+.icons {
+
+
+	width: 65px;
+	height: 65px;
+	margin: 0;
+	position: relative;
+	left: 40%;
+	top: 15%;
+}
+
+
+#scroll3 {
+
+	background-color: white;
+	display: block;
+	margin: 0;
+}
+
+.h4 {
+
+	font-size: 40px;
+	color: red;
+	margin: 0;
+	padding-top: 40px;
+	padding-left: 110px;
+	
+}
+
+
+#cajatexto1 {
+
+	width: 40%;
+	position: relative;
+	margin: 0;
+	float: right;
+
+}
+
+#cajatexto1 p {
+
+	font-size: 18px;
+	padding-left: 0px;
+	text-align: center;
+	padding-top: 20px;
+	line-height: 40px;
+	margin: 0;
+	padding-right: 100px;
+
+
+}
+
+#cajafoto3 {
+
+	width: 60%;
+	position: relative;
+	float: left;
+	margin: 0;
+}
+
+
+#foto3 {
+
+
+	position: relative;
+	top: 10%; 
+  	left: 20%;
+  	transform: translate( -10%, 5%);
+  	margin: 0;
+  	width: 600px;
+}
+
+
+
+#scroll4 {
+
+	background-color: white;
+	display: block;
+	margin: 0;
+}
+
+#cajatexto2 {
+
+	width: 40%;
+	position: relative;
+	margin: 0;
+	display: inline-block;
+
+
+}
+
+#cajatexto2 p {
+
+	font-size: 18px;
+	padding-left: 100px;
+	text-align: center;
+	padding-top: 20px;
+	line-height: 40px;
+	margin: 0;
+	padding-right: 0px;
+
+}
+
+
+#cajafoto4 {
+
+	width: 60%;
+	position: relative;
+	float: right;
+	margin: 0;
+
+
+}
+
+
+#foto4 {
+
+	position: relative;
+	top: 10%; 
+  	left: 20%;
+  	transform: translate( -10%, 5%);
+  	margin: 0;
+  	width: 600px;
+
+}
+
+#scroll5 {
+
+	background-color: white;
+	display: block;
+	margin: 0;
+}
+
+
+
+
+#cajatexto3 {
+
+	width: 40%;
+	position: relative;
+	margin: 0;
+	float: right;
+
+
+}
+
+
+#cajatexto3 p, ul {
+
+	font-size: 18px;
+	padding-left: 0px;
+	text-align: left;
+	padding-top: 20px;
+	line-height: 40px;
+	margin: 0;
+	padding-right: 100px;
+	
+
+}
+
+
+#cajafoto5 {
+
+	width: 60%;
+	position: relative;
+	margin: 0;
+
+}
+
+#foto5 {
+
+
+	position: relative;
+	top: 10%; 
+  	left: 20%;
+  	transform: translate( -10%, 5%);
+  	margin: 0;
+  	width: 600px;
+
+
+}
+
+
+#scroll6 {
+
+	background-color: white;
+	display: block;
+	margin: 0;
+}
+
+#h5 {
+
+	font-size: 30px;
+	color: black;
+	padding-left: 100px;
+	padding-bottom: 0;
+
+
+}
+
+#h5 span {
+
+	color: #0098DA;
+}
+
+#cajacontacto {
+
+	width: 40%;
+	position: absolute;
+	margin: 0;
+
+
+	
+}
+
+.con {
+
+	font-size: 20px;
+	color: grey;
+	padding-left: 120px;
+	display: inline-block;
+	margin: 0;
+
+}
+
+
+#contactForm {
+
+
+	width: 60%;
+	position: relative;
+	float: right;
+	margin: 0;
+
+
+}
+
+#contactForm ul {
+
+	position: relative;
+  	margin: 0;
+  	width: 500px;
+	top: 10%; 
+  	left: 30%;
+  	transform: translate( -10%, 0%);
+  	font-size: 15px;
+
+}
+
+#contactForm li {
+
+	list-style-type: none;
+	height: 35px;
+
+}
+
+
+.input-con {
+
+	width: 500px;
+}
+
+#boton-enviar {
+
+	width: 90px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	letter-spacing: 2px;
+	border: solid 1px;
+	margin-top: 50px;
+	float: right;
+
+}
+
+
+#pie {
+
+	background-color: white;
+	display: block;
+	height: 70px;
+	margin-top: 0 auto;
+	text-align: center;
+	
+	
+}

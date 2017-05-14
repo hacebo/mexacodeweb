@@ -1,0 +1,9 @@
+C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\bin\Release\netcoreapp1.1\Mexacode.Web.deps.json
+C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\bin\Release\netcoreapp1.1\Mexacode.Web.runtimeconfig.json
+C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\bin\Release\netcoreapp1.1\Mexacode.Web.runtimeconfig.dev.json
+C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\bin\Release\netcoreapp1.1\Mexacode.Web.dll
+C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\bin\Release\netcoreapp1.1\Mexacode.Web.pdb
+C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\obj\Release\netcoreapp1.1\Mexacode.Web.AssemblyInfo.cs
+C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\obj\Release\netcoreapp1.1\Mexacode.Web.dll
+C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\obj\Release\netcoreapp1.1\Mexacode.Web.pdb
+C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\obj\Release\netcoreapp1.1\Mexacode.Web.csprojResolveAssemblyReference.cache

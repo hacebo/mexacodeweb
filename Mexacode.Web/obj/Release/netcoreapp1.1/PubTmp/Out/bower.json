@@ -1,0 +1,15 @@
+{
+  "name": "asp.net",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "jquery": "2.2.0",
+    "jquery-validation": "1.14.0",
+    "jquery-validation-unobtrusive": "3.2.6",
+    "angular": "v1.6.5-build.5353+sha.136a42a",
+    "restangular": "1.6.1",
+    "lodash": "4.17.4",
+    "angular-messages": "v1.6.5-build.5353+sha.136a42a",
+    "sweetalert": "v1.1.3"
+  }
+}

@@ -1,0 +1,1551 @@
+2017-05-13 15:53:22.131 -05:00 [Debug] Hosting starting
+2017-05-13 15:53:22.441 -05:00 [Debug] Connection id ""0HL4Q88BT4BHT"" started.
+2017-05-13 15:53:22.449 -05:00 [Debug] Connection id ""0HL4Q88BT4BHU"" started.
+2017-05-13 15:53:22.481 -05:00 [Debug] Hosting started
+2017-05-13 15:53:22.621 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:65523/  0
+2017-05-13 15:53:22.617 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 15:53:22.853 -05:00 [Debug] Connection id ""0HL4Q88BT4BHU"" completed keep alive response.
+2017-05-13 15:53:22.857 -05:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\index.html"'
+2017-05-13 15:53:22.873 -05:00 [Information] Request finished in 298.3306ms 200 
+2017-05-13 15:53:23.218 -05:00 [Debug] Connection id ""0HL4Q88BT4BHT"" completed keep alive response.
+2017-05-13 15:53:23.226 -05:00 [Information] Request finished in 657.9305ms 200 text/html
+2017-05-13 16:00:46.862 -05:00 [Debug] Hosting starting
+2017-05-13 16:00:47.062 -05:00 [Debug] Hosting started
+2017-05-13 16:00:47.106 -05:00 [Debug] Connection id ""0HL4Q8CGDI4MV"" started.
+2017-05-13 16:00:47.106 -05:00 [Debug] Connection id ""0HL4Q8CGDI4MU"" started.
+2017-05-13 16:00:47.282 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:65523/  0
+2017-05-13 16:00:47.278 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 16:00:47.499 -05:00 [Information] The file "/index.html" was not modified
+2017-05-13 16:00:47.499 -05:00 [Debug] Connection id ""0HL4Q8CGDI4MU"" completed keep alive response.
+2017-05-13 16:00:47.511 -05:00 [Information] Request finished in 280.6666ms 200 
+2017-05-13 16:00:47.515 -05:00 [Debug] Handled. Status code: 304 File: "/index.html"
+2017-05-13 16:00:47.543 -05:00 [Debug] Connection id ""0HL4Q8CGDI4MV"" completed keep alive response.
+2017-05-13 16:00:47.559 -05:00 [Information] Request finished in 321.0156ms 304 text/html
+2017-05-13 16:00:52.388 -05:00 [Information] Request starting HTTP/1.1 POST http://localhost:65523/api/ContactUs application/json 141
+2017-05-13 16:00:52.396 -05:00 [Debug] "POST" requests are not supported
+2017-05-13 16:00:52.633 -05:00 [Debug] Request successfully matched the route with name 'null' and template '"api/ContactUs"'.
+2017-05-13 16:00:52.716 -05:00 [Debug] Executing action "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)"
+2017-05-13 16:00:52.841 -05:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-05-13 16:00:53.078 -05:00 [Information] Executing action method "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)" with arguments (["Mexacode.Web.Models.EmailModel"]) - ModelState is Valid
+2017-05-13 16:00:53.224 -05:00 [Information] Sending email: EmailModel { Empresa: "Empresa", Nombre: "Nombre del interesado", Email: "hiramacebo@gmail.com", Asunto: "Asunto Info", Mensaje: "Mensaje", Para: null }
+2017-05-13 16:00:55.497 -05:00 [Information] Email sent: EmailModel { Empresa: "Empresa", Nombre: "Nombre del interesado", Email: "hiramacebo@gmail.com", Asunto: "Asunto Info", Mensaje: "Mensaje", Para: null }
+2017-05-13 16:00:55.513 -05:00 [Debug] Executed action method "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)", returned result "Microsoft.AspNetCore.Mvc.OkResult".
+2017-05-13 16:00:55.529 -05:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 200
+2017-05-13 16:00:55.544 -05:00 [Information] Executed action "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)" in 2813.9099ms
+2017-05-13 16:00:55.544 -05:00 [Debug] Connection id ""0HL4Q8CGDI4MU"" completed keep alive response.
+2017-05-13 16:00:55.560 -05:00 [Information] Request finished in 3168.6215ms 200 
+2017-05-13 16:05:41.512 -05:00 [Debug] Hosting starting
+2017-05-13 16:05:41.744 -05:00 [Debug] Hosting started
+2017-05-13 16:05:41.920 -05:00 [Debug] Connection id ""0HL4Q8F890IC2"" started.
+2017-05-13 16:05:41.920 -05:00 [Debug] Connection id ""0HL4Q8F890IC3"" started.
+2017-05-13 16:05:41.984 -05:00 [Debug] Connection id ""0HL4Q8F890IC4"" started.
+2017-05-13 16:05:42.144 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 16:05:42.148 -05:00 [Information] Request starting HTTP/1.1 POST http://localhost:65523/api/ContactUs application/json 141
+2017-05-13 16:05:42.144 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:65523/  0
+2017-05-13 16:05:42.353 -05:00 [Debug] "POST" requests are not supported
+2017-05-13 16:05:42.357 -05:00 [Information] The file "/index.html" was not modified
+2017-05-13 16:05:42.361 -05:00 [Debug] Connection id ""0HL4Q8F890IC2"" completed keep alive response.
+2017-05-13 16:05:42.385 -05:00 [Information] Request finished in 289.7307ms 200 
+2017-05-13 16:05:42.389 -05:00 [Debug] Handled. Status code: 304 File: "/index.html"
+2017-05-13 16:05:42.441 -05:00 [Debug] Connection id ""0HL4Q8F890IC3"" completed keep alive response.
+2017-05-13 16:05:42.449 -05:00 [Information] Request finished in 368.2663ms 304 text/html
+2017-05-13 16:05:42.713 -05:00 [Debug] Request successfully matched the route with name 'null' and template '"api/ContactUs"'.
+2017-05-13 16:05:42.934 -05:00 [Debug] Executing action "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)"
+2017-05-13 16:05:43.079 -05:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-05-13 16:05:43.303 -05:00 [Information] Executing action method "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)" with arguments (["Mexacode.Web.Models.EmailModel"]) - ModelState is Valid
+2017-05-13 16:05:43.451 -05:00 [Information] Sending email: EmailModel { Empresa: "Empresa", Nombre: "Nombre del interesado", Email: "hiramacebo@gmail.com", Asunto: "Asunto Info", Mensaje: "Mensaje", Para: null }
+2017-05-13 16:05:45.908 -05:00 [Information] Email sent: EmailModel { Empresa: "Empresa", Nombre: "Nombre del interesado", Email: "hiramacebo@gmail.com", Asunto: "Asunto Info", Mensaje: "Mensaje", Para: null }
+2017-05-13 16:05:45.912 -05:00 [Debug] Executed action method "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)", returned result "Microsoft.AspNetCore.Mvc.OkResult".
+2017-05-13 16:05:45.920 -05:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 200
+2017-05-13 16:05:45.936 -05:00 [Information] Executed action "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)" in 3004.0234ms
+2017-05-13 16:05:45.951 -05:00 [Debug] Connection id ""0HL4Q8F890IC4"" completed keep alive response.
+2017-05-13 16:05:45.963 -05:00 [Information] Request finished in 3884.2795ms 200 
+2017-05-13 16:09:30.892 -05:00 [Debug] Hosting starting
+2017-05-13 16:09:31.100 -05:00 [Debug] Hosting started
+2017-05-13 16:09:31.154 -05:00 [Debug] Connection id ""0HL4Q8HCJI32U"" started.
+2017-05-13 16:09:31.334 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:65523/  0
+2017-05-13 16:09:31.499 -05:00 [Debug] Connection id ""0HL4Q8HCJI32U"" completed keep alive response.
+2017-05-13 16:09:31.515 -05:00 [Information] Request finished in 207.0837ms 200 
+2017-05-13 16:09:37.326 -05:00 [Information] Request starting HTTP/1.1 POST http://localhost:65523/api/ContactUs application/json 141
+2017-05-13 16:09:37.390 -05:00 [Debug] "POST" requests are not supported
+2017-05-13 16:09:37.589 -05:00 [Debug] Request successfully matched the route with name 'null' and template '"api/ContactUs"'.
+2017-05-13 16:09:37.700 -05:00 [Debug] Executing action "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)"
+2017-05-13 16:09:37.810 -05:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2017-05-13 16:09:38.065 -05:00 [Information] Executing action method "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)" with arguments (["Mexacode.Web.Models.EmailModel"]) - ModelState is Valid
+2017-05-13 16:09:38.187 -05:00 [Information] Sending email: EmailModel { Empresa: "Empresa", Nombre: "Nombre del interesado", Email: "hiramacebo@gmail.com", Asunto: "Asunto Info", Mensaje: "Mensaje", Para: null }
+2017-05-13 16:09:40.525 -05:00 [Information] Email sent: EmailModel { Empresa: "Empresa", Nombre: "Nombre del interesado", Email: "hiramacebo@gmail.com", Asunto: "Asunto Info", Mensaje: "Mensaje", Para: null }
+2017-05-13 16:09:40.525 -05:00 [Debug] Executed action method "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)", returned result "Microsoft.AspNetCore.Mvc.OkResult".
+2017-05-13 16:09:40.556 -05:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 200
+2017-05-13 16:09:40.571 -05:00 [Information] Executed action "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)" in 2861.8544ms
+2017-05-13 16:09:40.587 -05:00 [Debug] Connection id ""0HL4Q8HCJI32U"" completed keep alive response.
+2017-05-13 16:09:40.587 -05:00 [Information] Request finished in 3269.8839ms 200 
+2017-05-13 17:12:08.071 -05:00 [Debug] Hosting starting
+2017-05-13 17:12:08.299 -05:00 [Debug] Hosting started
+2017-05-13 17:12:08.516 -05:00 [Debug] Connection id ""0HL4Q9KCC9MRG"" started.
+2017-05-13 17:12:08.516 -05:00 [Debug] Connection id ""0HL4Q9KCC9MRH"" started.
+2017-05-13 17:12:08.680 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 17:12:08.681 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:65523/  0
+2017-05-13 17:12:08.913 -05:00 [Debug] Connection id ""0HL4Q9KCC9MRH"" completed keep alive response.
+2017-05-13 17:12:08.914 -05:00 [Information] The file "/index.html" was not modified
+2017-05-13 17:12:08.926 -05:00 [Information] Request finished in 299.2014ms 200 
+2017-05-13 17:12:08.931 -05:00 [Debug] Handled. Status code: 304 File: "/index.html"
+2017-05-13 17:12:08.960 -05:00 [Debug] Connection id ""0HL4Q9KCC9MRG"" completed keep alive response.
+2017-05-13 17:12:08.983 -05:00 [Information] Request finished in 343.8712ms 304 text/html
+2017-05-13 17:12:09.002 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/5.jpg  
+2017-05-13 17:12:09.015 -05:00 [Information] Sending file. Request path: '"/images/5.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\5.jpg"'
+2017-05-13 17:12:09.062 -05:00 [Debug] Connection id ""0HL4Q9KCC9MRH"" completed keep alive response.
+2017-05-13 17:12:09.067 -05:00 [Information] Request finished in 63.1244ms 200 image/jpeg
+2017-05-13 17:13:58.506 -05:00 [Debug] Connection id ""0HL4Q9KCC9MRH"" received FIN.
+2017-05-13 17:13:58.537 -05:00 [Debug] Connection id ""0HL4Q9KCC9MRG"" received FIN.
+2017-05-13 17:13:58.600 -05:00 [Debug] Connection id ""0HL4Q9KCC9MRG"" disconnecting.
+2017-05-13 17:13:58.600 -05:00 [Debug] Connection id ""0HL4Q9KCC9MRH"" disconnecting.
+2017-05-13 17:13:58.620 -05:00 [Debug] Connection id ""0HL4Q9KCC9MRH"" sending FIN.
+2017-05-13 17:13:58.624 -05:00 [Debug] Connection id ""0HL4Q9KCC9MRG"" sending FIN.
+2017-05-13 17:13:58.648 -05:00 [Debug] Connection id ""0HL4Q9KCC9MRG"" sent FIN with status "0".
+2017-05-13 17:13:58.648 -05:00 [Debug] Connection id ""0HL4Q9KCC9MRH"" sent FIN with status "0".
+2017-05-13 17:13:58.684 -05:00 [Debug] Connection id ""0HL4Q9KCC9MRG"" stopped.
+2017-05-13 17:13:58.684 -05:00 [Debug] Connection id ""0HL4Q9KCC9MRH"" stopped.
+2017-05-13 17:40:57.616 -05:00 [Debug] Hosting starting
+2017-05-13 17:40:57.816 -05:00 [Debug] Hosting started
+2017-05-13 17:40:58.058 -05:00 [Debug] Connection id ""0HL4QA4FQBTBC"" started.
+2017-05-13 17:40:58.062 -05:00 [Debug] Connection id ""0HL4QA4FQBTBD"" started.
+2017-05-13 17:40:58.278 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 17:40:58.272 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:65523/  0
+2017-05-13 17:40:58.575 -05:00 [Debug] Connection id ""0HL4QA4FQBTBD"" completed keep alive response.
+2017-05-13 17:40:58.575 -05:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\index.html"'
+2017-05-13 17:40:58.589 -05:00 [Information] Request finished in 380.3887ms 200 
+2017-05-13 17:40:58.785 -05:00 [Debug] Connection id ""0HL4QA4FQBTBC"" completed keep alive response.
+2017-05-13 17:40:58.789 -05:00 [Information] Request finished in 588.9876ms 200 text/html
+2017-05-13 17:40:59.042 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/5.jpg  
+2017-05-13 17:40:59.070 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/4.jpg  
+2017-05-13 17:40:59.089 -05:00 [Information] The file "/images/5.jpg" was not modified
+2017-05-13 17:40:59.094 -05:00 [Debug] Connection id ""0HL4QA4FQBTBF"" started.
+2017-05-13 17:40:59.105 -05:00 [Debug] Connection id ""0HL4QA4FQBTBE"" started.
+2017-05-13 17:40:59.122 -05:00 [Debug] Handled. Status code: 304 File: "/images/5.jpg"
+2017-05-13 17:40:59.140 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular/angular.js  
+2017-05-13 17:40:59.144 -05:00 [Debug] Connection id ""0HL4QA4FQBTBD"" completed keep alive response.
+2017-05-13 17:40:59.151 -05:00 [Information] Sending file. Request path: '"/images/4.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\4.jpg"'
+2017-05-13 17:40:59.152 -05:00 [Information] Request finished in 173.2482ms 304 image/jpeg
+2017-05-13 17:40:59.163 -05:00 [Debug] Connection id ""0HL4QA4FQBTBG"" started.
+2017-05-13 17:40:59.169 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular-messages/angular-messages.js  
+2017-05-13 17:40:59.172 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert.css  
+2017-05-13 17:40:59.179 -05:00 [Information] Sending file. Request path: '"/lib/angular-messages/angular-messages.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular-messages\angular-messages.js"'
+2017-05-13 17:40:59.185 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert.css"'
+2017-05-13 17:40:59.188 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/restangular/dist/restangular.js  
+2017-05-13 17:40:59.199 -05:00 [Debug] Connection id ""0HL4QA4FQBTBG"" completed keep alive response.
+2017-05-13 17:40:59.208 -05:00 [Debug] Connection id ""0HL4QA4FQBTBF"" completed keep alive response.
+2017-05-13 17:40:59.218 -05:00 [Debug] Connection id ""0HL4QA4FQBTBH"" started.
+2017-05-13 17:40:59.235 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/lodash/dist/lodash.js  
+2017-05-13 17:40:59.250 -05:00 [Information] Sending file. Request path: '"/lib/lodash/dist/lodash.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\lodash\dist\lodash.js"'
+2017-05-13 17:40:59.250 -05:00 [Information] Sending file. Request path: '"/lib/restangular/dist/restangular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\restangular\dist\restangular.js"'
+2017-05-13 17:40:59.254 -05:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular\angular.js"'
+2017-05-13 17:40:59.294 -05:00 [Information] Request finished in 36.1574ms 200 text/css
+2017-05-13 17:40:59.301 -05:00 [Debug] Connection id ""0HL4QA4FQBTBD"" completed keep alive response.
+2017-05-13 17:40:59.317 -05:00 [Information] Request finished in 133.3733ms 200 application/javascript
+2017-05-13 17:40:59.318 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert-dev.js  
+2017-05-13 17:40:59.327 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert-dev.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert-dev.js"'
+2017-05-13 17:40:59.375 -05:00 [Debug] Connection id ""0HL4QA4FQBTBC"" completed keep alive response.
+2017-05-13 17:40:59.442 -05:00 [Information] Request finished in 405.8031ms 200 image/jpeg
+2017-05-13 17:40:59.518 -05:00 [Debug] Connection id ""0HL4QA4FQBTBG"" completed keep alive response.
+2017-05-13 17:40:59.542 -05:00 [Information] Request finished in 114.3798ms 200 application/javascript
+2017-05-13 17:40:59.567 -05:00 [Information] Request finished in 211.2945ms 200 application/javascript
+2017-05-13 17:40:59.621 -05:00 [Debug] Connection id ""0HL4QA4FQBTBH"" completed keep alive response.
+2017-05-13 17:40:59.629 -05:00 [Information] Request finished in 401.4541ms 200 application/javascript
+2017-05-13 17:40:59.645 -05:00 [Debug] Connection id ""0HL4QA4FQBTBE"" completed keep alive response.
+2017-05-13 17:40:59.648 -05:00 [Information] Request finished in 524.8498ms 200 application/javascript
+2017-05-13 17:42:18.650 -05:00 [Debug] Connection id ""0HL4QA4FQBTBF"" received FIN.
+2017-05-13 17:42:18.655 -05:00 [Debug] Connection id ""0HL4QA4FQBTBC"" received FIN.
+2017-05-13 17:42:18.662 -05:00 [Debug] Connection id ""0HL4QA4FQBTBD"" received FIN.
+2017-05-13 17:42:18.667 -05:00 [Debug] Connection id ""0HL4QA4FQBTBG"" received FIN.
+2017-05-13 17:42:18.675 -05:00 [Debug] Connection id ""0HL4QA4FQBTBF"" disconnecting.
+2017-05-13 17:42:18.687 -05:00 [Debug] Connection id ""0HL4QA4FQBTBH"" received FIN.
+2017-05-13 17:42:18.700 -05:00 [Debug] Connection id ""0HL4QA4FQBTBE"" received FIN.
+2017-05-13 17:42:18.710 -05:00 [Debug] Connection id ""0HL4QA4FQBTBC"" disconnecting.
+2017-05-13 17:42:18.719 -05:00 [Debug] Connection id ""0HL4QA4FQBTBF"" sending FIN.
+2017-05-13 17:42:18.742 -05:00 [Debug] Connection id ""0HL4QA4FQBTBH"" disconnecting.
+2017-05-13 17:42:18.746 -05:00 [Debug] Connection id ""0HL4QA4FQBTBD"" disconnecting.
+2017-05-13 17:42:18.748 -05:00 [Debug] Connection id ""0HL4QA4FQBTBG"" disconnecting.
+2017-05-13 17:42:18.750 -05:00 [Debug] Connection id ""0HL4QA4FQBTBC"" sending FIN.
+2017-05-13 17:42:18.753 -05:00 [Debug] Connection id ""0HL4QA4FQBTBH"" sending FIN.
+2017-05-13 17:42:18.759 -05:00 [Debug] Connection id ""0HL4QA4FQBTBH"" sent FIN with status "0".
+2017-05-13 17:42:18.762 -05:00 [Debug] Connection id ""0HL4QA4FQBTBE"" disconnecting.
+2017-05-13 17:42:18.765 -05:00 [Debug] Connection id ""0HL4QA4FQBTBF"" sent FIN with status "0".
+2017-05-13 17:42:18.788 -05:00 [Debug] Connection id ""0HL4QA4FQBTBH"" stopped.
+2017-05-13 17:42:18.795 -05:00 [Debug] Connection id ""0HL4QA4FQBTBF"" stopped.
+2017-05-13 17:42:18.801 -05:00 [Debug] Connection id ""0HL4QA4FQBTBC"" sent FIN with status "0".
+2017-05-13 17:42:18.807 -05:00 [Debug] Connection id ""0HL4QA4FQBTBI"" started.
+2017-05-13 17:42:18.814 -05:00 [Debug] Connection id ""0HL4QA4FQBTBD"" sending FIN.
+2017-05-13 17:42:18.843 -05:00 [Debug] Connection id ""0HL4QA4FQBTBC"" stopped.
+2017-05-13 17:42:18.851 -05:00 [Debug] Connection id ""0HL4QA4FQBTBG"" sending FIN.
+2017-05-13 17:42:18.851 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 17:42:18.882 -05:00 [Debug] Connection id ""0HL4QA4FQBTBE"" sending FIN.
+2017-05-13 17:42:18.913 -05:00 [Debug] Connection id ""0HL4QA4FQBTBG"" sent FIN with status "0".
+2017-05-13 17:42:18.915 -05:00 [Debug] Connection id ""0HL4QA4FQBTBE"" sent FIN with status "0".
+2017-05-13 17:42:18.921 -05:00 [Debug] Connection id ""0HL4QA4FQBTBG"" stopped.
+2017-05-13 17:42:18.927 -05:00 [Debug] Connection id ""0HL4QA4FQBTBE"" stopped.
+2017-05-13 17:42:18.932 -05:00 [Debug] Connection id ""0HL4QA4FQBTBD"" sent FIN with status "0".
+2017-05-13 17:42:18.938 -05:00 [Debug] Connection id ""0HL4QA4FQBTBD"" stopped.
+2017-05-13 17:42:18.949 -05:00 [Information] The file "/index.html" was not modified
+2017-05-13 17:42:18.955 -05:00 [Debug] Handled. Status code: 304 File: "/index.html"
+2017-05-13 17:42:18.962 -05:00 [Debug] Connection id ""0HL4QA4FQBTBI"" completed keep alive response.
+2017-05-13 17:42:18.998 -05:00 [Information] Request finished in 151.2724ms 304 text/html
+2017-05-13 17:42:19.031 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert.css  
+2017-05-13 17:42:19.076 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert.css"'
+2017-05-13 17:42:19.098 -05:00 [Debug] Connection id ""0HL4QA4FQBTBJ"" started.
+2017-05-13 17:42:19.133 -05:00 [Debug] Connection id ""0HL4QA4FQBTBI"" completed keep alive response.
+2017-05-13 17:42:19.138 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert-dev.js  
+2017-05-13 17:42:19.142 -05:00 [Information] Request finished in 114.1392ms 200 text/css
+2017-05-13 17:42:19.149 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert-dev.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert-dev.js"'
+2017-05-13 17:42:19.175 -05:00 [Debug] Connection id ""0HL4QA4FQBTBJ"" completed keep alive response.
+2017-05-13 17:42:19.178 -05:00 [Information] Request finished in 72.4214ms 200 application/javascript
+2017-05-13 17:42:38.871 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 17:42:38.883 -05:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\index.html"'
+2017-05-13 17:42:38.909 -05:00 [Debug] Connection id ""0HL4QA4FQBTBI"" completed keep alive response.
+2017-05-13 17:42:38.928 -05:00 [Information] Request finished in 44.3613ms 200 text/html
+2017-05-13 17:42:38.952 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert.css  
+2017-05-13 17:42:38.960 -05:00 [Debug] Connection id ""0HL4QA4FQBTBL"" started.
+2017-05-13 17:42:38.986 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/mexacodergb.jpg  
+2017-05-13 17:42:38.986 -05:00 [Debug] Connection id ""0HL4QA4FQBTBK"" started.
+2017-05-13 17:42:38.990 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert.css"'
+2017-05-13 17:42:38.991 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular/angular.js  
+2017-05-13 17:42:39.032 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/css/estilos.css  
+2017-05-13 17:42:39.032 -05:00 [Information] Sending file. Request path: '"/images/mexacodergb.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\mexacodergb.jpg"'
+2017-05-13 17:42:39.035 -05:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular\angular.js"'
+2017-05-13 17:42:39.039 -05:00 [Information] Sending file. Request path: '"/css/estilos.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\css\estilos.css"'
+2017-05-13 17:42:39.057 -05:00 [Debug] Connection id ""0HL4QA4FQBTBK"" completed keep alive response.
+2017-05-13 17:42:39.070 -05:00 [Information] Request finished in 66.1418ms 200 text/css
+2017-05-13 17:42:39.093 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/lodash/dist/lodash.js  
+2017-05-13 17:42:39.122 -05:00 [Information] Sending file. Request path: '"/lib/lodash/dist/lodash.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\lodash\dist\lodash.js"'
+2017-05-13 17:42:39.125 -05:00 [Debug] Connection id ""0HL4QA4FQBTBI"" completed keep alive response.
+2017-05-13 17:42:39.138 -05:00 [Information] Request finished in 183.7963ms 200 text/css
+2017-05-13 17:42:39.219 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular-messages/angular-messages.js  
+2017-05-13 17:42:39.257 -05:00 [Debug] Connection id ""0HL4QA4FQBTBK"" completed keep alive response.
+2017-05-13 17:42:39.287 -05:00 [Information] Request finished in 173.6988ms 200 application/javascript
+2017-05-13 17:42:39.294 -05:00 [Debug] Connection id ""0HL4QA4FQBTBM"" started.
+2017-05-13 17:42:39.297 -05:00 [Debug] Connection id ""0HL4QA4FQBTBN"" started.
+2017-05-13 17:42:39.356 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/restangular/dist/restangular.js  
+2017-05-13 17:42:39.359 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/1.png  
+2017-05-13 17:42:39.389 -05:00 [Information] Sending file. Request path: '"/images/1.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\1.png"'
+2017-05-13 17:42:39.406 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert-dev.js  
+2017-05-13 17:42:39.555 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert-dev.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert-dev.js"'
+2017-05-13 17:42:39.726 -05:00 [Debug] Connection id ""0HL4QA4FQBTBM"" completed keep alive response.
+2017-05-13 17:42:39.748 -05:00 [Information] Request finished in 342.459ms 200 application/javascript
+2017-05-13 17:42:39.765 -05:00 [Information] Sending file. Request path: '"/lib/angular-messages/angular-messages.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular-messages\angular-messages.js"'
+2017-05-13 17:42:39.775 -05:00 [Information] Sending file. Request path: '"/lib/restangular/dist/restangular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\restangular\dist\restangular.js"'
+2017-05-13 17:42:39.780 -05:00 [Debug] Connection id ""0HL4QA4FQBTBL"" completed keep alive response.
+2017-05-13 17:42:39.794 -05:00 [Information] Request finished in 820.5573ms 200 application/javascript
+2017-05-13 17:42:39.815 -05:00 [Debug] Connection id ""0HL4QA4FQBTBN"" completed keep alive response.
+2017-05-13 17:42:39.847 -05:00 [Information] Request finished in 518.5309ms 200 application/javascript
+2017-05-13 17:42:39.938 -05:00 [Debug] Connection id ""0HL4QA4FQBTBI"" completed keep alive response.
+2017-05-13 17:42:39.954 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon1.png  
+2017-05-13 17:42:39.997 -05:00 [Information] Sending file. Request path: '"/images/icon1.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon1.png"'
+2017-05-13 17:42:40.025 -05:00 [Debug] Connection id ""0HL4QA4FQBTBL"" completed keep alive response.
+2017-05-13 17:42:40.046 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/2.jpg  
+2017-05-13 17:42:40.047 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon3.png  
+2017-05-13 17:42:40.072 -05:00 [Information] Request finished in 798.1893ms 200 application/javascript
+2017-05-13 17:42:40.073 -05:00 [Information] Sending file. Request path: '"/images/icon3.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon3.png"'
+2017-05-13 17:42:40.081 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon2.png  
+2017-05-13 17:42:40.084 -05:00 [Debug] Connection id ""0HL4QA4FQBTBN"" completed keep alive response.
+2017-05-13 17:42:40.093 -05:00 [Information] Request finished in 127.3428ms 200 image/png
+2017-05-13 17:42:40.096 -05:00 [Information] Request finished in 109.7257ms 200 image/png
+2017-05-13 17:42:40.160 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/4.jpg  
+2017-05-13 17:42:40.164 -05:00 [Information] Sending file. Request path: '"/images/icon2.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon2.png"'
+2017-05-13 17:42:40.169 -05:00 [Information] Sending file. Request path: '"/images/2.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\2.jpg"'
+2017-05-13 17:42:40.193 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/3.jpg  
+2017-05-13 17:42:40.208 -05:00 [Debug] Connection id ""0HL4QA4FQBTBM"" completed keep alive response.
+2017-05-13 17:42:40.218 -05:00 [Information] Request finished in 320.5927ms 200 image/jpeg
+2017-05-13 17:42:40.321 -05:00 [Debug] Connection id ""0HL4QA4FQBTBK"" completed keep alive response.
+2017-05-13 17:42:40.339 -05:00 [Information] Request finished in 992.96ms 200 image/png
+2017-05-13 17:42:40.362 -05:00 [Information] Sending file. Request path: '"/images/4.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\4.jpg"'
+2017-05-13 17:42:40.431 -05:00 [Debug] Connection id ""0HL4QA4FQBTBI"" completed keep alive response.
+2017-05-13 17:42:40.466 -05:00 [Information] Sending file. Request path: '"/images/3.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\3.jpg"'
+2017-05-13 17:42:40.521 -05:00 [Information] Request finished in 356.5961ms 200 image/png
+2017-05-13 17:42:40.538 -05:00 [Debug] Connection id ""0HL4QA4FQBTBN"" completed keep alive response.
+2017-05-13 17:42:40.555 -05:00 [Information] Request finished in 415.6839ms 200 image/jpeg
+2017-05-13 17:42:40.625 -05:00 [Debug] Connection id ""0HL4QA4FQBTBL"" completed keep alive response.
+2017-05-13 17:42:40.637 -05:00 [Information] Request finished in 480.3392ms 200 image/jpeg
+2017-05-13 17:42:40.646 -05:00 [Debug] Connection id ""0HL4QA4FQBTBJ"" completed keep alive response.
+2017-05-13 17:42:40.656 -05:00 [Information] Request finished in 1711.0065ms 200 image/jpeg
+2017-05-13 17:42:40.727 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/5.jpg  
+2017-05-13 17:42:40.735 -05:00 [Information] Sending file. Request path: '"/images/5.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\5.jpg"'
+2017-05-13 17:42:40.797 -05:00 [Debug] Connection id ""0HL4QA4FQBTBI"" completed keep alive response.
+2017-05-13 17:42:40.812 -05:00 [Information] Request finished in 114.5317ms 200 image/jpeg
+2017-05-13 17:44:20.050 -05:00 [Debug] Connection id ""0HL4QA4FQBTBN"" received FIN.
+2017-05-13 17:44:20.054 -05:00 [Debug] Connection id ""0HL4QA4FQBTBM"" received FIN.
+2017-05-13 17:44:20.059 -05:00 [Debug] Connection id ""0HL4QA4FQBTBL"" received FIN.
+2017-05-13 17:44:20.065 -05:00 [Debug] Connection id ""0HL4QA4FQBTBK"" received FIN.
+2017-05-13 17:44:20.089 -05:00 [Debug] Connection id ""0HL4QA4FQBTBJ"" received FIN.
+2017-05-13 17:44:20.100 -05:00 [Debug] Connection id ""0HL4QA4FQBTBI"" received FIN.
+2017-05-13 17:44:20.103 -05:00 [Debug] Connection id ""0HL4QA4FQBTBK"" disconnecting.
+2017-05-13 17:44:20.108 -05:00 [Debug] Connection id ""0HL4QA4FQBTBN"" disconnecting.
+2017-05-13 17:44:20.117 -05:00 [Debug] Connection id ""0HL4QA4FQBTBM"" disconnecting.
+2017-05-13 17:44:20.124 -05:00 [Debug] Connection id ""0HL4QA4FQBTBN"" sending FIN.
+2017-05-13 17:44:20.126 -05:00 [Debug] Connection id ""0HL4QA4FQBTBI"" disconnecting.
+2017-05-13 17:44:20.147 -05:00 [Debug] Connection id ""0HL4QA4FQBTBJ"" disconnecting.
+2017-05-13 17:44:20.150 -05:00 [Debug] Connection id ""0HL4QA4FQBTBN"" sent FIN with status "0".
+2017-05-13 17:44:20.152 -05:00 [Debug] Connection id ""0HL4QA4FQBTBL"" disconnecting.
+2017-05-13 17:44:20.154 -05:00 [Debug] Connection id ""0HL4QA4FQBTBN"" stopped.
+2017-05-13 17:44:20.156 -05:00 [Debug] Connection id ""0HL4QA4FQBTBO"" started.
+2017-05-13 17:44:20.158 -05:00 [Debug] Connection id ""0HL4QA4FQBTBJ"" sending FIN.
+2017-05-13 17:44:20.161 -05:00 [Debug] Connection id ""0HL4QA4FQBTBK"" sending FIN.
+2017-05-13 17:44:20.184 -05:00 [Debug] Connection id ""0HL4QA4FQBTBL"" sending FIN.
+2017-05-13 17:44:20.208 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 17:44:20.209 -05:00 [Debug] Connection id ""0HL4QA4FQBTBM"" sending FIN.
+2017-05-13 17:44:20.212 -05:00 [Debug] Connection id ""0HL4QA4FQBTBL"" sent FIN with status "0".
+2017-05-13 17:44:20.213 -05:00 [Debug] Connection id ""0HL4QA4FQBTBI"" sending FIN.
+2017-05-13 17:44:20.235 -05:00 [Debug] Connection id ""0HL4QA4FQBTBI"" sent FIN with status "0".
+2017-05-13 17:44:20.238 -05:00 [Debug] Connection id ""0HL4QA4FQBTBL"" stopped.
+2017-05-13 17:44:20.261 -05:00 [Debug] Connection id ""0HL4QA4FQBTBI"" stopped.
+2017-05-13 17:44:20.264 -05:00 [Debug] Connection id ""0HL4QA4FQBTBJ"" sent FIN with status "0".
+2017-05-13 17:44:20.267 -05:00 [Debug] Connection id ""0HL4QA4FQBTBM"" sent FIN with status "0".
+2017-05-13 17:44:20.276 -05:00 [Debug] Connection id ""0HL4QA4FQBTBJ"" stopped.
+2017-05-13 17:44:20.285 -05:00 [Debug] Connection id ""0HL4QA4FQBTBM"" stopped.
+2017-05-13 17:44:20.288 -05:00 [Debug] Connection id ""0HL4QA4FQBTBK"" sent FIN with status "0".
+2017-05-13 17:44:20.291 -05:00 [Debug] Connection id ""0HL4QA4FQBTBK"" stopped.
+2017-05-13 17:44:20.294 -05:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\index.html"'
+2017-05-13 17:44:20.310 -05:00 [Debug] Connection id ""0HL4QA4FQBTBO"" completed keep alive response.
+2017-05-13 17:44:20.321 -05:00 [Information] Request finished in 151.1734ms 200 text/html
+2017-05-13 17:44:20.395 -05:00 [Debug] Connection id ""0HL4QA4FQBTBP"" started.
+2017-05-13 17:44:20.396 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert.css  
+2017-05-13 17:44:20.402 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/mexacodeApp.js  
+2017-05-13 17:44:20.403 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert.css"'
+2017-05-13 17:44:20.409 -05:00 [Information] Sending file. Request path: '"/js/app/mexacodeApp.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\mexacodeApp.js"'
+2017-05-13 17:44:20.453 -05:00 [Debug] Connection id ""0HL4QA4FQBTBO"" completed keep alive response.
+2017-05-13 17:44:20.467 -05:00 [Debug] Connection id ""0HL4QA4FQBTBP"" completed keep alive response.
+2017-05-13 17:44:20.474 -05:00 [Information] Request finished in 70.283ms 200 application/javascript
+2017-05-13 17:44:20.512 -05:00 [Information] Request finished in 91.5753ms 200 text/css
+2017-05-13 17:44:20.543 -05:00 [Debug] Connection id ""0HL4QA4FQBTBQ"" started.
+2017-05-13 17:44:20.546 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/services/contactUsService.js  
+2017-05-13 17:44:20.573 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/controllers/contactUsController.js  
+2017-05-13 17:44:20.574 -05:00 [Information] Sending file. Request path: '"/js/app/services/contactUsService.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\services\contactUsService.js"'
+2017-05-13 17:44:20.583 -05:00 [Debug] Connection id ""0HL4QA4FQBTBQ"" completed keep alive response.
+2017-05-13 17:44:20.586 -05:00 [Information] Request finished in 40.4863ms 200 application/javascript
+2017-05-13 17:44:20.595 -05:00 [Debug] Connection id ""0HL4QA4FQBTBR"" started.
+2017-05-13 17:44:20.603 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert-dev.js  
+2017-05-13 17:44:20.606 -05:00 [Information] Sending file. Request path: '"/js/app/controllers/contactUsController.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\controllers\contactUsController.js"'
+2017-05-13 17:44:20.614 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert-dev.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert-dev.js"'
+2017-05-13 17:44:20.617 -05:00 [Debug] Connection id ""0HL4QA4FQBTBO"" completed keep alive response.
+2017-05-13 17:44:20.622 -05:00 [Information] Request finished in 67.7546ms 200 application/javascript
+2017-05-13 17:44:20.643 -05:00 [Debug] Connection id ""0HL4QA4FQBTBR"" completed keep alive response.
+2017-05-13 17:44:20.650 -05:00 [Information] Request finished in 48.4654ms 200 application/javascript
+2017-05-13 17:46:21.134 -05:00 [Debug] Connection id ""0HL4QA4FQBTBO"" disconnecting.
+2017-05-13 17:46:21.136 -05:00 [Debug] Connection id ""0HL4QA4FQBTBO"" sending FIN.
+2017-05-13 17:46:21.138 -05:00 [Debug] Connection id ""0HL4QA4FQBTBO"" sent FIN with status "0".
+2017-05-13 17:46:21.141 -05:00 [Debug] Connection id ""0HL4QA4FQBTBO"" stopped.
+2017-05-13 17:46:22.050 -05:00 [Debug] Connection id ""0HL4QA4FQBTBR"" disconnecting.
+2017-05-13 17:46:22.055 -05:00 [Debug] Connection id ""0HL4QA4FQBTBP"" disconnecting.
+2017-05-13 17:46:22.060 -05:00 [Debug] Connection id ""0HL4QA4FQBTBR"" sending FIN.
+2017-05-13 17:46:22.064 -05:00 [Debug] Connection id ""0HL4QA4FQBTBP"" sending FIN.
+2017-05-13 17:46:22.068 -05:00 [Debug] Connection id ""0HL4QA4FQBTBP"" sent FIN with status "0".
+2017-05-13 17:46:22.070 -05:00 [Debug] Connection id ""0HL4QA4FQBTBP"" stopped.
+2017-05-13 17:46:22.074 -05:00 [Debug] Connection id ""0HL4QA4FQBTBR"" sent FIN with status "0".
+2017-05-13 17:46:22.077 -05:00 [Debug] Connection id ""0HL4QA4FQBTBR"" stopped.
+2017-05-13 17:46:22.129 -05:00 [Debug] Connection id ""0HL4QA4FQBTBQ"" disconnecting.
+2017-05-13 17:46:22.132 -05:00 [Debug] Connection id ""0HL4QA4FQBTBQ"" sending FIN.
+2017-05-13 17:46:22.136 -05:00 [Debug] Connection id ""0HL4QA4FQBTBQ"" sent FIN with status "0".
+2017-05-13 17:46:22.139 -05:00 [Debug] Connection id ""0HL4QA4FQBTBQ"" stopped.
+2017-05-13 17:49:41.432 -05:00 [Debug] Connection id ""0HL4QA4FQBTBS"" started.
+2017-05-13 17:49:41.441 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 17:49:41.446 -05:00 [Information] The file "/index.html" was not modified
+2017-05-13 17:49:41.448 -05:00 [Debug] Handled. Status code: 304 File: "/index.html"
+2017-05-13 17:49:41.467 -05:00 [Debug] Connection id ""0HL4QA4FQBTBS"" completed keep alive response.
+2017-05-13 17:49:41.484 -05:00 [Information] Request finished in 40.5712ms 304 text/html
+2017-05-13 17:49:41.529 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert.css  
+2017-05-13 17:49:41.550 -05:00 [Debug] Connection id ""0HL4QA4FQBTBT"" started.
+2017-05-13 17:49:41.561 -05:00 [Information] The file "/lib/sweetalert/dist/sweetalert.css" was not modified
+2017-05-13 17:49:41.584 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/mexacodeApp.js  
+2017-05-13 17:49:41.585 -05:00 [Debug] Handled. Status code: 304 File: "/lib/sweetalert/dist/sweetalert.css"
+2017-05-13 17:49:41.611 -05:00 [Debug] Connection id ""0HL4QA4FQBTBS"" completed keep alive response.
+2017-05-13 17:49:41.615 -05:00 [Debug] Connection id ""0HL4QA4FQBTBU"" started.
+2017-05-13 17:49:41.618 -05:00 [Information] Request finished in 99.8791ms 304 text/css
+2017-05-13 17:49:41.642 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/services/contactUsService.js  
+2017-05-13 17:49:41.646 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/controllers/contactUsController.js  
+2017-05-13 17:49:41.649 -05:00 [Information] Sending file. Request path: '"/js/app/services/contactUsService.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\services\contactUsService.js"'
+2017-05-13 17:49:41.673 -05:00 [Debug] Connection id ""0HL4QA4FQBTBU"" completed keep alive response.
+2017-05-13 17:49:41.676 -05:00 [Information] Sending file. Request path: '"/js/app/controllers/contactUsController.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\controllers\contactUsController.js"'
+2017-05-13 17:49:41.700 -05:00 [Information] The file "/js/app/mexacodeApp.js" was not modified
+2017-05-13 17:49:41.713 -05:00 [Debug] Connection id ""0HL4QA4FQBTBS"" completed keep alive response.
+2017-05-13 17:49:41.727 -05:00 [Information] Request finished in 69.7753ms 200 application/javascript
+2017-05-13 17:49:41.761 -05:00 [Debug] Handled. Status code: 304 File: "/js/app/mexacodeApp.js"
+2017-05-13 17:49:41.762 -05:00 [Information] Request finished in 58.4639ms 200 application/javascript
+2017-05-13 17:49:41.778 -05:00 [Debug] Connection id ""0HL4QA4FQBTBV"" started.
+2017-05-13 17:49:41.795 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert-dev.js  
+2017-05-13 17:49:41.801 -05:00 [Information] The file "/lib/sweetalert/dist/sweetalert-dev.js" was not modified
+2017-05-13 17:49:41.811 -05:00 [Debug] Handled. Status code: 304 File: "/lib/sweetalert/dist/sweetalert-dev.js"
+2017-05-13 17:49:41.818 -05:00 [Debug] Connection id ""0HL4QA4FQBTBV"" completed keep alive response.
+2017-05-13 17:49:41.835 -05:00 [Information] Request finished in 39.394ms 304 application/javascript
+2017-05-13 17:49:41.866 -05:00 [Debug] Connection id ""0HL4QA4FQBTBT"" completed keep alive response.
+2017-05-13 17:49:41.872 -05:00 [Information] Request finished in 306.0549ms 304 application/javascript
+2017-05-13 17:49:41.993 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/favicon.ico  
+2017-05-13 17:49:41.997 -05:00 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\favicon.ico"'
+2017-05-13 17:49:42.007 -05:00 [Debug] Connection id ""0HL4QA4FQBTBU"" completed keep alive response.
+2017-05-13 17:49:42.011 -05:00 [Information] Request finished in 18.5075ms 200 image/x-icon
+2017-05-13 17:50:11.775 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 17:50:11.779 -05:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\index.html"'
+2017-05-13 17:50:11.802 -05:00 [Debug] Connection id ""0HL4QA4FQBTBS"" completed keep alive response.
+2017-05-13 17:50:11.810 -05:00 [Information] Request finished in 32.663ms 200 text/html
+2017-05-13 17:50:11.882 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/controllers/contactUsController.js  
+2017-05-13 17:50:11.891 -05:00 [Information] The file "/js/app/controllers/contactUsController.js" was not modified
+2017-05-13 17:50:11.896 -05:00 [Debug] Handled. Status code: 304 File: "/js/app/controllers/contactUsController.js"
+2017-05-13 17:50:11.902 -05:00 [Debug] Connection id ""0HL4QA4FQBTBT"" completed keep alive response.
+2017-05-13 17:50:11.907 -05:00 [Information] Request finished in 26.0087ms 304 application/javascript
+2017-05-13 17:50:12.092 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/favicon.ico  
+2017-05-13 17:50:12.096 -05:00 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\favicon.ico"'
+2017-05-13 17:50:12.106 -05:00 [Debug] Connection id ""0HL4QA4FQBTBV"" completed keep alive response.
+2017-05-13 17:50:12.110 -05:00 [Information] Request finished in 17.5347ms 200 image/x-icon
+2017-05-13 17:51:43.366 -05:00 [Debug] Connection id ""0HL4QA4FQBTBU"" disconnecting.
+2017-05-13 17:51:43.372 -05:00 [Debug] Connection id ""0HL4QA4FQBTBU"" sending FIN.
+2017-05-13 17:51:43.377 -05:00 [Debug] Connection id ""0HL4QA4FQBTBU"" sent FIN with status "0".
+2017-05-13 17:51:43.381 -05:00 [Debug] Connection id ""0HL4QA4FQBTBU"" stopped.
+2017-05-13 17:51:58.023 -05:00 [Debug] Connection id ""0HL4QA4FQBTBS"" received FIN.
+2017-05-13 17:51:58.024 -05:00 [Debug] Connection id ""0HL4QA4FQBTBT"" received FIN.
+2017-05-13 17:51:58.028 -05:00 [Debug] Connection id ""0HL4QA4FQBTBS"" disconnecting.
+2017-05-13 17:51:58.051 -05:00 [Debug] Connection id ""0HL4QA4FQBTBS"" sending FIN.
+2017-05-13 17:51:58.054 -05:00 [Debug] Connection id ""0HL4QA4FQBTBS"" sent FIN with status "0".
+2017-05-13 17:51:58.081 -05:00 [Debug] Connection id ""0HL4QA4FQBTBV"" received FIN.
+2017-05-13 17:51:58.082 -05:00 [Debug] Connection id ""0HL4QA4FQBTBS"" stopped.
+2017-05-13 17:51:58.084 -05:00 [Debug] Connection id ""0HL4QA4FQBTBV"" disconnecting.
+2017-05-13 17:51:58.086 -05:00 [Debug] Connection id ""0HL4QA4FQBTBV"" sending FIN.
+2017-05-13 17:51:58.088 -05:00 [Debug] Connection id ""0HL4QA4FQBTBV"" sent FIN with status "0".
+2017-05-13 17:51:58.090 -05:00 [Debug] Connection id ""0HL4QA4FQBTBV"" stopped.
+2017-05-13 17:51:58.093 -05:00 [Debug] Connection id ""0HL4QA4FQBTBT"" disconnecting.
+2017-05-13 17:51:58.095 -05:00 [Debug] Connection id ""0HL4QA4FQBTBT"" sending FIN.
+2017-05-13 17:51:58.097 -05:00 [Debug] Connection id ""0HL4QA4FQBTBT"" sent FIN with status "0".
+2017-05-13 17:51:58.099 -05:00 [Debug] Connection id ""0HL4QA4FQBTBT"" stopped.
+2017-05-13 17:55:42.166 -05:00 [Debug] Connection id ""0HL4QA4FQBTC0"" started.
+2017-05-13 17:55:42.176 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 17:55:42.182 -05:00 [Information] The file "/index.html" was not modified
+2017-05-13 17:55:42.184 -05:00 [Debug] Handled. Status code: 304 File: "/index.html"
+2017-05-13 17:55:42.222 -05:00 [Debug] Connection id ""0HL4QA4FQBTC0"" completed keep alive response.
+2017-05-13 17:55:42.255 -05:00 [Information] Request finished in 51.016ms 304 text/html
+2017-05-13 17:55:42.266 -05:00 [Debug] Connection id ""0HL4QA4FQBTC1"" started.
+2017-05-13 17:55:42.266 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert.css  
+2017-05-13 17:55:42.288 -05:00 [Information] The file "/lib/sweetalert/dist/sweetalert.css" was not modified
+2017-05-13 17:55:42.304 -05:00 [Debug] Handled. Status code: 304 File: "/lib/sweetalert/dist/sweetalert.css"
+2017-05-13 17:55:42.332 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/mexacodeApp.js  
+2017-05-13 17:55:42.337 -05:00 [Debug] Connection id ""0HL4QA4FQBTC0"" completed keep alive response.
+2017-05-13 17:55:42.356 -05:00 [Information] Request finished in 77.5141ms 304 text/css
+2017-05-13 17:55:42.367 -05:00 [Debug] Connection id ""0HL4QA4FQBTC2"" started.
+2017-05-13 17:55:42.387 -05:00 [Debug] Connection id ""0HL4QA4FQBTC3"" started.
+2017-05-13 17:55:42.411 -05:00 [Information] The file "/js/app/mexacodeApp.js" was not modified
+2017-05-13 17:55:42.419 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert-dev.js  
+2017-05-13 17:55:42.420 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/services/contactUsService.js  
+2017-05-13 17:55:42.424 -05:00 [Information] The file "/lib/sweetalert/dist/sweetalert-dev.js" was not modified
+2017-05-13 17:55:42.437 -05:00 [Debug] Handled. Status code: 304 File: "/lib/sweetalert/dist/sweetalert-dev.js"
+2017-05-13 17:55:42.466 -05:00 [Debug] Handled. Status code: 304 File: "/js/app/mexacodeApp.js"
+2017-05-13 17:55:42.467 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/controllers/contactUsController.js  
+2017-05-13 17:55:42.470 -05:00 [Debug] Connection id ""0HL4QA4FQBTC1"" completed keep alive response.
+2017-05-13 17:55:42.475 -05:00 [Information] Request finished in 166.6383ms 304 application/javascript
+2017-05-13 17:55:42.488 -05:00 [Information] Sending file. Request path: '"/js/app/controllers/contactUsController.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\controllers\contactUsController.js"'
+2017-05-13 17:55:42.495 -05:00 [Information] The file "/js/app/services/contactUsService.js" was not modified
+2017-05-13 17:55:42.518 -05:00 [Debug] Connection id ""0HL4QA4FQBTC3"" completed keep alive response.
+2017-05-13 17:55:42.530 -05:00 [Debug] Handled. Status code: 304 File: "/js/app/services/contactUsService.js"
+2017-05-13 17:55:42.546 -05:00 [Debug] Connection id ""0HL4QA4FQBTC2"" completed keep alive response.
+2017-05-13 17:55:42.557 -05:00 [Debug] Connection id ""0HL4QA4FQBTC0"" completed keep alive response.
+2017-05-13 17:55:42.569 -05:00 [Information] Request finished in 177.9919ms 304 application/javascript
+2017-05-13 17:55:42.575 -05:00 [Information] Request finished in 129.8669ms 200 application/javascript
+2017-05-13 17:55:42.581 -05:00 [Information] Request finished in 157.5077ms 304 application/javascript
+2017-05-13 17:55:42.683 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/favicon.ico  
+2017-05-13 17:55:42.687 -05:00 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\favicon.ico"'
+2017-05-13 17:55:42.692 -05:00 [Debug] Connection id ""0HL4QA4FQBTC0"" completed keep alive response.
+2017-05-13 17:55:42.701 -05:00 [Information] Request finished in 18.5459ms 200 image/x-icon
+2017-05-13 17:55:51.472 -05:00 [Information] Request starting HTTP/1.1 POST http://localhost:65523/api/ContactUs application/json;charset=UTF-8 152
+2017-05-13 17:55:51.476 -05:00 [Debug] "POST" requests are not supported
+2017-05-13 17:55:51.703 -05:00 [Debug] Request successfully matched the route with name 'null' and template '"api/ContactUs"'.
+2017-05-13 17:55:51.807 -05:00 [Debug] Executing action "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)"
+2017-05-13 17:55:51.929 -05:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json;charset=UTF-8"'.
+2017-05-13 17:55:52.167 -05:00 [Information] Executing action method "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)" with arguments (["Mexacode.Web.Models.EmailModel"]) - ModelState is Valid
+2017-05-13 17:55:52.322 -05:00 [Information] Sending email: EmailModel { Empresa: "Empresa", Nombre: "Nombre del interesado", Email: "hiramacebo@gmail.com", Asunto: "Asunto Info", Mensaje: "Mensaje", Telefono: "3313974095" }
+2017-05-13 17:55:53.050 -05:00 [Information] Request starting HTTP/1.1 POST http://localhost:65523/api/ContactUs application/json;charset=UTF-8 152
+2017-05-13 17:55:53.055 -05:00 [Debug] "POST" requests are not supported
+2017-05-13 17:55:53.057 -05:00 [Debug] Request successfully matched the route with name 'null' and template '"api/ContactUs"'.
+2017-05-13 17:55:53.061 -05:00 [Debug] Executing action "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)"
+2017-05-13 17:55:53.065 -05:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json;charset=UTF-8"'.
+2017-05-13 17:55:53.069 -05:00 [Information] Executing action method "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)" with arguments (["Mexacode.Web.Models.EmailModel"]) - ModelState is Valid
+2017-05-13 17:55:53.072 -05:00 [Information] Sending email: EmailModel { Empresa: "Empresa", Nombre: "Nombre del interesado", Email: "hiramacebo@gmail.com", Asunto: "Asunto Info", Mensaje: "Mensaje", Telefono: "3313974095" }
+2017-05-13 17:55:57.059 -05:00 [Information] Email sent: EmailModel { Empresa: "Empresa", Nombre: "Nombre del interesado", Email: "hiramacebo@gmail.com", Asunto: "Asunto Info", Mensaje: "Mensaje", Telefono: "3313974095" }
+2017-05-13 17:55:57.060 -05:00 [Information] Email sent: EmailModel { Empresa: "Empresa", Nombre: "Nombre del interesado", Email: "hiramacebo@gmail.com", Asunto: "Asunto Info", Mensaje: "Mensaje", Telefono: "3313974095" }
+2017-05-13 17:55:57.083 -05:00 [Debug] Executed action method "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)", returned result "Microsoft.AspNetCore.Mvc.OkResult".
+2017-05-13 17:55:57.085 -05:00 [Debug] Executed action method "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)", returned result "Microsoft.AspNetCore.Mvc.OkResult".
+2017-05-13 17:55:57.127 -05:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 200
+2017-05-13 17:55:57.130 -05:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 200
+2017-05-13 17:55:57.147 -05:00 [Information] Executed action "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)" in 5331.8392ms
+2017-05-13 17:55:57.150 -05:00 [Information] Executed action "Mexacode.Web.Controllers.ContactUsController.ContactUs (Mexacode.Web)" in 4080.0652ms
+2017-05-13 17:55:57.170 -05:00 [Debug] Connection id ""0HL4QA4FQBTC3"" completed keep alive response.
+2017-05-13 17:55:57.181 -05:00 [Information] Request finished in 4123.2741ms 200 
+2017-05-13 17:55:57.187 -05:00 [Debug] Connection id ""0HL4QA4FQBTC1"" completed keep alive response.
+2017-05-13 17:55:57.190 -05:00 [Information] Request finished in 5717.9236ms 200 
+2017-05-13 17:56:39.129 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 17:56:39.134 -05:00 [Information] The file "/index.html" was not modified
+2017-05-13 17:56:39.137 -05:00 [Debug] Handled. Status code: 304 File: "/index.html"
+2017-05-13 17:56:39.144 -05:00 [Debug] Connection id ""0HL4QA4FQBTC2"" completed keep alive response.
+2017-05-13 17:56:39.155 -05:00 [Information] Request finished in 22.1384ms 304 text/html
+2017-05-13 17:56:39.183 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/css/estilos.css  
+2017-05-13 17:56:39.212 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/mexacodergb.jpg  
+2017-05-13 17:56:39.213 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular/angular.js  
+2017-05-13 17:56:39.218 -05:00 [Information] Sending file. Request path: '"/css/estilos.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\css\estilos.css"'
+2017-05-13 17:56:39.219 -05:00 [Information] Sending file. Request path: '"/images/mexacodergb.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\mexacodergb.jpg"'
+2017-05-13 17:56:39.234 -05:00 [Debug] Connection id ""0HL4QA4FQBTC0"" completed keep alive response.
+2017-05-13 17:56:39.260 -05:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular\angular.js"'
+2017-05-13 17:56:39.265 -05:00 [Information] Request finished in 65.0183ms 200 text/css
+2017-05-13 17:56:39.310 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular-messages/angular-messages.js  
+2017-05-13 17:56:39.342 -05:00 [Information] Sending file. Request path: '"/lib/angular-messages/angular-messages.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular-messages\angular-messages.js"'
+2017-05-13 17:56:39.344 -05:00 [Debug] Connection id ""0HL4QA4FQBTC5"" started.
+2017-05-13 17:56:39.354 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/lodash/dist/lodash.js  
+2017-05-13 17:56:39.357 -05:00 [Debug] Connection id ""0HL4QA4FQBTC2"" completed keep alive response.
+2017-05-13 17:56:39.386 -05:00 [Information] Sending file. Request path: '"/lib/lodash/dist/lodash.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\lodash\dist\lodash.js"'
+2017-05-13 17:56:39.387 -05:00 [Information] Request finished in 64.5964ms 200 application/javascript
+2017-05-13 17:56:39.472 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/controllers/contactUsController.js  
+2017-05-13 17:56:39.506 -05:00 [Information] Sending file. Request path: '"/js/app/controllers/contactUsController.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\controllers\contactUsController.js"'
+2017-05-13 17:56:39.511 -05:00 [Debug] Connection id ""0HL4QA4FQBTC4"" started.
+2017-05-13 17:56:39.573 -05:00 [Debug] Connection id ""0HL4QA4FQBTC0"" completed keep alive response.
+2017-05-13 17:56:39.753 -05:00 [Information] Request finished in 257.7435ms 200 application/javascript
+2017-05-13 17:56:39.801 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/1.png  
+2017-05-13 17:56:39.816 -05:00 [Debug] Connection id ""0HL4QA4FQBTC3"" completed keep alive response.
+2017-05-13 17:56:39.832 -05:00 [Information] Request finished in 629.0349ms 200 application/javascript
+2017-05-13 17:56:39.843 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/restangular/dist/restangular.js  
+2017-05-13 17:56:39.853 -05:00 [Information] Sending file. Request path: '"/images/1.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\1.png"'
+2017-05-13 17:56:39.884 -05:00 [Debug] Connection id ""0HL4QA4FQBTC5"" completed keep alive response.
+2017-05-13 17:56:39.926 -05:00 [Information] Sending file. Request path: '"/lib/restangular/dist/restangular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\restangular\dist\restangular.js"'
+2017-05-13 17:56:39.951 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon1.png  
+2017-05-13 17:56:39.956 -05:00 [Debug] Connection id ""0HL4QA4FQBTC4"" completed keep alive response.
+2017-05-13 17:56:39.969 -05:00 [Information] Request finished in 435.3225ms 200 application/javascript
+2017-05-13 17:56:40.054 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon2.png  
+2017-05-13 17:56:40.069 -05:00 [Information] Request finished in 544.546ms 200 application/javascript
+2017-05-13 17:56:40.092 -05:00 [Information] Sending file. Request path: '"/images/icon2.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon2.png"'
+2017-05-13 17:56:40.115 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/2.jpg  
+2017-05-13 17:56:40.140 -05:00 [Information] Sending file. Request path: '"/images/icon1.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon1.png"'
+2017-05-13 17:56:40.149 -05:00 [Debug] Connection id ""0HL4QA4FQBTC0"" completed keep alive response.
+2017-05-13 17:56:40.185 -05:00 [Information] Request finished in 371.6438ms 200 image/png
+2017-05-13 17:56:40.215 -05:00 [Information] Sending file. Request path: '"/images/2.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\2.jpg"'
+2017-05-13 17:56:40.256 -05:00 [Debug] Connection id ""0HL4QA4FQBTC3"" completed keep alive response.
+2017-05-13 17:56:40.257 -05:00 [Debug] Connection id ""0HL4QA4FQBTC2"" completed keep alive response.
+2017-05-13 17:56:40.280 -05:00 [Information] Request finished in 273.3412ms 200 image/png
+2017-05-13 17:56:40.302 -05:00 [Information] Request finished in 335.8721ms 200 image/png
+2017-05-13 17:56:40.336 -05:00 [Debug] Connection id ""0HL4QA4FQBTC5"" completed keep alive response.
+2017-05-13 17:56:40.351 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/4.jpg  
+2017-05-13 17:56:40.374 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/3.jpg  
+2017-05-13 17:56:40.378 -05:00 [Information] Sending file. Request path: '"/images/4.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\4.jpg"'
+2017-05-13 17:56:40.388 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/5.jpg  
+2017-05-13 17:56:40.395 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon3.png  
+2017-05-13 17:56:40.397 -05:00 [Information] Sending file. Request path: '"/images/5.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\5.jpg"'
+2017-05-13 17:56:40.403 -05:00 [Information] Sending file. Request path: '"/images/icon3.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon3.png"'
+2017-05-13 17:56:40.414 -05:00 [Debug] Connection id ""0HL4QA4FQBTC4"" completed keep alive response.
+2017-05-13 17:56:40.426 -05:00 [Debug] Connection id ""0HL4QA4FQBTC2"" completed keep alive response.
+2017-05-13 17:56:40.441 -05:00 [Information] Request finished in 242.5926ms 200 image/jpeg
+2017-05-13 17:56:40.469 -05:00 [Information] Sending file. Request path: '"/images/3.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\3.jpg"'
+2017-05-13 17:56:40.493 -05:00 [Information] Request finished in 41.0781ms 200 image/jpeg
+2017-05-13 17:56:40.548 -05:00 [Information] Request finished in 24.9889ms 200 image/png
+2017-05-13 17:56:40.571 -05:00 [Debug] Connection id ""0HL4QA4FQBTC0"" completed keep alive response.
+2017-05-13 17:56:40.586 -05:00 [Information] Request finished in 337.0181ms 200 image/jpeg
+2017-05-13 17:56:40.605 -05:00 [Debug] Connection id ""0HL4QA4FQBTC3"" completed keep alive response.
+2017-05-13 17:56:40.611 -05:00 [Information] Request finished in 280.6107ms 200 image/jpeg
+2017-05-13 17:56:40.674 -05:00 [Debug] Connection id ""0HL4QA4FQBTC1"" completed keep alive response.
+2017-05-13 17:56:40.679 -05:00 [Information] Request finished in 1487.7538ms 200 image/jpeg
+2017-05-13 20:32:12.432 -05:00 [Debug] Connection id ""0HL4QA4FQBTC1"" disconnecting.
+2017-05-13 20:32:12.656 -05:00 [Debug] Connection id ""0HL4QA4FQBTC0"" disconnecting.
+2017-05-13 20:32:12.679 -05:00 [Debug] Connection id ""0HL4QA4FQBTC1"" sending FIN.
+2017-05-13 20:32:12.829 -05:00 [Debug] Connection id ""0HL4QA4FQBTC1"" sent FIN with status "0".
+2017-05-13 20:32:12.837 -05:00 [Debug] Connection id ""0HL4QA4FQBTC3"" disconnecting.
+2017-05-13 20:32:12.904 -05:00 [Debug] Connection id ""0HL4QA4FQBTC5"" disconnecting.
+2017-05-13 20:32:12.936 -05:00 [Debug] Connection id ""0HL4QA4FQBTC4"" disconnecting.
+2017-05-13 20:32:12.941 -05:00 [Debug] Connection id ""0HL4QA4FQBTC2"" disconnecting.
+2017-05-13 20:32:12.967 -05:00 [Debug] Connection id ""0HL4QA4FQBTC0"" sending FIN.
+2017-05-13 20:32:12.984 -05:00 [Debug] Connection id ""0HL4QA4FQBTC3"" sending FIN.
+2017-05-13 20:32:12.995 -05:00 [Debug] Connection id ""0HL4QA4FQBTC5"" sending FIN.
+2017-05-13 20:32:13.011 -05:00 [Debug] Connection id ""0HL4QA4FQBTC5"" sent FIN with status "0".
+2017-05-13 20:32:13.024 -05:00 [Debug] Connection id ""0HL4QA4FQBTC5"" stopped.
+2017-05-13 20:32:13.043 -05:00 [Debug] Connection id ""0HL4QA4FQBTC3"" sent FIN with status "0".
+2017-05-13 20:32:13.052 -05:00 [Debug] Connection id ""0HL4QA4FQBTC3"" stopped.
+2017-05-13 20:32:13.068 -05:00 [Debug] Connection id ""0HL4QA4FQBTC0"" sent FIN with status "0".
+2017-05-13 20:32:13.082 -05:00 [Debug] Connection id ""0HL4QA4FQBTC0"" stopped.
+2017-05-13 20:32:13.090 -05:00 [Debug] Connection id ""0HL4QA4FQBTC1"" stopped.
+2017-05-13 20:32:13.094 -05:00 [Debug] Connection id ""0HL4QA4FQBTC4"" sending FIN.
+2017-05-13 20:32:13.096 -05:00 [Debug] Connection id ""0HL4QA4FQBTC2"" sending FIN.
+2017-05-13 20:32:13.099 -05:00 [Debug] Connection id ""0HL4QA4FQBTC2"" sent FIN with status "0".
+2017-05-13 20:32:13.103 -05:00 [Debug] Connection id ""0HL4QA4FQBTC2"" stopped.
+2017-05-13 20:32:13.105 -05:00 [Debug] Connection id ""0HL4QA4FQBTC4"" sent FIN with status "0".
+2017-05-13 20:32:13.110 -05:00 [Debug] Connection id ""0HL4QA4FQBTC4"" stopped.
+2017-05-13 20:35:15.198 -05:00 [Debug] Connection id ""0HL4QA4FQBTC6"" started.
+2017-05-13 20:35:15.209 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 20:35:15.214 -05:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\index.html"'
+2017-05-13 20:35:15.826 -05:00 [Debug] Connection id ""0HL4QA4FQBTC7"" started.
+2017-05-13 20:35:15.827 -05:00 [Debug] Connection id ""0HL4QA4FQBTC6"" completed keep alive response.
+2017-05-13 20:35:15.859 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/css/estilos.css  
+2017-05-13 20:35:15.865 -05:00 [Debug] Connection id ""0HL4QA4FQBTC8"" started.
+2017-05-13 20:35:15.888 -05:00 [Information] Request finished in 625.3293ms 200 text/html
+2017-05-13 20:35:15.934 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular/angular.js  
+2017-05-13 20:35:15.936 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert.css  
+2017-05-13 20:35:15.937 -05:00 [Information] The file "/css/estilos.css" was not modified
+2017-05-13 20:35:15.939 -05:00 [Debug] Handled. Status code: 304 File: "/css/estilos.css"
+2017-05-13 20:35:15.945 -05:00 [Debug] Connection id ""0HL4QA4FQBTC7"" completed keep alive response.
+2017-05-13 20:35:15.974 -05:00 [Information] Request finished in 118.5035ms 304 text/css
+2017-05-13 20:35:15.989 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/lodash/dist/lodash.js  
+2017-05-13 20:35:15.992 -05:00 [Information] The file "/lib/angular/angular.js" was not modified
+2017-05-13 20:35:16.015 -05:00 [Information] The file "/lib/sweetalert/dist/sweetalert.css" was not modified
+2017-05-13 20:35:16.043 -05:00 [Debug] Handled. Status code: 304 File: "/lib/angular/angular.js"
+2017-05-13 20:35:16.044 -05:00 [Debug] Connection id ""0HL4QA4FQBTC9"" started.
+2017-05-13 20:35:16.052 -05:00 [Debug] Handled. Status code: 304 File: "/lib/sweetalert/dist/sweetalert.css"
+2017-05-13 20:35:16.077 -05:00 [Debug] Connection id ""0HL4QA4FQBTC8"" completed keep alive response.
+2017-05-13 20:35:16.096 -05:00 [Information] Request finished in 210.1967ms 304 application/javascript
+2017-05-13 20:35:16.105 -05:00 [Debug] Connection id ""0HL4QA4FQBTCB"" started.
+2017-05-13 20:35:16.118 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/restangular/dist/restangular.js  
+2017-05-13 20:35:16.131 -05:00 [Information] The file "/lib/restangular/dist/restangular.js" was not modified
+2017-05-13 20:35:16.139 -05:00 [Debug] Connection id ""0HL4QA4FQBTC6"" completed keep alive response.
+2017-05-13 20:35:16.148 -05:00 [Information] The file "/lib/lodash/dist/lodash.js" was not modified
+2017-05-13 20:35:16.156 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/mexacodeApp.js  
+2017-05-13 20:35:16.170 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/mexacodergb.jpg  
+2017-05-13 20:35:16.177 -05:00 [Debug] Connection id ""0HL4QA4FQBTCA"" started.
+2017-05-13 20:35:16.192 -05:00 [Information] Request finished in 226.3042ms 304 text/css
+2017-05-13 20:35:16.206 -05:00 [Debug] Handled. Status code: 304 File: "/lib/restangular/dist/restangular.js"
+2017-05-13 20:35:16.226 -05:00 [Information] The file "/js/app/mexacodeApp.js" was not modified
+2017-05-13 20:35:16.244 -05:00 [Debug] Handled. Status code: 304 File: "/lib/lodash/dist/lodash.js"
+2017-05-13 20:35:16.258 -05:00 [Debug] Connection id ""0HL4QA4FQBTC7"" completed keep alive response.
+2017-05-13 20:35:16.280 -05:00 [Information] The file "/images/mexacodergb.jpg" was not modified
+2017-05-13 20:35:16.287 -05:00 [Debug] Handled. Status code: 304 File: "/images/mexacodergb.jpg"
+2017-05-13 20:35:16.322 -05:00 [Debug] Connection id ""0HL4QA4FQBTC8"" completed keep alive response.
+2017-05-13 20:35:16.332 -05:00 [Debug] Handled. Status code: 304 File: "/js/app/mexacodeApp.js"
+2017-05-13 20:35:16.347 -05:00 [Debug] Connection id ""0HL4QA4FQBTC9"" completed keep alive response.
+2017-05-13 20:35:16.358 -05:00 [Information] Request finished in 287.9003ms 304 application/javascript
+2017-05-13 20:35:16.369 -05:00 [Information] Request finished in 271.1404ms 304 application/javascript
+2017-05-13 20:35:16.377 -05:00 [Debug] Connection id ""0HL4QA4FQBTCB"" completed keep alive response.
+2017-05-13 20:35:16.385 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/services/contactUsService.js  
+2017-05-13 20:35:16.389 -05:00 [Information] Request finished in 270.6131ms 304 application/javascript
+2017-05-13 20:35:16.415 -05:00 [Information] The file "/js/app/services/contactUsService.js" was not modified
+2017-05-13 20:35:16.428 -05:00 [Information] Request finished in 163.0876ms 304 image/jpeg
+2017-05-13 20:35:16.439 -05:00 [Debug] Handled. Status code: 304 File: "/js/app/services/contactUsService.js"
+2017-05-13 20:35:16.483 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/2.jpg  
+2017-05-13 20:35:16.498 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/controllers/contactUsController.js  
+2017-05-13 20:35:16.510 -05:00 [Debug] Connection id ""0HL4QA4FQBTC6"" completed keep alive response.
+2017-05-13 20:35:16.520 -05:00 [Information] Request finished in 214.8614ms 304 application/javascript
+2017-05-13 20:35:16.531 -05:00 [Information] The file "/images/2.jpg" was not modified
+2017-05-13 20:35:16.570 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert-dev.js  
+2017-05-13 20:35:16.572 -05:00 [Debug] Handled. Status code: 304 File: "/images/2.jpg"
+2017-05-13 20:35:16.615 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon1.png  
+2017-05-13 20:35:16.631 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/1.png  
+2017-05-13 20:35:16.633 -05:00 [Information] The file "/js/app/controllers/contactUsController.js" was not modified
+2017-05-13 20:35:16.643 -05:00 [Debug] Handled. Status code: 304 File: "/js/app/controllers/contactUsController.js"
+2017-05-13 20:35:16.654 -05:00 [Information] The file "/images/1.png" was not modified
+2017-05-13 20:35:16.664 -05:00 [Debug] Connection id ""0HL4QA4FQBTC9"" completed keep alive response.
+2017-05-13 20:35:16.667 -05:00 [Information] Request finished in 203.699ms 304 application/javascript
+2017-05-13 20:35:16.697 -05:00 [Debug] Connection id ""0HL4QA4FQBTCB"" completed keep alive response.
+2017-05-13 20:35:16.717 -05:00 [Information] The file "/lib/sweetalert/dist/sweetalert-dev.js" was not modified
+2017-05-13 20:35:16.750 -05:00 [Information] The file "/images/icon1.png" was not modified
+2017-05-13 20:35:16.757 -05:00 [Debug] Handled. Status code: 304 File: "/images/icon1.png"
+2017-05-13 20:35:16.763 -05:00 [Debug] Connection id ""0HL4QA4FQBTC6"" completed keep alive response.
+2017-05-13 20:35:16.775 -05:00 [Information] Request finished in 206.2193ms 304 image/png
+2017-05-13 20:35:16.799 -05:00 [Information] Request finished in 225.1159ms 304 image/jpeg
+2017-05-13 20:35:16.805 -05:00 [Debug] Handled. Status code: 304 File: "/images/1.png"
+2017-05-13 20:35:16.810 -05:00 [Debug] Connection id ""0HL4QA4FQBTC8"" completed keep alive response.
+2017-05-13 20:35:16.831 -05:00 [Debug] Handled. Status code: 304 File: "/lib/sweetalert/dist/sweetalert-dev.js"
+2017-05-13 20:35:16.840 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon3.png  
+2017-05-13 20:35:16.853 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon2.png  
+2017-05-13 20:35:16.857 -05:00 [Information] The file "/images/icon3.png" was not modified
+2017-05-13 20:35:16.884 -05:00 [Debug] Handled. Status code: 304 File: "/images/icon3.png"
+2017-05-13 20:35:16.923 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/3.jpg  
+2017-05-13 20:35:16.926 -05:00 [Debug] Connection id ""0HL4QA4FQBTC7"" completed keep alive response.
+2017-05-13 20:35:16.956 -05:00 [Information] Request finished in 460.1088ms 304 application/javascript
+2017-05-13 20:35:16.972 -05:00 [Information] Request finished in 308.5019ms 304 image/png
+2017-05-13 20:35:16.985 -05:00 [Information] The file "/images/icon2.png" was not modified
+2017-05-13 20:35:16.997 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/4.jpg  
+2017-05-13 20:35:16.999 -05:00 [Information] The file "/images/3.jpg" was not modified
+2017-05-13 20:35:17.020 -05:00 [Debug] Connection id ""0HL4QA4FQBTC9"" completed keep alive response.
+2017-05-13 20:35:17.041 -05:00 [Debug] Handled. Status code: 304 File: "/images/3.jpg"
+2017-05-13 20:35:17.059 -05:00 [Debug] Connection id ""0HL4QA4FQBTC6"" completed keep alive response.
+2017-05-13 20:35:17.074 -05:00 [Information] Request finished in 153.3067ms 304 image/jpeg
+2017-05-13 20:35:17.096 -05:00 [Debug] Handled. Status code: 304 File: "/images/icon2.png"
+2017-05-13 20:35:17.105 -05:00 [Debug] Connection id ""0HL4QA4FQBTCB"" completed keep alive response.
+2017-05-13 20:35:17.117 -05:00 [Information] The file "/images/4.jpg" was not modified
+2017-05-13 20:35:17.128 -05:00 [Information] Request finished in 282.107ms 304 image/png
+2017-05-13 20:35:17.142 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/5.jpg  
+2017-05-13 20:35:17.167 -05:00 [Debug] Handled. Status code: 304 File: "/images/4.jpg"
+2017-05-13 20:35:17.169 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular-messages/angular-messages.js  
+2017-05-13 20:35:17.175 -05:00 [Debug] Connection id ""0HL4QA4FQBTC8"" completed keep alive response.
+2017-05-13 20:35:17.194 -05:00 [Information] The file "/lib/angular-messages/angular-messages.js" was not modified
+2017-05-13 20:35:17.198 -05:00 [Debug] Handled. Status code: 304 File: "/lib/angular-messages/angular-messages.js"
+2017-05-13 20:35:17.199 -05:00 [Information] Request finished in 185.34ms 304 image/jpeg
+2017-05-13 20:35:17.223 -05:00 [Debug] Connection id ""0HL4QA4FQBTCA"" completed keep alive response.
+2017-05-13 20:35:17.231 -05:00 [Information] Request finished in 279.1532ms 304 image/png
+2017-05-13 20:35:17.242 -05:00 [Information] The file "/images/5.jpg" was not modified
+2017-05-13 20:35:17.245 -05:00 [Debug] Handled. Status code: 304 File: "/images/5.jpg"
+2017-05-13 20:35:17.249 -05:00 [Debug] Connection id ""0HL4QA4FQBTC7"" completed keep alive response.
+2017-05-13 20:35:17.252 -05:00 [Information] Request finished in 167.132ms 304 image/jpeg
+2017-05-13 20:35:17.258 -05:00 [Information] Request finished in 83.6112ms 304 application/javascript
+2017-05-13 20:36:00.871 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 20:36:00.875 -05:00 [Information] The file "/index.html" was not modified
+2017-05-13 20:36:00.877 -05:00 [Debug] Handled. Status code: 304 File: "/index.html"
+2017-05-13 20:36:00.965 -05:00 [Debug] Connection id ""0HL4QA4FQBTC9"" completed keep alive response.
+2017-05-13 20:36:00.971 -05:00 [Information] Request finished in 99.8194ms 304 text/html
+2017-05-13 20:36:36.656 -05:00 [Debug] Connection id ""0HL4QA4FQBTCB"" received FIN.
+2017-05-13 20:36:36.660 -05:00 [Debug] Connection id ""0HL4QA4FQBTC6"" received FIN.
+2017-05-13 20:36:36.663 -05:00 [Debug] Connection id ""0HL4QA4FQBTC7"" received FIN.
+2017-05-13 20:36:36.670 -05:00 [Debug] Connection id ""0HL4QA4FQBTC8"" received FIN.
+2017-05-13 20:36:36.678 -05:00 [Debug] Connection id ""0HL4QA4FQBTCB"" disconnecting.
+2017-05-13 20:36:36.690 -05:00 [Debug] Connection id ""0HL4QA4FQBTCA"" received FIN.
+2017-05-13 20:36:36.693 -05:00 [Debug] Connection id ""0HL4QA4FQBTC7"" disconnecting.
+2017-05-13 20:36:36.717 -05:00 [Debug] Connection id ""0HL4QA4FQBTC8"" disconnecting.
+2017-05-13 20:36:36.723 -05:00 [Debug] Connection id ""0HL4QA4FQBTCB"" sending FIN.
+2017-05-13 20:36:36.726 -05:00 [Debug] Connection id ""0HL4QA4FQBTC7"" sending FIN.
+2017-05-13 20:36:36.730 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 20:36:36.752 -05:00 [Debug] Connection id ""0HL4QA4FQBTCA"" disconnecting.
+2017-05-13 20:36:36.753 -05:00 [Debug] Connection id ""0HL4QA4FQBTC7"" sent FIN with status "0".
+2017-05-13 20:36:36.776 -05:00 [Debug] Connection id ""0HL4QA4FQBTC6"" disconnecting.
+2017-05-13 20:36:36.778 -05:00 [Information] The file "/index.html" was not modified
+2017-05-13 20:36:36.780 -05:00 [Debug] Connection id ""0HL4QA4FQBTC7"" stopped.
+2017-05-13 20:36:36.802 -05:00 [Debug] Handled. Status code: 304 File: "/index.html"
+2017-05-13 20:36:36.826 -05:00 [Debug] Connection id ""0HL4QA4FQBTCB"" sent FIN with status "0".
+2017-05-13 20:36:36.826 -05:00 [Debug] Connection id ""0HL4QA4FQBTC9"" completed keep alive response.
+2017-05-13 20:36:36.848 -05:00 [Debug] Connection id ""0HL4QA4FQBTC8"" sending FIN.
+2017-05-13 20:36:36.850 -05:00 [Debug] Connection id ""0HL4QA4FQBTCB"" stopped.
+2017-05-13 20:36:36.916 -05:00 [Debug] Connection id ""0HL4QA4FQBTCA"" sending FIN.
+2017-05-13 20:36:36.945 -05:00 [Debug] Connection id ""0HL4QA4FQBTC6"" sending FIN.
+2017-05-13 20:36:36.950 -05:00 [Debug] Connection id ""0HL4QA4FQBTC6"" sent FIN with status "0".
+2017-05-13 20:36:36.952 -05:00 [Information] Request finished in 143.4366ms 304 text/html
+2017-05-13 20:36:36.976 -05:00 [Debug] Connection id ""0HL4QA4FQBTC6"" stopped.
+2017-05-13 20:36:36.979 -05:00 [Debug] Connection id ""0HL4QA4FQBTCA"" sent FIN with status "0".
+2017-05-13 20:36:36.982 -05:00 [Debug] Connection id ""0HL4QA4FQBTCA"" stopped.
+2017-05-13 20:36:36.984 -05:00 [Debug] Connection id ""0HL4QA4FQBTC8"" sent FIN with status "0".
+2017-05-13 20:36:36.987 -05:00 [Debug] Connection id ""0HL4QA4FQBTC8"" stopped.
+2017-05-13 20:37:04.039 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 20:37:04.043 -05:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\index.html"'
+2017-05-13 20:37:04.066 -05:00 [Debug] Connection id ""0HL4QA4FQBTC9"" completed keep alive response.
+2017-05-13 20:37:04.078 -05:00 [Information] Request finished in 30.9414ms 200 text/html
+2017-05-13 20:37:04.115 -05:00 [Debug] Connection id ""0HL4QA4FQBTCC"" started.
+2017-05-13 20:37:04.118 -05:00 [Debug] Connection id ""0HL4QA4FQBTCD"" started.
+2017-05-13 20:37:04.143 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/css/estilos.css  
+2017-05-13 20:37:04.143 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular/angular.js  
+2017-05-13 20:37:04.146 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/mexacodergb.jpg  
+2017-05-13 20:37:04.173 -05:00 [Debug] Connection id ""0HL4QA4FQBTCE"" started.
+2017-05-13 20:37:04.177 -05:00 [Information] Sending file. Request path: '"/css/estilos.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\css\estilos.css"'
+2017-05-13 20:37:04.179 -05:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular\angular.js"'
+2017-05-13 20:37:04.180 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert.css  
+2017-05-13 20:37:04.183 -05:00 [Information] Sending file. Request path: '"/images/mexacodergb.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\mexacodergb.jpg"'
+2017-05-13 20:37:04.194 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert.css"'
+2017-05-13 20:37:04.198 -05:00 [Debug] Connection id ""0HL4QA4FQBTC9"" completed keep alive response.
+2017-05-13 20:37:04.214 -05:00 [Information] Request finished in 105.0076ms 200 text/css
+2017-05-13 20:37:04.217 -05:00 [Debug] Connection id ""0HL4QA4FQBTCE"" completed keep alive response.
+2017-05-13 20:37:04.245 -05:00 [Information] Request finished in 40.5554ms 200 text/css
+2017-05-13 20:37:04.283 -05:00 [Debug] Connection id ""0HL4QA4FQBTCF"" started.
+2017-05-13 20:37:04.292 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular-messages/angular-messages.js  
+2017-05-13 20:37:04.294 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/lodash/dist/lodash.js  
+2017-05-13 20:37:04.339 -05:00 [Information] Sending file. Request path: '"/lib/angular-messages/angular-messages.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular-messages\angular-messages.js"'
+2017-05-13 20:37:04.350 -05:00 [Information] Sending file. Request path: '"/lib/lodash/dist/lodash.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\lodash\dist\lodash.js"'
+2017-05-13 20:37:04.742 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/mexacodeApp.js  
+2017-05-13 20:37:04.753 -05:00 [Information] Sending file. Request path: '"/js/app/mexacodeApp.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\mexacodeApp.js"'
+2017-05-13 20:37:04.765 -05:00 [Debug] Connection id ""0HL4QA4FQBTCC"" completed keep alive response.
+2017-05-13 20:37:04.772 -05:00 [Debug] Connection id ""0HL4QA4FQBTC9"" completed keep alive response.
+2017-05-13 20:37:04.783 -05:00 [Debug] Connection id ""0HL4QA4FQBTCE"" completed keep alive response.
+2017-05-13 20:37:04.793 -05:00 [Information] Request finished in 644.9253ms 200 application/javascript
+2017-05-13 20:37:04.811 -05:00 [Information] Request finished in 497.981ms 200 application/javascript
+2017-05-13 20:37:04.822 -05:00 [Debug] Connection id ""0HL4QA4FQBTCF"" completed keep alive response.
+2017-05-13 20:37:04.829 -05:00 [Information] Request finished in 479.1611ms 200 application/javascript
+2017-05-13 20:37:04.879 -05:00 [Debug] Connection id ""0HL4QA4FQBTCG"" started.
+2017-05-13 20:37:04.881 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/controllers/contactUsController.js  
+2017-05-13 20:37:04.941 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert-dev.js  
+2017-05-13 20:37:04.950 -05:00 [Information] Sending file. Request path: '"/js/app/controllers/contactUsController.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\controllers\contactUsController.js"'
+2017-05-13 20:37:04.955 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert-dev.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert-dev.js"'
+2017-05-13 20:37:04.975 -05:00 [Debug] Connection id ""0HL4QA4FQBTC9"" completed keep alive response.
+2017-05-13 20:37:04.997 -05:00 [Information] Request finished in 124.2802ms 200 application/javascript
+2017-05-13 20:37:05.018 -05:00 [Debug] Connection id ""0HL4QA4FQBTCC"" completed keep alive response.
+2017-05-13 20:37:05.067 -05:00 [Information] Request finished in 89.7509ms 200 application/javascript
+2017-05-13 20:37:05.085 -05:00 [Information] Request finished in 539.7738ms 200 application/javascript
+2017-05-13 20:37:05.110 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/services/contactUsService.js  
+2017-05-13 20:37:05.129 -05:00 [Debug] Connection id ""0HL4QA4FQBTCD"" completed keep alive response.
+2017-05-13 20:37:05.142 -05:00 [Information] Request finished in 989.2603ms 200 image/jpeg
+2017-05-13 20:37:05.159 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/restangular/dist/restangular.js  
+2017-05-13 20:37:05.172 -05:00 [Information] Sending file. Request path: '"/lib/restangular/dist/restangular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\restangular\dist\restangular.js"'
+2017-05-13 20:37:05.175 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon1.png  
+2017-05-13 20:37:05.184 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/2.jpg  
+2017-05-13 20:37:05.198 -05:00 [Information] Sending file. Request path: '"/images/icon1.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon1.png"'
+2017-05-13 20:37:05.202 -05:00 [Information] Sending file. Request path: '"/images/2.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\2.jpg"'
+2017-05-13 20:37:05.248 -05:00 [Debug] Connection id ""0HL4QA4FQBTCC"" completed keep alive response.
+2017-05-13 20:37:05.321 -05:00 [Information] Request finished in 87.0185ms 200 image/png
+2017-05-13 20:37:05.345 -05:00 [Information] Sending file. Request path: '"/js/app/services/contactUsService.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\services\contactUsService.js"'
+2017-05-13 20:37:05.346 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon2.png  
+2017-05-13 20:37:05.378 -05:00 [Debug] Connection id ""0HL4QA4FQBTCG"" completed keep alive response.
+2017-05-13 20:37:05.402 -05:00 [Debug] Connection id ""0HL4QA4FQBTCF"" completed keep alive response.
+2017-05-13 20:37:05.416 -05:00 [Debug] Connection id ""0HL4QA4FQBTC9"" completed keep alive response.
+2017-05-13 20:37:05.444 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/3.jpg  
+2017-05-13 20:37:05.460 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/1.png  
+2017-05-13 20:37:05.468 -05:00 [Information] Sending file. Request path: '"/images/3.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\3.jpg"'
+2017-05-13 20:37:05.479 -05:00 [Information] Request finished in 308.1268ms 200 application/javascript
+2017-05-13 20:37:05.513 -05:00 [Information] Request finished in 285.1457ms 200 image/jpeg
+2017-05-13 20:37:05.537 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/5.jpg  
+2017-05-13 20:37:05.569 -05:00 [Information] Sending file. Request path: '"/images/icon2.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon2.png"'
+2017-05-13 20:37:05.573 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon3.png  
+2017-05-13 20:37:05.582 -05:00 [Debug] Connection id ""0HL4QA4FQBTCC"" completed keep alive response.
+2017-05-13 20:37:05.609 -05:00 [Information] Request finished in 243.4702ms 200 image/png
+2017-05-13 20:37:05.651 -05:00 [Information] Request finished in 229.6667ms 200 application/javascript
+2017-05-13 20:37:05.653 -05:00 [Information] Sending file. Request path: '"/images/1.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\1.png"'
+2017-05-13 20:37:05.732 -05:00 [Information] Sending file. Request path: '"/images/icon3.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon3.png"'
+2017-05-13 20:37:05.738 -05:00 [Information] Sending file. Request path: '"/images/5.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\5.jpg"'
+2017-05-13 20:37:05.754 -05:00 [Debug] Connection id ""0HL4QA4FQBTCD"" completed keep alive response.
+2017-05-13 20:37:05.777 -05:00 [Debug] Connection id ""0HL4QA4FQBTC9"" completed keep alive response.
+2017-05-13 20:37:05.780 -05:00 [Information] Request finished in 351.4898ms 200 image/jpeg
+2017-05-13 20:37:05.798 -05:00 [Information] Request finished in 235.1003ms 200 image/png
+2017-05-13 20:37:05.822 -05:00 [Debug] Connection id ""0HL4QA4FQBTCF"" completed keep alive response.
+2017-05-13 20:37:05.850 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/4.jpg  
+2017-05-13 20:37:05.855 -05:00 [Information] Request finished in 296.7988ms 200 image/jpeg
+2017-05-13 20:37:05.868 -05:00 [Information] Sending file. Request path: '"/images/4.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\4.jpg"'
+2017-05-13 20:37:05.947 -05:00 [Debug] Connection id ""0HL4QA4FQBTCG"" completed keep alive response.
+2017-05-13 20:37:05.968 -05:00 [Information] Request finished in 226.4834ms 200 image/jpeg
+2017-05-13 20:37:06.010 -05:00 [Debug] Connection id ""0HL4QA4FQBTCE"" completed keep alive response.
+2017-05-13 20:37:06.024 -05:00 [Information] Request finished in 606.9464ms 200 image/png
+2017-05-13 20:38:43.349 -05:00 [Debug] Connection id ""0HL4QA4FQBTCD"" received FIN.
+2017-05-13 20:38:43.349 -05:00 [Debug] Connection id ""0HL4QA4FQBTCC"" received FIN.
+2017-05-13 20:38:43.377 -05:00 [Debug] Connection id ""0HL4QA4FQBTC9"" received FIN.
+2017-05-13 20:38:43.377 -05:00 [Debug] Connection id ""0HL4QA4FQBTCG"" received FIN.
+2017-05-13 20:38:43.387 -05:00 [Debug] Connection id ""0HL4QA4FQBTCC"" disconnecting.
+2017-05-13 20:38:43.426 -05:00 [Debug] Connection id ""0HL4QA4FQBTCE"" received FIN.
+2017-05-13 20:38:43.437 -05:00 [Debug] Connection id ""0HL4QA4FQBTCF"" received FIN.
+2017-05-13 20:38:43.447 -05:00 [Debug] Connection id ""0HL4QA4FQBTCG"" disconnecting.
+2017-05-13 20:38:43.458 -05:00 [Debug] Connection id ""0HL4QA4FQBTCC"" sending FIN.
+2017-05-13 20:38:43.474 -05:00 [Debug] Connection id ""0HL4QA4FQBTCC"" sent FIN with status "0".
+2017-05-13 20:38:43.481 -05:00 [Debug] Connection id ""0HL4QA4FQBTCE"" disconnecting.
+2017-05-13 20:38:43.486 -05:00 [Debug] Connection id ""0HL4QA4FQBTCD"" disconnecting.
+2017-05-13 20:38:43.487 -05:00 [Debug] Connection id ""0HL4QA4FQBTC9"" disconnecting.
+2017-05-13 20:38:43.490 -05:00 [Debug] Connection id ""0HL4QA4FQBTCG"" sending FIN.
+2017-05-13 20:38:43.492 -05:00 [Debug] Connection id ""0HL4QA4FQBTCC"" stopped.
+2017-05-13 20:38:43.515 -05:00 [Debug] Connection id ""0HL4QA4FQBTC9"" sending FIN.
+2017-05-13 20:38:43.516 -05:00 [Debug] Connection id ""0HL4QA4FQBTCE"" sending FIN.
+2017-05-13 20:38:43.543 -05:00 [Debug] Connection id ""0HL4QA4FQBTC9"" sent FIN with status "0".
+2017-05-13 20:38:43.545 -05:00 [Debug] Connection id ""0HL4QA4FQBTCD"" sending FIN.
+2017-05-13 20:38:43.546 -05:00 [Debug] Connection id ""0HL4QA4FQBTCF"" disconnecting.
+2017-05-13 20:38:43.569 -05:00 [Debug] Connection id ""0HL4QA4FQBTCD"" sent FIN with status "0".
+2017-05-13 20:38:43.570 -05:00 [Debug] Connection id ""0HL4QA4FQBTC9"" stopped.
+2017-05-13 20:38:43.594 -05:00 [Debug] Connection id ""0HL4QA4FQBTCF"" sending FIN.
+2017-05-13 20:38:43.594 -05:00 [Debug] Connection id ""0HL4QA4FQBTCD"" stopped.
+2017-05-13 20:38:43.597 -05:00 [Debug] Connection id ""0HL4QA4FQBTCF"" sent FIN with status "0".
+2017-05-13 20:38:43.623 -05:00 [Debug] Connection id ""0HL4QA4FQBTCF"" stopped.
+2017-05-13 20:38:43.625 -05:00 [Debug] Connection id ""0HL4QA4FQBTCE"" sent FIN with status "0".
+2017-05-13 20:38:43.631 -05:00 [Debug] Connection id ""0HL4QA4FQBTCE"" stopped.
+2017-05-13 20:38:43.637 -05:00 [Debug] Connection id ""0HL4QA4FQBTCG"" sent FIN with status "0".
+2017-05-13 20:38:43.643 -05:00 [Debug] Connection id ""0HL4QA4FQBTCG"" stopped.
+2017-05-13 20:42:21.711 -05:00 [Debug] Connection id ""0HL4QA4FQBTCH"" started.
+2017-05-13 20:42:21.724 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 20:42:21.728 -05:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\index.html"'
+2017-05-13 20:42:21.761 -05:00 [Debug] Connection id ""0HL4QA4FQBTCH"" completed keep alive response.
+2017-05-13 20:42:21.839 -05:00 [Information] Request finished in 43.0975ms 200 text/html
+2017-05-13 20:42:21.850 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/controllers/contactUsController.js  
+2017-05-13 20:42:21.854 -05:00 [Information] Sending file. Request path: '"/js/app/controllers/contactUsController.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\controllers\contactUsController.js"'
+2017-05-13 20:42:21.859 -05:00 [Debug] Connection id ""0HL4QA4FQBTCH"" completed keep alive response.
+2017-05-13 20:42:21.862 -05:00 [Information] Request finished in 14.1951ms 200 application/javascript
+2017-05-13 20:44:13.328 -05:00 [Debug] Connection id ""0HL4QA4FQBTCH"" received FIN.
+2017-05-13 20:44:13.336 -05:00 [Debug] Connection id ""0HL4QA4FQBTCH"" disconnecting.
+2017-05-13 20:44:13.338 -05:00 [Debug] Connection id ""0HL4QA4FQBTCH"" sending FIN.
+2017-05-13 20:44:13.340 -05:00 [Debug] Connection id ""0HL4QA4FQBTCH"" sent FIN with status "0".
+2017-05-13 20:44:13.343 -05:00 [Debug] Connection id ""0HL4QA4FQBTCH"" stopped.
+2017-05-13 20:44:20.562 -05:00 [Debug] Connection id ""0HL4QA4FQBTCI"" started.
+2017-05-13 20:44:20.566 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 20:44:20.572 -05:00 [Information] The file "/index.html" was not modified
+2017-05-13 20:44:20.575 -05:00 [Debug] Handled. Status code: 304 File: "/index.html"
+2017-05-13 20:44:20.586 -05:00 [Debug] Connection id ""0HL4QA4FQBTCI"" completed keep alive response.
+2017-05-13 20:44:20.646 -05:00 [Information] Request finished in 23.1248ms 304 text/html
+2017-05-13 20:44:20.668 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/controllers/contactUsController.js  
+2017-05-13 20:44:20.673 -05:00 [Information] The file "/js/app/controllers/contactUsController.js" was not modified
+2017-05-13 20:44:20.676 -05:00 [Debug] Handled. Status code: 304 File: "/js/app/controllers/contactUsController.js"
+2017-05-13 20:44:20.683 -05:00 [Debug] Connection id ""0HL4QA4FQBTCI"" completed keep alive response.
+2017-05-13 20:44:20.689 -05:00 [Information] Request finished in 19.4606ms 304 application/javascript
+2017-05-13 20:44:26.417 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 20:44:26.423 -05:00 [Information] The file "/index.html" was not modified
+2017-05-13 20:44:26.427 -05:00 [Debug] Handled. Status code: 304 File: "/index.html"
+2017-05-13 20:44:26.451 -05:00 [Debug] Connection id ""0HL4QA4FQBTCI"" completed keep alive response.
+2017-05-13 20:44:26.507 -05:00 [Information] Request finished in 37.1541ms 304 text/html
+2017-05-13 20:44:28.600 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 20:44:28.604 -05:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\index.html"'
+2017-05-13 20:44:28.635 -05:00 [Debug] Connection id ""0HL4QA4FQBTCI"" completed keep alive response.
+2017-05-13 20:44:28.655 -05:00 [Information] Request finished in 37.4826ms 200 text/html
+2017-05-13 20:44:28.662 -05:00 [Debug] Connection id ""0HL4QA4FQBTCJ"" started.
+2017-05-13 20:44:28.664 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/css/estilos.css  
+2017-05-13 20:44:28.670 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/mexacodergb.jpg  
+2017-05-13 20:44:28.672 -05:00 [Debug] Connection id ""0HL4QA4FQBTCK"" started.
+2017-05-13 20:44:28.672 -05:00 [Debug] Connection id ""0HL4QA4FQBTCL"" started.
+2017-05-13 20:44:28.675 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular/angular.js  
+2017-05-13 20:44:28.682 -05:00 [Information] Sending file. Request path: '"/css/estilos.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\css\estilos.css"'
+2017-05-13 20:44:28.743 -05:00 [Information] Sending file. Request path: '"/images/mexacodergb.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\mexacodergb.jpg"'
+2017-05-13 20:44:28.743 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert.css  
+2017-05-13 20:44:28.753 -05:00 [Debug] Connection id ""0HL4QA4FQBTCI"" completed keep alive response.
+2017-05-13 20:44:28.763 -05:00 [Information] Request finished in 91.7712ms 200 text/css
+2017-05-13 20:44:28.791 -05:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular\angular.js"'
+2017-05-13 20:44:29.000 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert.css"'
+2017-05-13 20:44:29.051 -05:00 [Debug] Connection id ""0HL4QA4FQBTCL"" completed keep alive response.
+2017-05-13 20:44:29.088 -05:00 [Debug] Connection id ""0HL4QA4FQBTCM"" started.
+2017-05-13 20:44:29.305 -05:00 [Debug] Connection id ""0HL4QA4FQBTCN"" started.
+2017-05-13 20:44:29.314 -05:00 [Debug] Connection id ""0HL4QA4FQBTCK"" completed keep alive response.
+2017-05-13 20:44:29.322 -05:00 [Information] Request finished in 641.8729ms 200 application/javascript
+2017-05-13 20:44:29.339 -05:00 [Debug] Connection id ""0HL4QA4FQBTCJ"" completed keep alive response.
+2017-05-13 20:44:29.348 -05:00 [Information] Request finished in 674.7928ms 200 image/jpeg
+2017-05-13 20:44:29.362 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/services/contactUsService.js  
+2017-05-13 20:44:29.370 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/lodash/dist/lodash.js  
+2017-05-13 20:44:29.374 -05:00 [Information] Sending file. Request path: '"/js/app/services/contactUsService.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\services\contactUsService.js"'
+2017-05-13 20:44:29.380 -05:00 [Information] Sending file. Request path: '"/lib/lodash/dist/lodash.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\lodash\dist\lodash.js"'
+2017-05-13 20:44:29.389 -05:00 [Debug] Connection id ""0HL4QA4FQBTCJ"" completed keep alive response.
+2017-05-13 20:44:29.410 -05:00 [Information] Request finished in 36.247ms 200 application/javascript
+2017-05-13 20:44:29.413 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/mexacodeApp.js  
+2017-05-13 20:44:29.447 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/controllers/contactUsController.js  
+2017-05-13 20:44:29.453 -05:00 [Information] Request finished in 377.4179ms 200 text/css
+2017-05-13 20:44:29.489 -05:00 [Information] Sending file. Request path: '"/js/app/mexacodeApp.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\mexacodeApp.js"'
+2017-05-13 20:44:29.498 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular-messages/angular-messages.js  
+2017-05-13 20:44:29.509 -05:00 [Debug] Connection id ""0HL4QA4FQBTCN"" completed keep alive response.
+2017-05-13 20:44:29.515 -05:00 [Information] Request finished in 100.9577ms 200 application/javascript
+2017-05-13 20:44:29.525 -05:00 [Information] Sending file. Request path: '"/lib/angular-messages/angular-messages.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular-messages\angular-messages.js"'
+2017-05-13 20:44:29.558 -05:00 [Debug] Connection id ""0HL4QA4FQBTCI"" completed keep alive response.
+2017-05-13 20:44:29.565 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/1.png  
+2017-05-13 20:44:29.570 -05:00 [Information] Request finished in 483.9833ms 200 application/javascript
+2017-05-13 20:44:29.578 -05:00 [Information] Sending file. Request path: '"/images/1.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\1.png"'
+2017-05-13 20:44:29.648 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/2.jpg  
+2017-05-13 20:44:29.657 -05:00 [Debug] Connection id ""0HL4QA4FQBTCM"" completed keep alive response.
+2017-05-13 20:44:29.723 -05:00 [Information] Request finished in 324.4451ms 200 application/javascript
+2017-05-13 20:44:29.739 -05:00 [Information] Sending file. Request path: '"/js/app/controllers/contactUsController.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\controllers\contactUsController.js"'
+2017-05-13 20:44:29.785 -05:00 [Debug] Connection id ""0HL4QA4FQBTCJ"" completed keep alive response.
+2017-05-13 20:44:29.791 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/restangular/dist/restangular.js  
+2017-05-13 20:44:29.794 -05:00 [Information] Request finished in 367.9177ms 200 application/javascript
+2017-05-13 20:44:29.815 -05:00 [Information] Sending file. Request path: '"/lib/restangular/dist/restangular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\restangular\dist\restangular.js"'
+2017-05-13 20:44:29.826 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert-dev.js  
+2017-05-13 20:44:29.834 -05:00 [Debug] Connection id ""0HL4QA4FQBTCL"" completed keep alive response.
+2017-05-13 20:44:29.886 -05:00 [Information] Request finished in 355.8823ms 200 application/javascript
+2017-05-13 20:44:29.912 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon1.png  
+2017-05-13 20:44:29.918 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon2.png  
+2017-05-13 20:44:29.928 -05:00 [Information] Sending file. Request path: '"/images/icon1.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon1.png"'
+2017-05-13 20:44:29.937 -05:00 [Information] Sending file. Request path: '"/images/2.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\2.jpg"'
+2017-05-13 20:44:29.957 -05:00 [Debug] Connection id ""0HL4QA4FQBTCM"" completed keep alive response.
+2017-05-13 20:44:29.968 -05:00 [Information] Request finished in 189.6646ms 200 image/png
+2017-05-13 20:44:29.985 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/3.jpg  
+2017-05-13 20:44:30.007 -05:00 [Information] Sending file. Request path: '"/images/3.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\3.jpg"'
+2017-05-13 20:44:30.016 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon3.png  
+2017-05-13 20:44:30.020 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert-dev.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert-dev.js"'
+2017-05-13 20:44:30.025 -05:00 [Information] Sending file. Request path: '"/images/icon2.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon2.png"'
+2017-05-13 20:44:30.035 -05:00 [Information] Sending file. Request path: '"/images/icon3.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon3.png"'
+2017-05-13 20:44:30.042 -05:00 [Debug] Connection id ""0HL4QA4FQBTCJ"" completed keep alive response.
+2017-05-13 20:44:30.053 -05:00 [Debug] Connection id ""0HL4QA4FQBTCL"" completed keep alive response.
+2017-05-13 20:44:30.065 -05:00 [Information] Request finished in 234.6459ms 200 image/png
+2017-05-13 20:44:30.086 -05:00 [Debug] Connection id ""0HL4QA4FQBTCI"" completed keep alive response.
+2017-05-13 20:44:30.142 -05:00 [Information] Request finished in 507.3416ms 200 image/jpeg
+2017-05-13 20:44:30.191 -05:00 [Debug] Connection id ""0HL4QA4FQBTCN"" completed keep alive response.
+2017-05-13 20:44:30.222 -05:00 [Information] Request finished in 660.2524ms 200 image/png
+2017-05-13 20:44:30.231 -05:00 [Debug] Connection id ""0HL4QA4FQBTCK"" completed keep alive response.
+2017-05-13 20:44:30.274 -05:00 [Information] Request finished in 413.7029ms 200 application/javascript
+2017-05-13 20:44:30.288 -05:00 [Debug] Connection id ""0HL4QA4FQBTCM"" completed keep alive response.
+2017-05-13 20:44:30.320 -05:00 [Information] Request finished in 57.9792ms 200 image/png
+2017-05-13 20:44:30.325 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/4.jpg  
+2017-05-13 20:44:30.372 -05:00 [Information] Request finished in 312.2284ms 200 image/jpeg
+2017-05-13 20:44:30.383 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/5.jpg  
+2017-05-13 20:44:30.400 -05:00 [Information] Sending file. Request path: '"/images/5.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\5.jpg"'
+2017-05-13 20:44:30.450 -05:00 [Debug] Connection id ""0HL4QA4FQBTCL"" completed keep alive response.
+2017-05-13 20:44:30.466 -05:00 [Information] Sending file. Request path: '"/images/4.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\4.jpg"'
+2017-05-13 20:44:30.525 -05:00 [Debug] Connection id ""0HL4QA4FQBTCI"" completed keep alive response.
+2017-05-13 20:44:30.547 -05:00 [Information] Request finished in 215.0342ms 200 image/jpeg
+2017-05-13 20:44:30.557 -05:00 [Information] Request finished in 89.9775ms 200 image/jpeg
+2017-05-13 20:46:03.354 -05:00 [Debug] Connection id ""0HL4QA4FQBTCJ"" received FIN.
+2017-05-13 20:46:03.359 -05:00 [Debug] Connection id ""0HL4QA4FQBTCN"" received FIN.
+2017-05-13 20:46:03.372 -05:00 [Debug] Connection id ""0HL4QA4FQBTCK"" received FIN.
+2017-05-13 20:46:03.376 -05:00 [Debug] Connection id ""0HL4QA4FQBTCL"" received FIN.
+2017-05-13 20:46:03.405 -05:00 [Debug] Connection id ""0HL4QA4FQBTCM"" received FIN.
+2017-05-13 20:46:03.426 -05:00 [Debug] Connection id ""0HL4QA4FQBTCN"" disconnecting.
+2017-05-13 20:46:03.450 -05:00 [Debug] Connection id ""0HL4QA4FQBTCI"" received FIN.
+2017-05-13 20:46:03.472 -05:00 [Debug] Connection id ""0HL4QA4FQBTCL"" disconnecting.
+2017-05-13 20:46:03.495 -05:00 [Debug] Connection id ""0HL4QA4FQBTCM"" disconnecting.
+2017-05-13 20:46:03.516 -05:00 [Debug] Connection id ""0HL4QA4FQBTCN"" sending FIN.
+2017-05-13 20:46:03.540 -05:00 [Debug] Connection id ""0HL4QA4FQBTCI"" disconnecting.
+2017-05-13 20:46:03.542 -05:00 [Debug] Connection id ""0HL4QA4FQBTCM"" sending FIN.
+2017-05-13 20:46:03.544 -05:00 [Debug] Connection id ""0HL4QA4FQBTCL"" sending FIN.
+2017-05-13 20:46:03.544 -05:00 [Debug] Connection id ""0HL4QA4FQBTCM"" sent FIN with status "0".
+2017-05-13 20:46:03.547 -05:00 [Debug] Connection id ""0HL4QA4FQBTCI"" sending FIN.
+2017-05-13 20:46:03.549 -05:00 [Debug] Connection id ""0HL4QA4FQBTCM"" stopped.
+2017-05-13 20:46:03.550 -05:00 [Debug] Connection id ""0HL4QA4FQBTCI"" sent FIN with status "0".
+2017-05-13 20:46:03.552 -05:00 [Debug] Connection id ""0HL4QA4FQBTCI"" stopped.
+2017-05-13 20:46:03.555 -05:00 [Debug] Connection id ""0HL4QA4FQBTCL"" sent FIN with status "0".
+2017-05-13 20:46:03.559 -05:00 [Debug] Connection id ""0HL4QA4FQBTCK"" disconnecting.
+2017-05-13 20:46:03.559 -05:00 [Debug] Connection id ""0HL4QA4FQBTCJ"" disconnecting.
+2017-05-13 20:46:03.584 -05:00 [Debug] Connection id ""0HL4QA4FQBTCL"" stopped.
+2017-05-13 20:46:03.585 -05:00 [Debug] Connection id ""0HL4QA4FQBTCK"" sending FIN.
+2017-05-13 20:46:03.608 -05:00 [Debug] Connection id ""0HL4QA4FQBTCN"" sent FIN with status "0".
+2017-05-13 20:46:03.609 -05:00 [Debug] Connection id ""0HL4QA4FQBTCJ"" sending FIN.
+2017-05-13 20:46:03.634 -05:00 [Debug] Connection id ""0HL4QA4FQBTCN"" stopped.
+2017-05-13 20:46:03.635 -05:00 [Debug] Connection id ""0HL4QA4FQBTCJ"" sent FIN with status "0".
+2017-05-13 20:46:03.638 -05:00 [Debug] Connection id ""0HL4QA4FQBTCJ"" stopped.
+2017-05-13 20:46:03.640 -05:00 [Debug] Connection id ""0HL4QA4FQBTCK"" sent FIN with status "0".
+2017-05-13 20:46:03.643 -05:00 [Debug] Connection id ""0HL4QA4FQBTCK"" stopped.
+2017-05-13 21:16:21.849 -05:00 [Debug] Hosting starting
+2017-05-13 21:16:22.062 -05:00 [Debug] Hosting started
+2017-05-13 21:16:22.115 -05:00 [Debug] Connection id ""0HL4QDSRFSGUA"" started.
+2017-05-13 21:16:22.115 -05:00 [Debug] Connection id ""0HL4QDSRFSGU9"" started.
+2017-05-13 21:16:22.277 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:65523/  0
+2017-05-13 21:16:22.279 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 21:16:22.489 -05:00 [Debug] Connection id ""0HL4QDSRFSGU9"" completed keep alive response.
+2017-05-13 21:16:22.491 -05:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\index.html"'
+2017-05-13 21:16:22.502 -05:00 [Information] Request finished in 283.3149ms 200 
+2017-05-13 21:16:22.699 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/css/estilos.css  
+2017-05-13 21:16:22.705 -05:00 [Debug] Connection id ""0HL4QDSRFSGUB"" started.
+2017-05-13 21:16:22.714 -05:00 [Information] Sending file. Request path: '"/css/estilos.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\css\estilos.css"'
+2017-05-13 21:16:22.717 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert.css  
+2017-05-13 21:16:22.735 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert.css"'
+2017-05-13 21:16:22.775 -05:00 [Debug] Connection id ""0HL4QDSRFSGU9"" completed keep alive response.
+2017-05-13 21:16:22.798 -05:00 [Information] Request finished in 92.3148ms 200 text/css
+2017-05-13 21:16:22.823 -05:00 [Debug] Connection id ""0HL4QDSRFSGUB"" completed keep alive response.
+2017-05-13 21:16:22.853 -05:00 [Information] Request finished in 110.3107ms 200 text/css
+2017-05-13 21:16:22.868 -05:00 [Debug] Connection id ""0HL4QDSRFSGUA"" completed keep alive response.
+2017-05-13 21:16:22.871 -05:00 [Information] Request finished in 658.9596ms 200 text/html
+2017-05-13 21:16:22.878 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert-dev.js  
+2017-05-13 21:16:22.879 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/mexacodeApp.min.js  
+2017-05-13 21:16:22.884 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert-dev.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert-dev.js"'
+2017-05-13 21:16:22.897 -05:00 [Debug] The request path "/js/app/mexacodeApp.min.js" does not match an existing file
+2017-05-13 21:16:22.923 -05:00 [Debug] Connection id ""0HL4QDSRFSGUA"" completed keep alive response.
+2017-05-13 21:16:22.936 -05:00 [Information] Request finished in 49.4408ms 200 application/javascript
+2017-05-13 21:16:23.343 -05:00 [Debug] Request did not match any routes.
+2017-05-13 21:16:23.360 -05:00 [Debug] Connection id ""0HL4QDSRFSGU9"" completed keep alive response.
+2017-05-13 21:16:23.365 -05:00 [Information] Request finished in 536.5943ms 404 
+2017-05-13 21:18:12.088 -05:00 [Debug] Connection id ""0HL4QDSRFSGUB"" received FIN.
+2017-05-13 21:18:12.092 -05:00 [Debug] Connection id ""0HL4QDSRFSGU9"" received FIN.
+2017-05-13 21:18:12.122 -05:00 [Debug] Connection id ""0HL4QDSRFSGUA"" received FIN.
+2017-05-13 21:18:12.154 -05:00 [Debug] Connection id ""0HL4QDSRFSGUB"" disconnecting.
+2017-05-13 21:18:12.177 -05:00 [Debug] Connection id ""0HL4QDSRFSGU9"" disconnecting.
+2017-05-13 21:18:12.181 -05:00 [Debug] Connection id ""0HL4QDSRFSGUA"" disconnecting.
+2017-05-13 21:18:12.210 -05:00 [Debug] Connection id ""0HL4QDSRFSGU9"" sending FIN.
+2017-05-13 21:18:12.211 -05:00 [Debug] Connection id ""0HL4QDSRFSGUB"" sending FIN.
+2017-05-13 21:18:12.214 -05:00 [Debug] Connection id ""0HL4QDSRFSGUA"" sending FIN.
+2017-05-13 21:18:12.243 -05:00 [Debug] Connection id ""0HL4QDSRFSGUA"" sent FIN with status "0".
+2017-05-13 21:18:12.243 -05:00 [Debug] Connection id ""0HL4QDSRFSGU9"" sent FIN with status "0".
+2017-05-13 21:18:12.268 -05:00 [Debug] Connection id ""0HL4QDSRFSGUA"" stopped.
+2017-05-13 21:18:12.272 -05:00 [Debug] Connection id ""0HL4QDSRFSGU9"" stopped.
+2017-05-13 21:18:12.273 -05:00 [Debug] Connection id ""0HL4QDSRFSGUB"" sent FIN with status "0".
+2017-05-13 21:18:12.276 -05:00 [Debug] Connection id ""0HL4QDSRFSGUB"" stopped.
+2017-05-13 21:21:54.375 -05:00 [Debug] Hosting starting
+2017-05-13 21:21:54.576 -05:00 [Debug] Hosting started
+2017-05-13 21:21:54.747 -05:00 [Debug] Connection id ""0HL4QDVUK4P52"" started.
+2017-05-13 21:21:54.747 -05:00 [Debug] Connection id ""0HL4QDVUK4P53"" started.
+2017-05-13 21:21:54.959 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:65523/  0
+2017-05-13 21:21:54.954 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 21:21:55.210 -05:00 [Debug] Connection id ""0HL4QDVUK4P52"" completed keep alive response.
+2017-05-13 21:21:55.210 -05:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\index.html"'
+2017-05-13 21:21:55.221 -05:00 [Information] Request finished in 334.7184ms 200 
+2017-05-13 21:21:55.385 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/css/estilos.css  
+2017-05-13 21:21:55.396 -05:00 [Debug] Connection id ""0HL4QDVUK4P53"" completed keep alive response.
+2017-05-13 21:21:55.400 -05:00 [Information] Request finished in 519.7563ms 200 text/html
+2017-05-13 21:21:55.406 -05:00 [Information] The file "/css/estilos.css" was not modified
+2017-05-13 21:21:55.423 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular/angular.js  
+2017-05-13 21:21:55.432 -05:00 [Debug] Handled. Status code: 304 File: "/css/estilos.css"
+2017-05-13 21:21:55.434 -05:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular\angular.js"'
+2017-05-13 21:21:55.484 -05:00 [Debug] Connection id ""0HL4QDVUK4P54"" started.
+2017-05-13 21:21:55.502 -05:00 [Debug] Connection id ""0HL4QDVUK4P56"" started.
+2017-05-13 21:21:55.523 -05:00 [Debug] Connection id ""0HL4QDVUK4P52"" completed keep alive response.
+2017-05-13 21:21:55.537 -05:00 [Information] Request finished in 144.2575ms 304 text/css
+2017-05-13 21:21:55.551 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/mexacodergb.jpg  
+2017-05-13 21:21:55.563 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/lodash/dist/lodash.js  
+2017-05-13 21:21:55.572 -05:00 [Information] Sending file. Request path: '"/images/mexacodergb.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\mexacodergb.jpg"'
+2017-05-13 21:21:55.585 -05:00 [Information] Sending file. Request path: '"/lib/lodash/dist/lodash.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\lodash\dist\lodash.js"'
+2017-05-13 21:21:55.589 -05:00 [Debug] Connection id ""0HL4QDVUK4P55"" started.
+2017-05-13 21:21:55.781 -05:00 [Debug] Connection id ""0HL4QDVUK4P57"" started.
+2017-05-13 21:21:55.789 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/restangular/dist/restangular.js  
+2017-05-13 21:21:55.806 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/mexacodeApp.min.js  
+2017-05-13 21:21:55.818 -05:00 [Information] Sending file. Request path: '"/lib/restangular/dist/restangular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\restangular\dist\restangular.js"'
+2017-05-13 21:21:55.835 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular-messages/angular-messages.js  
+2017-05-13 21:21:55.866 -05:00 [Debug] Connection id ""0HL4QDVUK4P54"" completed keep alive response.
+2017-05-13 21:21:55.880 -05:00 [Information] Request finished in 357.0266ms 200 application/javascript
+2017-05-13 21:21:55.895 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/1.png  
+2017-05-13 21:21:55.902 -05:00 [Information] Sending file. Request path: '"/images/1.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\1.png"'
+2017-05-13 21:21:56.016 -05:00 [Debug] Connection id ""0HL4QDVUK4P54"" completed keep alive response.
+2017-05-13 21:21:56.022 -05:00 [Information] Sending file. Request path: '"/js/app/mexacodeApp.min.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\mexacodeApp.min.js"'
+2017-05-13 21:21:56.023 -05:00 [Information] Request finished in 124.0084ms 200 image/png
+2017-05-13 21:21:56.031 -05:00 [Information] Sending file. Request path: '"/lib/angular-messages/angular-messages.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular-messages\angular-messages.js"'
+2017-05-13 21:21:56.077 -05:00 [Debug] Connection id ""0HL4QDVUK4P57"" completed keep alive response.
+2017-05-13 21:21:56.081 -05:00 [Debug] Connection id ""0HL4QDVUK4P55"" completed keep alive response.
+2017-05-13 21:21:56.110 -05:00 [Information] Request finished in 288.3534ms 200 application/javascript
+2017-05-13 21:21:56.133 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon1.png  
+2017-05-13 21:21:56.146 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon2.png  
+2017-05-13 21:21:56.149 -05:00 [Information] Sending file. Request path: '"/images/icon1.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon1.png"'
+2017-05-13 21:21:56.156 -05:00 [Information] Request finished in 458.4183ms 200 application/javascript
+2017-05-13 21:21:56.157 -05:00 [Debug] Connection id ""0HL4QDVUK4P52"" completed keep alive response.
+2017-05-13 21:21:56.174 -05:00 [Information] Sending file. Request path: '"/images/icon2.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon2.png"'
+2017-05-13 21:21:56.180 -05:00 [Debug] Connection id ""0HL4QDVUK4P54"" completed keep alive response.
+2017-05-13 21:21:56.193 -05:00 [Information] Request finished in 69.2197ms 200 image/png
+2017-05-13 21:21:56.226 -05:00 [Information] Request finished in 331.3759ms 200 application/javascript
+2017-05-13 21:21:56.251 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/3.jpg  
+2017-05-13 21:21:56.281 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon3.png  
+2017-05-13 21:21:56.286 -05:00 [Debug] Connection id ""0HL4QDVUK4P57"" completed keep alive response.
+2017-05-13 21:21:56.318 -05:00 [Information] Request finished in 146.1438ms 200 image/png
+2017-05-13 21:21:56.323 -05:00 [Information] Sending file. Request path: '"/images/icon3.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon3.png"'
+2017-05-13 21:21:56.348 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/4.jpg  
+2017-05-13 21:21:56.374 -05:00 [Information] Sending file. Request path: '"/images/3.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\3.jpg"'
+2017-05-13 21:21:56.389 -05:00 [Information] Sending file. Request path: '"/images/4.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\4.jpg"'
+2017-05-13 21:21:56.419 -05:00 [Debug] Connection id ""0HL4QDVUK4P54"" completed keep alive response.
+2017-05-13 21:21:56.439 -05:00 [Information] Request finished in 219.0777ms 200 image/jpeg
+2017-05-13 21:21:56.456 -05:00 [Debug] Connection id ""0HL4QDVUK4P57"" completed keep alive response.
+2017-05-13 21:21:56.470 -05:00 [Debug] Connection id ""0HL4QDVUK4P52"" completed keep alive response.
+2017-05-13 21:21:56.476 -05:00 [Information] Request finished in 130.7134ms 200 image/jpeg
+2017-05-13 21:21:56.476 -05:00 [Information] Request finished in 216.9005ms 200 image/png
+2017-05-13 21:21:56.485 -05:00 [Debug] Connection id ""0HL4QDVUK4P56"" completed keep alive response.
+2017-05-13 21:21:56.496 -05:00 [Information] Request finished in 975.229ms 200 image/jpeg
+2017-05-13 21:21:56.505 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/2.jpg  
+2017-05-13 21:21:56.513 -05:00 [Information] Sending file. Request path: '"/images/2.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\2.jpg"'
+2017-05-13 21:21:56.553 -05:00 [Debug] Connection id ""0HL4QDVUK4P55"" completed keep alive response.
+2017-05-13 21:21:56.561 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/5.jpg  
+2017-05-13 21:21:56.575 -05:00 [Information] Sending file. Request path: '"/images/5.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\5.jpg"'
+2017-05-13 21:21:56.631 -05:00 [Information] Request finished in 175.0825ms 200 image/jpeg
+2017-05-13 21:21:56.648 -05:00 [Debug] Connection id ""0HL4QDVUK4P52"" completed keep alive response.
+2017-05-13 21:21:56.680 -05:00 [Debug] Connection id ""0HL4QDVUK4P53"" completed keep alive response.
+2017-05-13 21:21:56.695 -05:00 [Information] Request finished in 1259.2706ms 200 application/javascript
+2017-05-13 21:21:56.712 -05:00 [Information] Request finished in 125.3426ms 200 image/jpeg
+2017-05-13 21:24:49.106 -05:00 [Debug] Hosting starting
+2017-05-13 21:24:49.316 -05:00 [Debug] Hosting started
+2017-05-13 21:24:49.509 -05:00 [Debug] Connection id ""0HL4QE1IMOVDC"" started.
+2017-05-13 21:24:49.509 -05:00 [Debug] Connection id ""0HL4QE1IMOVDD"" started.
+2017-05-13 21:24:49.685 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 21:24:49.687 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:65523/  0
+2017-05-13 21:24:49.896 -05:00 [Debug] Connection id ""0HL4QE1IMOVDD"" completed keep alive response.
+2017-05-13 21:24:49.902 -05:00 [Information] The file "/index.html" was not modified
+2017-05-13 21:24:49.924 -05:00 [Information] Request finished in 264.3406ms 200 
+2017-05-13 21:24:49.932 -05:00 [Debug] Handled. Status code: 304 File: "/index.html"
+2017-05-13 21:24:49.958 -05:00 [Debug] Connection id ""0HL4QE1IMOVDC"" completed keep alive response.
+2017-05-13 21:24:49.976 -05:00 [Information] Request finished in 317.7375ms 304 text/html
+2017-05-13 21:24:50.005 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/mexacodeApp.min.js  
+2017-05-13 21:24:50.016 -05:00 [Information] Sending file. Request path: '"/js/app/mexacodeApp.min.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\mexacodeApp.min.js"'
+2017-05-13 21:24:50.053 -05:00 [Debug] Connection id ""0HL4QE1IMOVDD"" completed keep alive response.
+2017-05-13 21:24:50.057 -05:00 [Information] Request finished in 51.2921ms 200 application/javascript
+2017-05-13 21:25:04.946 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 21:25:04.950 -05:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\index.html"'
+2017-05-13 21:25:05.104 -05:00 [Debug] Connection id ""0HL4QE1IMOVDC"" completed keep alive response.
+2017-05-13 21:25:05.124 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/css/estilos.css  
+2017-05-13 21:25:05.125 -05:00 [Debug] Connection id ""0HL4QE1IMOVDE"" started.
+2017-05-13 21:25:05.128 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular/angular.js  
+2017-05-13 21:25:05.153 -05:00 [Information] Request finished in 170.6545ms 200 text/html
+2017-05-13 21:25:05.153 -05:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular\angular.js"'
+2017-05-13 21:25:05.231 -05:00 [Information] Sending file. Request path: '"/css/estilos.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\css\estilos.css"'
+2017-05-13 21:25:05.262 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert.css  
+2017-05-13 21:25:05.294 -05:00 [Debug] Connection id ""0HL4QE1IMOVDD"" completed keep alive response.
+2017-05-13 21:25:05.308 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert.css"'
+2017-05-13 21:25:05.317 -05:00 [Information] Request finished in 190.3571ms 200 text/css
+2017-05-13 21:25:05.337 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular-messages/angular-messages.js  
+2017-05-13 21:25:05.349 -05:00 [Debug] Connection id ""0HL4QE1IMOVDC"" completed keep alive response.
+2017-05-13 21:25:05.360 -05:00 [Information] Request finished in 186.1651ms 200 text/css
+2017-05-13 21:25:05.382 -05:00 [Information] Sending file. Request path: '"/lib/angular-messages/angular-messages.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular-messages\angular-messages.js"'
+2017-05-13 21:25:05.388 -05:00 [Debug] Connection id ""0HL4QE1IMOVDE"" completed keep alive response.
+2017-05-13 21:25:05.401 -05:00 [Information] Request finished in 264.4729ms 200 application/javascript
+2017-05-13 21:25:05.423 -05:00 [Debug] Connection id ""0HL4QE1IMOVDD"" completed keep alive response.
+2017-05-13 21:25:05.449 -05:00 [Information] Request finished in 92.9266ms 200 application/javascript
+2017-05-13 21:25:05.471 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/mexacodeApp.min.js  
+2017-05-13 21:25:05.477 -05:00 [Information] Sending file. Request path: '"/js/app/mexacodeApp.min.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\mexacodeApp.min.js"'
+2017-05-13 21:25:05.482 -05:00 [Debug] Connection id ""0HL4QE1IMOVDF"" started.
+2017-05-13 21:25:05.502 -05:00 [Debug] Connection id ""0HL4QE1IMOVDD"" completed keep alive response.
+2017-05-13 21:25:05.534 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/restangular/dist/restangular.js  
+2017-05-13 21:25:05.540 -05:00 [Debug] Connection id ""0HL4QE1IMOVDG"" started.
+2017-05-13 21:25:05.564 -05:00 [Debug] Connection id ""0HL4QE1IMOVDH"" started.
+2017-05-13 21:25:05.570 -05:00 [Information] Sending file. Request path: '"/lib/restangular/dist/restangular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\restangular\dist\restangular.js"'
+2017-05-13 21:25:05.613 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert-dev.js  
+2017-05-13 21:25:05.623 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/lodash/dist/lodash.js  
+2017-05-13 21:25:05.630 -05:00 [Information] Request finished in 40.4637ms 200 application/javascript
+2017-05-13 21:25:05.651 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/mexacodergb.jpg  
+2017-05-13 21:25:05.677 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert-dev.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert-dev.js"'
+2017-05-13 21:25:05.678 -05:00 [Information] Sending file. Request path: '"/images/mexacodergb.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\mexacodergb.jpg"'
+2017-05-13 21:25:05.686 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/1.png  
+2017-05-13 21:25:05.796 -05:00 [Information] Sending file. Request path: '"/images/1.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\1.png"'
+2017-05-13 21:25:05.811 -05:00 [Information] Sending file. Request path: '"/lib/lodash/dist/lodash.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\lodash\dist\lodash.js"'
+2017-05-13 21:25:05.817 -05:00 [Debug] Connection id ""0HL4QE1IMOVDG"" completed keep alive response.
+2017-05-13 21:25:05.861 -05:00 [Information] Request finished in 274.6322ms 200 application/javascript
+2017-05-13 21:25:05.891 -05:00 [Debug] Connection id ""0HL4QE1IMOVDD"" completed keep alive response.
+2017-05-13 21:25:05.906 -05:00 [Information] Request finished in 252.5122ms 200 image/jpeg
+2017-05-13 21:25:06.022 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/2.jpg  
+2017-05-13 21:25:06.042 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon2.png  
+2017-05-13 21:25:06.064 -05:00 [Debug] Connection id ""0HL4QE1IMOVDF"" completed keep alive response.
+2017-05-13 21:25:06.077 -05:00 [Information] Request finished in 563.4585ms 200 application/javascript
+2017-05-13 21:25:06.080 -05:00 [Information] Sending file. Request path: '"/images/icon2.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon2.png"'
+2017-05-13 21:25:06.110 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon1.png  
+2017-05-13 21:25:06.119 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon3.png  
+2017-05-13 21:25:06.166 -05:00 [Information] Sending file. Request path: '"/images/icon1.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon1.png"'
+2017-05-13 21:25:06.166 -05:00 [Information] Sending file. Request path: '"/images/2.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\2.jpg"'
+2017-05-13 21:25:06.166 -05:00 [Debug] Connection id ""0HL4QE1IMOVDG"" completed keep alive response.
+2017-05-13 21:25:06.169 -05:00 [Information] Sending file. Request path: '"/images/icon3.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon3.png"'
+2017-05-13 21:25:06.169 -05:00 [Information] Request finished in 236.0079ms 200 image/png
+2017-05-13 21:25:06.209 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/3.jpg  
+2017-05-13 21:25:06.220 -05:00 [Information] Sending file. Request path: '"/images/3.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\3.jpg"'
+2017-05-13 21:25:06.255 -05:00 [Debug] Connection id ""0HL4QE1IMOVDG"" completed keep alive response.
+2017-05-13 21:25:06.262 -05:00 [Debug] Connection id ""0HL4QE1IMOVDD"" completed keep alive response.
+2017-05-13 21:25:06.270 -05:00 [Information] Request finished in 152.5174ms 200 image/png
+2017-05-13 21:25:06.303 -05:00 [Debug] Connection id ""0HL4QE1IMOVDE"" completed keep alive response.
+2017-05-13 21:25:06.327 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/4.jpg  
+2017-05-13 21:25:06.330 -05:00 [Information] Request finished in 555.5425ms 200 image/jpeg
+2017-05-13 21:25:06.333 -05:00 [Information] Request finished in 62.4127ms 200 image/jpeg
+2017-05-13 21:25:06.360 -05:00 [Debug] Connection id ""0HL4QE1IMOVDF"" completed keep alive response.
+2017-05-13 21:25:06.587 -05:00 [Debug] Connection id ""0HL4QE1IMOVDC"" completed keep alive response.
+2017-05-13 21:25:06.599 -05:00 [Information] Request finished in 274.9727ms 200 image/png
+2017-05-13 21:25:06.607 -05:00 [Information] Sending file. Request path: '"/images/4.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\4.jpg"'
+2017-05-13 21:25:06.608 -05:00 [Information] Request finished in 908.8653ms 200 image/png
+2017-05-13 21:25:06.655 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/5.jpg  
+2017-05-13 21:25:06.693 -05:00 [Debug] Connection id ""0HL4QE1IMOVDD"" completed keep alive response.
+2017-05-13 21:25:06.731 -05:00 [Information] Request finished in 414.4278ms 200 image/jpeg
+2017-05-13 21:25:06.770 -05:00 [Debug] Connection id ""0HL4QE1IMOVDH"" completed keep alive response.
+2017-05-13 21:25:06.789 -05:00 [Information] Request finished in 1196.2626ms 200 application/javascript
+2017-05-13 21:25:06.803 -05:00 [Information] Sending file. Request path: '"/images/5.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\5.jpg"'
+2017-05-13 21:25:06.825 -05:00 [Debug] Connection id ""0HL4QE1IMOVDF"" completed keep alive response.
+2017-05-13 21:25:06.828 -05:00 [Information] Request finished in 187.9618ms 200 image/jpeg
+2017-05-13 21:26:39.487 -05:00 [Debug] Connection id ""0HL4QE1IMOVDC"" received FIN.
+2017-05-13 21:26:39.488 -05:00 [Debug] Connection id ""0HL4QE1IMOVDE"" received FIN.
+2017-05-13 21:26:39.518 -05:00 [Debug] Connection id ""0HL4QE1IMOVDH"" received FIN.
+2017-05-13 21:26:39.518 -05:00 [Debug] Connection id ""0HL4QE1IMOVDG"" received FIN.
+2017-05-13 21:26:39.523 -05:00 [Debug] Connection id ""0HL4QE1IMOVDF"" received FIN.
+2017-05-13 21:26:39.527 -05:00 [Debug] Connection id ""0HL4QE1IMOVDD"" received FIN.
+2017-05-13 21:26:39.551 -05:00 [Debug] Connection id ""0HL4QE1IMOVDH"" disconnecting.
+2017-05-13 21:26:39.553 -05:00 [Debug] Connection id ""0HL4QE1IMOVDG"" disconnecting.
+2017-05-13 21:26:39.556 -05:00 [Debug] Connection id ""0HL4QE1IMOVDG"" sending FIN.
+2017-05-13 21:26:39.558 -05:00 [Debug] Connection id ""0HL4QE1IMOVDH"" sending FIN.
+2017-05-13 21:26:39.561 -05:00 [Debug] Connection id ""0HL4QE1IMOVDE"" disconnecting.
+2017-05-13 21:26:39.563 -05:00 [Debug] Connection id ""0HL4QE1IMOVDE"" sending FIN.
+2017-05-13 21:26:39.567 -05:00 [Debug] Connection id ""0HL4QE1IMOVDF"" disconnecting.
+2017-05-13 21:26:39.569 -05:00 [Debug] Connection id ""0HL4QE1IMOVDD"" disconnecting.
+2017-05-13 21:26:39.571 -05:00 [Debug] Connection id ""0HL4QE1IMOVDC"" disconnecting.
+2017-05-13 21:26:39.597 -05:00 [Debug] Connection id ""0HL4QE1IMOVDH"" sent FIN with status "0".
+2017-05-13 21:26:39.601 -05:00 [Debug] Connection id ""0HL4QE1IMOVDE"" sent FIN with status "0".
+2017-05-13 21:26:39.626 -05:00 [Debug] Connection id ""0HL4QE1IMOVDE"" stopped.
+2017-05-13 21:26:39.626 -05:00 [Debug] Connection id ""0HL4QE1IMOVDH"" stopped.
+2017-05-13 21:26:39.648 -05:00 [Debug] Connection id ""0HL4QE1IMOVDG"" sent FIN with status "0".
+2017-05-13 21:26:39.650 -05:00 [Debug] Connection id ""0HL4QE1IMOVDF"" sending FIN.
+2017-05-13 21:26:39.653 -05:00 [Debug] Connection id ""0HL4QE1IMOVDC"" sending FIN.
+2017-05-13 21:26:39.655 -05:00 [Debug] Connection id ""0HL4QE1IMOVDG"" stopped.
+2017-05-13 21:26:39.658 -05:00 [Debug] Connection id ""0HL4QE1IMOVDC"" sent FIN with status "0".
+2017-05-13 21:26:39.659 -05:00 [Debug] Connection id ""0HL4QE1IMOVDD"" sending FIN.
+2017-05-13 21:26:39.681 -05:00 [Debug] Connection id ""0HL4QE1IMOVDC"" stopped.
+2017-05-13 21:26:39.684 -05:00 [Debug] Connection id ""0HL4QE1IMOVDD"" sent FIN with status "0".
+2017-05-13 21:26:39.687 -05:00 [Debug] Connection id ""0HL4QE1IMOVDF"" sent FIN with status "0".
+2017-05-13 21:26:39.688 -05:00 [Debug] Connection id ""0HL4QE1IMOVDD"" stopped.
+2017-05-13 21:26:39.691 -05:00 [Debug] Connection id ""0HL4QE1IMOVDF"" stopped.
+2017-05-13 21:29:12.524 -05:00 [Debug] Hosting starting
+2017-05-13 21:29:12.726 -05:00 [Debug] Hosting started
+2017-05-13 21:29:12.977 -05:00 [Debug] Connection id ""0HL4QE417CFO3"" started.
+2017-05-13 21:29:12.977 -05:00 [Debug] Connection id ""0HL4QE417CFO2"" started.
+2017-05-13 21:29:13.188 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 21:29:13.190 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:65523/  0
+2017-05-13 21:29:13.572 -05:00 [Debug] Connection id ""0HL4QE417CFO2"" completed keep alive response.
+2017-05-13 21:29:13.574 -05:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\index.html"'
+2017-05-13 21:29:13.613 -05:00 [Information] Request finished in 455.1488ms 200 
+2017-05-13 21:29:13.827 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/css/estilos.css  
+2017-05-13 21:29:13.843 -05:00 [Information] Sending file. Request path: '"/css/estilos.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\css\estilos.css"'
+2017-05-13 21:29:13.861 -05:00 [Debug] Connection id ""0HL4QE417CFO3"" completed keep alive response.
+2017-05-13 21:29:13.894 -05:00 [Information] Request finished in 734.5167ms 200 text/html
+2017-05-13 21:29:13.905 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/mexacodeApp.min.js  
+2017-05-13 21:29:13.930 -05:00 [Debug] Connection id ""0HL4QE417CFO2"" completed keep alive response.
+2017-05-13 21:29:13.931 -05:00 [Information] Sending file. Request path: '"/js/app/mexacodeApp.min.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\mexacodeApp.min.js"'
+2017-05-13 21:29:13.933 -05:00 [Information] Request finished in 131.8381ms 200 text/css
+2017-05-13 21:29:13.943 -05:00 [Debug] Connection id ""0HL4QE417CFO3"" completed keep alive response.
+2017-05-13 21:29:13.946 -05:00 [Information] Request finished in 41.9476ms 200 application/javascript
+2017-05-13 21:31:02.955 -05:00 [Debug] Connection id ""0HL4QE417CFO3"" received FIN.
+2017-05-13 21:31:02.976 -05:00 [Debug] Connection id ""0HL4QE417CFO2"" received FIN.
+2017-05-13 21:31:03.019 -05:00 [Debug] Connection id ""0HL4QE417CFO2"" disconnecting.
+2017-05-13 21:31:03.021 -05:00 [Debug] Connection id ""0HL4QE417CFO3"" disconnecting.
+2017-05-13 21:31:03.045 -05:00 [Debug] Connection id ""0HL4QE417CFO3"" sending FIN.
+2017-05-13 21:31:03.047 -05:00 [Debug] Connection id ""0HL4QE417CFO2"" sending FIN.
+2017-05-13 21:31:03.077 -05:00 [Debug] Connection id ""0HL4QE417CFO3"" sent FIN with status "0".
+2017-05-13 21:31:03.078 -05:00 [Debug] Connection id ""0HL4QE417CFO2"" sent FIN with status "0".
+2017-05-13 21:31:03.104 -05:00 [Debug] Connection id ""0HL4QE417CFO3"" stopped.
+2017-05-13 21:31:03.105 -05:00 [Debug] Connection id ""0HL4QE417CFO2"" stopped.
+2017-05-13 21:32:55.143 -05:00 [Debug] Connection id ""0HL4QE417CFO4"" started.
+2017-05-13 21:32:55.152 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 21:32:55.161 -05:00 [Information] The file "/index.html" was not modified
+2017-05-13 21:32:55.169 -05:00 [Debug] Handled. Status code: 304 File: "/index.html"
+2017-05-13 21:32:55.260 -05:00 [Debug] Connection id ""0HL4QE417CFO4"" completed keep alive response.
+2017-05-13 21:32:55.314 -05:00 [Information] Request finished in 113.5704ms 304 text/html
+2017-05-13 21:32:55.346 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/mexacodeApp.min.js  
+2017-05-13 21:32:55.351 -05:00 [Information] The file "/js/app/mexacodeApp.min.js" was not modified
+2017-05-13 21:32:55.355 -05:00 [Debug] Handled. Status code: 304 File: "/js/app/mexacodeApp.min.js"
+2017-05-13 21:32:55.366 -05:00 [Debug] Connection id ""0HL4QE417CFO4"" completed keep alive response.
+2017-05-13 21:32:55.375 -05:00 [Information] Request finished in 28.5426ms 304 application/javascript
+2017-05-13 21:33:11.352 -05:00 [Debug] Hosting starting
+2017-05-13 21:33:11.576 -05:00 [Debug] Hosting started
+2017-05-13 21:33:11.660 -05:00 [Debug] Connection id ""0HL4QE68BTA5B"" started.
+2017-05-13 21:33:11.788 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:65523/  0
+2017-05-13 21:33:11.949 -05:00 [Debug] Connection id ""0HL4QE68BTA5B"" completed keep alive response.
+2017-05-13 21:33:11.961 -05:00 [Information] Request finished in 199.8031ms 200 
+2017-05-13 21:33:22.456 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 21:33:22.527 -05:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\index.html"'
+2017-05-13 21:33:22.720 -05:00 [Debug] Connection id ""0HL4QE68BTA5C"" started.
+2017-05-13 21:33:22.747 -05:00 [Debug] Connection id ""0HL4QE68BTA5D"" started.
+2017-05-13 21:33:22.750 -05:00 [Debug] Connection id ""0HL4QE68BTA5E"" started.
+2017-05-13 21:33:22.753 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/css/estilos.css  
+2017-05-13 21:33:22.756 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular/angular.js  
+2017-05-13 21:33:22.756 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert.css  
+2017-05-13 21:33:22.783 -05:00 [Information] Sending file. Request path: '"/css/estilos.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\css\estilos.css"'
+2017-05-13 21:33:22.813 -05:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular\angular.js"'
+2017-05-13 21:33:22.813 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert.css"'
+2017-05-13 21:33:22.865 -05:00 [Debug] Connection id ""0HL4QE68BTA5C"" completed keep alive response.
+2017-05-13 21:33:22.881 -05:00 [Information] Request finished in 142.0901ms 200 text/css
+2017-05-13 21:33:22.896 -05:00 [Debug] Connection id ""0HL4QE68BTA5B"" completed keep alive response.
+2017-05-13 21:33:22.903 -05:00 [Information] Request finished in 442.9022ms 200 text/html
+2017-05-13 21:33:22.917 -05:00 [Debug] Connection id ""0HL4QE68BTA5F"" started.
+2017-05-13 21:33:22.953 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular-messages/angular-messages.js  
+2017-05-13 21:33:22.957 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/mexacodeApp.min.js  
+2017-05-13 21:33:22.958 -05:00 [Debug] Connection id ""0HL4QE68BTA5G"" started.
+2017-05-13 21:33:22.987 -05:00 [Information] Sending file. Request path: '"/lib/angular-messages/angular-messages.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular-messages\angular-messages.js"'
+2017-05-13 21:33:22.989 -05:00 [Information] Sending file. Request path: '"/js/app/mexacodeApp.min.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\mexacodeApp.min.js"'
+2017-05-13 21:33:23.011 -05:00 [Debug] Connection id ""0HL4QE68BTA5B"" completed keep alive response.
+2017-05-13 21:33:23.033 -05:00 [Information] Request finished in 91.0437ms 200 application/javascript
+2017-05-13 21:33:23.040 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/restangular/dist/restangular.js  
+2017-05-13 21:33:23.043 -05:00 [Debug] Connection id ""0HL4QE68BTA5E"" completed keep alive response.
+2017-05-13 21:33:23.068 -05:00 [Information] Request finished in 292.0155ms 200 text/css
+2017-05-13 21:33:23.070 -05:00 [Information] Sending file. Request path: '"/lib/restangular/dist/restangular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\restangular\dist\restangular.js"'
+2017-05-13 21:33:23.081 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert-dev.js  
+2017-05-13 21:33:23.087 -05:00 [Debug] Connection id ""0HL4QE68BTA5F"" completed keep alive response.
+2017-05-13 21:33:23.110 -05:00 [Debug] Connection id ""0HL4QE68BTA5C"" completed keep alive response.
+2017-05-13 21:33:23.119 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert-dev.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert-dev.js"'
+2017-05-13 21:33:23.133 -05:00 [Information] Request finished in 167.1844ms 200 application/javascript
+2017-05-13 21:33:23.143 -05:00 [Debug] Connection id ""0HL4QE68BTA5E"" completed keep alive response.
+2017-05-13 21:33:23.153 -05:00 [Information] Request finished in 72.38ms 200 application/javascript
+2017-05-13 21:33:23.174 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/lodash/dist/lodash.js  
+2017-05-13 21:33:23.262 -05:00 [Information] Request finished in 166.0179ms 200 application/javascript
+2017-05-13 21:33:23.287 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/mexacodergb.jpg  
+2017-05-13 21:33:23.325 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/2.jpg  
+2017-05-13 21:33:23.340 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/1.png  
+2017-05-13 21:33:23.343 -05:00 [Information] Sending file. Request path: '"/images/2.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\2.jpg"'
+2017-05-13 21:33:23.347 -05:00 [Information] Sending file. Request path: '"/images/1.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\1.png"'
+2017-05-13 21:33:23.513 -05:00 [Information] Sending file. Request path: '"/images/mexacodergb.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\mexacodergb.jpg"'
+2017-05-13 21:33:23.530 -05:00 [Debug] Connection id ""0HL4QE68BTA5F"" completed keep alive response.
+2017-05-13 21:33:23.538 -05:00 [Information] Request finished in 218.6268ms 200 image/jpeg
+2017-05-13 21:33:23.560 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon1.png  
+2017-05-13 21:33:23.628 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon2.png  
+2017-05-13 21:33:23.633 -05:00 [Information] Sending file. Request path: '"/images/icon1.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon1.png"'
+2017-05-13 21:33:23.643 -05:00 [Information] Sending file. Request path: '"/images/icon2.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon2.png"'
+2017-05-13 21:33:23.695 -05:00 [Debug] Connection id ""0HL4QE68BTA5E"" completed keep alive response.
+2017-05-13 21:33:23.721 -05:00 [Debug] Connection id ""0HL4QE68BTA5F"" completed keep alive response.
+2017-05-13 21:33:23.749 -05:00 [Information] Request finished in 127.7677ms 200 image/png
+2017-05-13 21:33:23.821 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/3.jpg  
+2017-05-13 21:33:23.839 -05:00 [Information] Request finished in 423.5947ms 200 image/png
+2017-05-13 21:33:23.842 -05:00 [Debug] Connection id ""0HL4QE68BTA5D"" completed keep alive response.
+2017-05-13 21:33:23.864 -05:00 [Information] Sending file. Request path: '"/lib/lodash/dist/lodash.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\lodash\dist\lodash.js"'
+2017-05-13 21:33:23.864 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon3.png  
+2017-05-13 21:33:24.002 -05:00 [Information] Request finished in 1092.0297ms 200 application/javascript
+2017-05-13 21:33:24.160 -05:00 [Information] Sending file. Request path: '"/images/3.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\3.jpg"'
+2017-05-13 21:33:24.218 -05:00 [Debug] Connection id ""0HL4QE68BTA5C"" completed keep alive response.
+2017-05-13 21:33:24.223 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/4.jpg  
+2017-05-13 21:33:24.229 -05:00 [Information] Request finished in 915.8144ms 200 image/png
+2017-05-13 21:33:24.292 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/5.jpg  
+2017-05-13 21:33:24.301 -05:00 [Information] Sending file. Request path: '"/images/4.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\4.jpg"'
+2017-05-13 21:33:24.315 -05:00 [Information] Sending file. Request path: '"/images/5.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\5.jpg"'
+2017-05-13 21:33:24.353 -05:00 [Debug] Connection id ""0HL4QE68BTA5G"" completed keep alive response.
+2017-05-13 21:33:24.383 -05:00 [Information] Sending file. Request path: '"/images/icon3.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon3.png"'
+2017-05-13 21:33:24.428 -05:00 [Information] Request finished in 1231.559ms 200 application/javascript
+2017-05-13 21:33:24.486 -05:00 [Debug] Connection id ""0HL4QE68BTA5D"" completed keep alive response.
+2017-05-13 21:33:24.511 -05:00 [Information] Request finished in 353.9324ms 200 image/jpeg
+2017-05-13 21:33:24.556 -05:00 [Debug] Connection id ""0HL4QE68BTA5C"" completed keep alive response.
+2017-05-13 21:33:24.566 -05:00 [Information] Request finished in 300.3282ms 200 image/jpeg
+2017-05-13 21:33:24.603 -05:00 [Debug] Connection id ""0HL4QE68BTA5B"" completed keep alive response.
+2017-05-13 21:33:24.652 -05:00 [Debug] Connection id ""0HL4QE68BTA5E"" completed keep alive response.
+2017-05-13 21:33:24.658 -05:00 [Information] Request finished in 797.5225ms 200 image/png
+2017-05-13 21:33:24.690 -05:00 [Debug] Connection id ""0HL4QE68BTA5F"" completed keep alive response.
+2017-05-13 21:33:24.696 -05:00 [Information] Request finished in 1329.2912ms 200 image/jpeg
+2017-05-13 21:33:24.697 -05:00 [Information] Request finished in 884.0389ms 200 image/jpeg
+2017-05-13 21:35:01.661 -05:00 [Debug] Connection id ""0HL4QE68BTA5F"" received FIN.
+2017-05-13 21:35:01.662 -05:00 [Debug] Connection id ""0HL4QE68BTA5G"" received FIN.
+2017-05-13 21:35:01.693 -05:00 [Debug] Connection id ""0HL4QE68BTA5E"" received FIN.
+2017-05-13 21:35:01.695 -05:00 [Debug] Connection id ""0HL4QE68BTA5C"" received FIN.
+2017-05-13 21:35:01.698 -05:00 [Debug] Connection id ""0HL4QE68BTA5B"" received FIN.
+2017-05-13 21:35:01.725 -05:00 [Debug] Connection id ""0HL4QE68BTA5D"" received FIN.
+2017-05-13 21:35:01.748 -05:00 [Debug] Connection id ""0HL4QE68BTA5F"" disconnecting.
+2017-05-13 21:35:01.750 -05:00 [Debug] Connection id ""0HL4QE68BTA5G"" disconnecting.
+2017-05-13 21:35:01.753 -05:00 [Debug] Connection id ""0HL4QE68BTA5G"" sending FIN.
+2017-05-13 21:35:01.759 -05:00 [Debug] Connection id ""0HL4QE68BTA5F"" sending FIN.
+2017-05-13 21:35:01.789 -05:00 [Debug] Connection id ""0HL4QE68BTA5B"" disconnecting.
+2017-05-13 21:35:01.789 -05:00 [Debug] Connection id ""0HL4QE68BTA5D"" disconnecting.
+2017-05-13 21:35:01.792 -05:00 [Debug] Connection id ""0HL4QE68BTA5C"" disconnecting.
+2017-05-13 21:35:01.794 -05:00 [Debug] Connection id ""0HL4QE68BTA5E"" disconnecting.
+2017-05-13 21:35:01.820 -05:00 [Debug] Connection id ""0HL4QE68BTA5G"" sent FIN with status "0".
+2017-05-13 21:35:01.820 -05:00 [Debug] Connection id ""0HL4QE68BTA5F"" sent FIN with status "0".
+2017-05-13 21:35:01.846 -05:00 [Debug] Connection id ""0HL4QE68BTA5G"" stopped.
+2017-05-13 21:35:01.848 -05:00 [Debug] Connection id ""0HL4QE68BTA5F"" stopped.
+2017-05-13 21:35:01.871 -05:00 [Debug] Connection id ""0HL4QE68BTA5D"" sending FIN.
+2017-05-13 21:35:01.874 -05:00 [Debug] Connection id ""0HL4QE68BTA5B"" sending FIN.
+2017-05-13 21:35:01.875 -05:00 [Debug] Connection id ""0HL4QE68BTA5C"" sending FIN.
+2017-05-13 21:35:01.877 -05:00 [Debug] Connection id ""0HL4QE68BTA5E"" sending FIN.
+2017-05-13 21:35:01.879 -05:00 [Debug] Connection id ""0HL4QE68BTA5C"" sent FIN with status "0".
+2017-05-13 21:35:01.882 -05:00 [Debug] Connection id ""0HL4QE68BTA5E"" sent FIN with status "0".
+2017-05-13 21:35:01.884 -05:00 [Debug] Connection id ""0HL4QE68BTA5E"" stopped.
+2017-05-13 21:35:01.886 -05:00 [Debug] Connection id ""0HL4QE68BTA5C"" stopped.
+2017-05-13 21:35:01.888 -05:00 [Debug] Connection id ""0HL4QE68BTA5B"" sent FIN with status "0".
+2017-05-13 21:35:01.890 -05:00 [Debug] Connection id ""0HL4QE68BTA5D"" sent FIN with status "0".
+2017-05-13 21:35:01.893 -05:00 [Debug] Connection id ""0HL4QE68BTA5B"" stopped.
+2017-05-13 21:35:01.895 -05:00 [Debug] Connection id ""0HL4QE68BTA5D"" stopped.
+2017-05-13 21:40:03.972 -05:00 [Debug] Hosting starting
+2017-05-13 21:40:04.177 -05:00 [Debug] Hosting started
+2017-05-13 21:40:04.418 -05:00 [Debug] Connection id ""0HL4QEA3BV8DR"" started.
+2017-05-13 21:40:04.419 -05:00 [Debug] Connection id ""0HL4QEA3BV8DQ"" started.
+2017-05-13 21:40:04.618 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 21:40:04.623 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:65523/  0
+2017-05-13 21:40:04.844 -05:00 [Debug] Connection id ""0HL4QEA3BV8DQ"" completed keep alive response.
+2017-05-13 21:40:04.849 -05:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\index.html"'
+2017-05-13 21:40:04.885 -05:00 [Information] Request finished in 313.1188ms 200 
+2017-05-13 21:40:05.084 -05:00 [Debug] Connection id ""0HL4QEA3BV8DR"" completed keep alive response.
+2017-05-13 21:40:05.115 -05:00 [Information] Request finished in 544.6463ms 200 text/html
+2017-05-13 21:40:05.118 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/css/estilos.min.css  
+2017-05-13 21:40:05.125 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/mexacodeApp.min.js  
+2017-05-13 21:40:05.128 -05:00 [Information] Sending file. Request path: '"/css/estilos.min.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\css\estilos.min.css"'
+2017-05-13 21:40:05.163 -05:00 [Debug] Connection id ""0HL4QEA3BV8DQ"" completed keep alive response.
+2017-05-13 21:40:05.169 -05:00 [Information] Request finished in 62.8991ms 200 text/css
+2017-05-13 21:40:05.175 -05:00 [Debug] The request path "/js/app/mexacodeApp.min.js" does not match an existing file
+2017-05-13 21:40:05.474 -05:00 [Debug] Request did not match any routes.
+2017-05-13 21:40:05.488 -05:00 [Debug] Connection id ""0HL4QEA3BV8DR"" completed keep alive response.
+2017-05-13 21:40:05.494 -05:00 [Information] Request finished in 366.0873ms 404 
+2017-05-13 21:40:17.487 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 21:40:17.492 -05:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\index.html"'
+2017-05-13 21:40:17.527 -05:00 [Debug] Connection id ""0HL4QEA3BV8DQ"" completed keep alive response.
+2017-05-13 21:40:17.546 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/css/estilos.min.css  
+2017-05-13 21:40:17.556 -05:00 [Information] Request finished in 43.3817ms 200 text/html
+2017-05-13 21:40:17.562 -05:00 [Debug] Connection id ""0HL4QEA3BV8DS"" started.
+2017-05-13 21:40:17.589 -05:00 [Information] Sending file. Request path: '"/css/estilos.min.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\css\estilos.min.css"'
+2017-05-13 21:40:17.612 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular/angular.js  
+2017-05-13 21:40:17.613 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert.css  
+2017-05-13 21:40:17.619 -05:00 [Debug] Connection id ""0HL4QEA3BV8DR"" completed keep alive response.
+2017-05-13 21:40:17.628 -05:00 [Information] Request finished in 98.8607ms 200 text/css
+2017-05-13 21:40:17.637 -05:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular\angular.js"'
+2017-05-13 21:40:17.646 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert.css"'
+2017-05-13 21:40:17.713 -05:00 [Debug] Connection id ""0HL4QEA3BV8DT"" started.
+2017-05-13 21:40:17.724 -05:00 [Debug] Connection id ""0HL4QEA3BV8DQ"" completed keep alive response.
+2017-05-13 21:40:17.731 -05:00 [Information] Request finished in 165.4863ms 200 text/css
+2017-05-13 21:40:17.744 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/mexacodeApp.min.js  
+2017-05-13 21:40:17.750 -05:00 [Debug] Connection id ""0HL4QEA3BV8DU"" started.
+2017-05-13 21:40:17.760 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/restangular/dist/restangular.js  
+2017-05-13 21:40:17.776 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert-dev.js  
+2017-05-13 21:40:17.789 -05:00 [Information] Sending file. Request path: '"/lib/restangular/dist/restangular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\restangular\dist\restangular.js"'
+2017-05-13 21:40:17.802 -05:00 [Debug] The request path "/js/app/mexacodeApp.min.js" does not match an existing file
+2017-05-13 21:40:17.815 -05:00 [Debug] Request did not match any routes.
+2017-05-13 21:40:17.840 -05:00 [Debug] Connection id ""0HL4QEA3BV8DV"" started.
+2017-05-13 21:40:17.848 -05:00 [Debug] Connection id ""0HL4QEA3BV8DQ"" completed keep alive response.
+2017-05-13 21:40:17.867 -05:00 [Information] Request finished in 109.7791ms 404 
+2017-05-13 21:40:17.887 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular-messages/angular-messages.js  
+2017-05-13 21:40:17.910 -05:00 [Information] Sending file. Request path: '"/lib/angular-messages/angular-messages.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular-messages\angular-messages.js"'
+2017-05-13 21:40:17.946 -05:00 [Debug] Connection id ""0HL4QEA3BV8DU"" completed keep alive response.
+2017-05-13 21:40:17.986 -05:00 [Information] Request finished in 186.1301ms 200 application/javascript
+2017-05-13 21:40:18.011 -05:00 [Debug] Connection id ""0HL4QEA3BV8DR"" completed keep alive response.
+2017-05-13 21:40:18.012 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/2.jpg  
+2017-05-13 21:40:18.059 -05:00 [Information] Request finished in 299.5888ms 200 application/javascript
+2017-05-13 21:40:18.059 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert-dev.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert-dev.js"'
+2017-05-13 21:40:18.091 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/mexacodergb.jpg  
+2017-05-13 21:40:18.098 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/1.png  
+2017-05-13 21:40:18.104 -05:00 [Information] Sending file. Request path: '"/images/mexacodergb.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\mexacodergb.jpg"'
+2017-05-13 21:40:18.110 -05:00 [Information] Sending file. Request path: '"/images/1.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\1.png"'
+2017-05-13 21:40:18.112 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/lodash/dist/lodash.js  
+2017-05-13 21:40:18.115 -05:00 [Information] Sending file. Request path: '"/images/2.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\2.jpg"'
+2017-05-13 21:40:18.122 -05:00 [Information] Sending file. Request path: '"/lib/lodash/dist/lodash.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\lodash\dist\lodash.js"'
+2017-05-13 21:40:18.143 -05:00 [Debug] Connection id ""0HL4QEA3BV8DU"" completed keep alive response.
+2017-05-13 21:40:18.406 -05:00 [Information] Request finished in 145.5188ms 200 image/jpeg
+2017-05-13 21:40:18.517 -05:00 [Debug] Connection id ""0HL4QEA3BV8DV"" completed keep alive response.
+2017-05-13 21:40:18.528 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon1.png  
+2017-05-13 21:40:18.542 -05:00 [Information] Request finished in 428.2701ms 200 application/javascript
+2017-05-13 21:40:18.574 -05:00 [Debug] Connection id ""0HL4QEA3BV8DS"" completed keep alive response.
+2017-05-13 21:40:18.600 -05:00 [Debug] Connection id ""0HL4QEA3BV8DR"" completed keep alive response.
+2017-05-13 21:40:18.625 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/3.jpg  
+2017-05-13 21:40:18.625 -05:00 [Information] Request finished in 510.6611ms 200 image/png
+2017-05-13 21:40:18.633 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon3.png  
+2017-05-13 21:40:18.661 -05:00 [Information] Request finished in 1011.3117ms 200 application/javascript
+2017-05-13 21:40:18.662 -05:00 [Information] Sending file. Request path: '"/images/icon3.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon3.png"'
+2017-05-13 21:40:18.688 -05:00 [Information] Sending file. Request path: '"/images/icon1.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon1.png"'
+2017-05-13 21:40:18.691 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon2.png  
+2017-05-13 21:40:18.698 -05:00 [Debug] Connection id ""0HL4QEA3BV8DU"" completed keep alive response.
+2017-05-13 21:40:18.701 -05:00 [Information] Request finished in 219.6665ms 200 image/png
+2017-05-13 21:40:18.707 -05:00 [Information] Sending file. Request path: '"/images/icon2.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon2.png"'
+2017-05-13 21:40:18.713 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/4.jpg  
+2017-05-13 21:40:18.717 -05:00 [Debug] Connection id ""0HL4QEA3BV8DR"" completed keep alive response.
+2017-05-13 21:40:18.748 -05:00 [Information] Request finished in 89.2551ms 200 image/png
+2017-05-13 21:40:18.750 -05:00 [Debug] Connection id ""0HL4QEA3BV8DS"" completed keep alive response.
+2017-05-13 21:40:18.759 -05:00 [Information] Request finished in 89.3558ms 200 image/png
+2017-05-13 21:40:18.763 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/mexacodeApp.min.js  
+2017-05-13 21:40:18.789 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/5.jpg  
+2017-05-13 21:40:18.791 -05:00 [Information] Sending file. Request path: '"/images/4.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\4.jpg"'
+2017-05-13 21:40:18.800 -05:00 [Information] Sending file. Request path: '"/images/5.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\5.jpg"'
+2017-05-13 21:40:18.866 -05:00 [Debug] The request path "/js/app/mexacodeApp.min.js" does not match an existing file
+2017-05-13 21:40:18.866 -05:00 [Debug] Connection id ""0HL4QEA3BV8DS"" completed keep alive response.
+2017-05-13 21:40:18.923 -05:00 [Debug] Request did not match any routes.
+2017-05-13 21:40:18.946 -05:00 [Debug] Connection id ""0HL4QEA3BV8DR"" completed keep alive response.
+2017-05-13 21:40:18.959 -05:00 [Information] Request finished in 192.6765ms 404 
+2017-05-13 21:40:18.998 -05:00 [Information] Request finished in 103.4115ms 200 image/jpeg
+2017-05-13 21:40:19.049 -05:00 [Debug] Connection id ""0HL4QEA3BV8DT"" completed keep alive response.
+2017-05-13 21:40:19.092 -05:00 [Debug] Connection id ""0HL4QEA3BV8DU"" completed keep alive response.
+2017-05-13 21:40:19.107 -05:00 [Information] Request finished in 1288.8693ms 200 application/javascript
+2017-05-13 21:40:19.116 -05:00 [Information] Request finished in 383.3306ms 200 image/jpeg
+2017-05-13 21:40:19.139 -05:00 [Information] Sending file. Request path: '"/images/3.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\3.jpg"'
+2017-05-13 21:40:19.197 -05:00 [Debug] Connection id ""0HL4QEA3BV8DQ"" completed keep alive response.
+2017-05-13 21:40:19.241 -05:00 [Information] Request finished in 1137.2303ms 200 image/jpeg
+2017-05-13 21:40:19.299 -05:00 [Debug] Connection id ""0HL4QEA3BV8DV"" completed keep alive response.
+2017-05-13 21:40:19.308 -05:00 [Information] Request finished in 726.3618ms 200 image/jpeg
+2017-05-13 21:40:22.070 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 21:40:22.075 -05:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\index.html"'
+2017-05-13 21:40:22.098 -05:00 [Debug] Connection id ""0HL4QEA3BV8DT"" completed keep alive response.
+2017-05-13 21:40:22.139 -05:00 [Information] Request finished in 30.6909ms 200 text/html
+2017-05-13 21:40:22.144 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular/angular.js  
+2017-05-13 21:40:22.146 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert.css  
+2017-05-13 21:40:22.151 -05:00 [Information] Sending file. Request path: '"/lib/angular/angular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular\angular.js"'
+2017-05-13 21:40:22.152 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert.css"'
+2017-05-13 21:40:22.161 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/css/estilos.min.css  
+2017-05-13 21:40:22.167 -05:00 [Debug] Connection id ""0HL4QEA3BV8DR"" completed keep alive response.
+2017-05-13 21:40:22.202 -05:00 [Information] Sending file. Request path: '"/css/estilos.min.css"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\css\estilos.min.css"'
+2017-05-13 21:40:22.206 -05:00 [Information] Request finished in 56.2943ms 200 text/css
+2017-05-13 21:40:22.343 -05:00 [Debug] Connection id ""0HL4QEA3BV8DS"" completed keep alive response.
+2017-05-13 21:40:22.377 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/sweetalert/dist/sweetalert-dev.js  
+2017-05-13 21:40:22.398 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/restangular/dist/restangular.js  
+2017-05-13 21:40:22.411 -05:00 [Information] Sending file. Request path: '"/lib/sweetalert/dist/sweetalert-dev.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\sweetalert\dist\sweetalert-dev.js"'
+2017-05-13 21:40:22.420 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/mexacodeApp.min.js  
+2017-05-13 21:40:22.431 -05:00 [Debug] Connection id ""0HL4QEA3BV8DU"" completed keep alive response.
+2017-05-13 21:40:22.459 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/angular-messages/angular-messages.js  
+2017-05-13 21:40:22.523 -05:00 [Information] Request finished in 318.1514ms 200 application/javascript
+2017-05-13 21:40:22.546 -05:00 [Information] Sending file. Request path: '"/lib/restangular/dist/restangular.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\restangular\dist\restangular.js"'
+2017-05-13 21:40:22.553 -05:00 [Debug] The request path "/js/app/mexacodeApp.min.js" does not match an existing file
+2017-05-13 21:40:22.561 -05:00 [Debug] Request did not match any routes.
+2017-05-13 21:40:22.578 -05:00 [Debug] Connection id ""0HL4QEA3BV8DV"" completed keep alive response.
+2017-05-13 21:40:22.587 -05:00 [Information] Request finished in 233.249ms 404 
+2017-05-13 21:40:22.622 -05:00 [Information] Sending file. Request path: '"/lib/angular-messages/angular-messages.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\angular-messages\angular-messages.js"'
+2017-05-13 21:40:22.627 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/mexacodergb.jpg  
+2017-05-13 21:40:22.677 -05:00 [Information] Sending file. Request path: '"/images/mexacodergb.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\mexacodergb.jpg"'
+2017-05-13 21:40:22.724 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/2.jpg  
+2017-05-13 21:40:22.735 -05:00 [Debug] Connection id ""0HL4QEA3BV8DR"" completed keep alive response.
+2017-05-13 21:40:22.743 -05:00 [Information] Request finished in 389.9674ms 200 application/javascript
+2017-05-13 21:40:22.741 -05:00 [Information] Request finished in 238.2589ms 200 text/css
+2017-05-13 21:40:22.744 -05:00 [Debug] Connection id ""0HL4QEA3BV8DQ"" completed keep alive response.
+2017-05-13 21:40:22.793 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/lib/lodash/dist/lodash.js  
+2017-05-13 21:40:22.793 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon1.png  
+2017-05-13 21:40:22.817 -05:00 [Information] Sending file. Request path: '"/images/2.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\2.jpg"'
+2017-05-13 21:40:22.818 -05:00 [Information] Sending file. Request path: '"/images/icon1.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon1.png"'
+2017-05-13 21:40:22.821 -05:00 [Information] Sending file. Request path: '"/lib/lodash/dist/lodash.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\lib\lodash\dist\lodash.js"'
+2017-05-13 21:40:22.844 -05:00 [Information] Request finished in 449.4942ms 200 application/javascript
+2017-05-13 21:40:22.868 -05:00 [Debug] Connection id ""0HL4QEA3BV8DR"" completed keep alive response.
+2017-05-13 21:40:22.897 -05:00 [Information] Request finished in 101.5039ms 200 image/png
+2017-05-13 21:40:22.923 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/1.png  
+2017-05-13 21:40:22.949 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon2.png  
+2017-05-13 21:40:22.955 -05:00 [Information] Sending file. Request path: '"/images/1.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\1.png"'
+2017-05-13 21:40:22.965 -05:00 [Information] Sending file. Request path: '"/images/icon2.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon2.png"'
+2017-05-13 21:40:23.311 -05:00 [Debug] Connection id ""0HL4QEA3BV8DT"" completed keep alive response.
+2017-05-13 21:40:23.334 -05:00 [Information] Request finished in 1014.1141ms 200 application/javascript
+2017-05-13 21:40:23.370 -05:00 [Debug] Connection id ""0HL4QEA3BV8DU"" completed keep alive response.
+2017-05-13 21:40:23.395 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/4.jpg  
+2017-05-13 21:40:23.397 -05:00 [Information] Request finished in 685.5622ms 200 image/jpeg
+2017-05-13 21:40:23.418 -05:00 [Debug] Connection id ""0HL4QEA3BV8DR"" completed keep alive response.
+2017-05-13 21:40:23.444 -05:00 [Debug] Connection id ""0HL4QEA3BV8DQ"" completed keep alive response.
+2017-05-13 21:40:23.444 -05:00 [Information] Request finished in 493.4412ms 200 image/png
+2017-05-13 21:40:23.457 -05:00 [Information] Request finished in 555.2217ms 200 image/png
+2017-05-13 21:40:23.497 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/5.jpg  
+2017-05-13 21:40:23.500 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/3.jpg  
+2017-05-13 21:40:23.504 -05:00 [Information] Sending file. Request path: '"/images/5.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\5.jpg"'
+2017-05-13 21:40:23.529 -05:00 [Information] Sending file. Request path: '"/images/4.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\4.jpg"'
+2017-05-13 21:40:23.531 -05:00 [Information] Sending file. Request path: '"/images/3.jpg"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\3.jpg"'
+2017-05-13 21:40:23.623 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/images/icon3.png  
+2017-05-13 21:40:23.649 -05:00 [Debug] Connection id ""0HL4QEA3BV8DS"" completed keep alive response.
+2017-05-13 21:40:23.666 -05:00 [Information] Request finished in 880.2654ms 200 application/javascript
+2017-05-13 21:40:23.689 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/mexacodeApp.min.js  
+2017-05-13 21:40:23.693 -05:00 [Debug] Connection id ""0HL4QEA3BV8DQ"" completed keep alive response.
+2017-05-13 21:40:23.718 -05:00 [Debug] The request path "/js/app/mexacodeApp.min.js" does not match an existing file
+2017-05-13 21:40:23.723 -05:00 [Information] Request finished in 202.7104ms 200 image/jpeg
+2017-05-13 21:40:23.744 -05:00 [Information] Sending file. Request path: '"/images/icon3.png"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\images\icon3.png"'
+2017-05-13 21:40:23.757 -05:00 [Debug] Request did not match any routes.
+2017-05-13 21:40:23.796 -05:00 [Debug] Connection id ""0HL4QEA3BV8DU"" completed keep alive response.
+2017-05-13 21:40:23.829 -05:00 [Information] Request finished in 265.6902ms 200 image/png
+2017-05-13 21:40:23.835 -05:00 [Debug] Connection id ""0HL4QEA3BV8DR"" completed keep alive response.
+2017-05-13 21:40:23.848 -05:00 [Information] Request finished in 358.575ms 200 image/jpeg
+2017-05-13 21:40:23.864 -05:00 [Debug] Connection id ""0HL4QEA3BV8DT"" completed keep alive response.
+2017-05-13 21:40:23.891 -05:00 [Debug] Connection id ""0HL4QEA3BV8DS"" completed keep alive response.
+2017-05-13 21:40:23.922 -05:00 [Information] Request finished in 516.7479ms 200 image/jpeg
+2017-05-13 21:40:23.985 -05:00 [Debug] Connection id ""0HL4QEA3BV8DV"" completed keep alive response.
+2017-05-13 21:40:23.994 -05:00 [Information] Request finished in 217.1509ms 404 
+2017-05-13 21:40:24.006 -05:00 [Information] Request finished in 1391.721ms 200 image/jpeg
+2017-05-13 21:40:36.065 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/  
+2017-05-13 21:40:36.071 -05:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\index.html"'
+2017-05-13 21:40:36.089 -05:00 [Debug] Connection id ""0HL4QEA3BV8DQ"" completed keep alive response.
+2017-05-13 21:40:36.162 -05:00 [Information] Request finished in 27.1449ms 200 text/html
+2017-05-13 21:40:36.192 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:65523/js/app/app.min.js  
+2017-05-13 21:40:36.196 -05:00 [Information] Sending file. Request path: '"/js/app/app.min.js"'. Physical path: '"C:\Users\hiram.acebo\Documents\Visual Studio 2017\Projects\Mexacode.Web\Mexacode.Web\wwwroot\js\app\app.min.js"'
+2017-05-13 21:40:36.204 -05:00 [Debug] Connection id ""0HL4QEA3BV8DT"" completed keep alive response.
+2017-05-13 21:40:36.209 -05:00 [Information] Request finished in 31.5131ms 200 application/javascript

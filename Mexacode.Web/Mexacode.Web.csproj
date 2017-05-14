@@ -8,6 +8,8 @@
   <ItemGroup>
     <None Remove="Properties\PublishProfiles\MexacodeWeb20170504111501 - Web Deploy.pubxml" />
     <None Remove="Properties\PublishProfiles\Mexatest - Web Deploy.pubxml" />
+    <None Remove="Properties\PublishProfiles\mexaweb - FTP.pubxml" />
+    <None Remove="Properties\PublishProfiles\mexaweb - Web Deploy.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="wwwroot\css\estilos.css" />
@@ -199,6 +201,7 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
