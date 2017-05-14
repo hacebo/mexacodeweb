@@ -26,10 +26,11 @@ namespace Mexacode.Web.Services
             var emailMessage = new MimeMessage();
             var companyEmail = _appSettings.ContactUs.Email;
             var password = _appSettings.ContactUs.Password;
-
+            //todo: cretea html email template
             emailMessage.From.Add(new MailboxAddress("", email.Email));
             emailMessage.To.Add(new MailboxAddress("", companyEmail));
-            emailMessage.Subject = $"Asunto: {email.Asunto} -- De:{email.Empresa}-{email.Email}";
+            emailMessage.Subject = $"Solicitud de informacion de la empresa: Empresa: \"{email.Empresa}\" Asunto: {email.Asunto} Telefono:{email.Telefono} Email: {email.Email},Nombre: {email.Nombre}";
+
             emailMessage.Body = new TextPart("plain") { Text = email.Mensaje };
             _logger.LogInformation("Sending email: {@email}", email);
             using (var client = new SmtpClient())

@@ -546,7 +546,7 @@ color: #0098DA;
 }
 
 
-#form_contact {
+#contactForm {
 
 
 	width: 60%;
@@ -557,7 +557,7 @@ color: #0098DA;
 
 }
 
-#form_contact ul {
+#contactForm ul {
 
 	position: relative;
   	margin: 0;
@@ -569,7 +569,7 @@ color: #0098DA;
 
 }
 
-#form_contact li {
+#contactForm li {
 
 	list-style-type: none;
 	height: 35px;

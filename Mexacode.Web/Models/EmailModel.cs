@@ -28,7 +28,8 @@ namespace Mexacode.Web.Models
         [StringLength(maximumLength: 250)]
         public string Mensaje { get; set; }
 
-        public string Para { get; set; }
+        [Phone]
+        public string Telefono { get; set; }
     }
 }
 

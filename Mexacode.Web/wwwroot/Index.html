@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>MexaCode</title>
-    <link href="css/estilos.css" rel="stylesheet" />
+    <link href="css/estilos.min.css" rel="stylesheet" />
+    <link href="lib/sweetalert/dist/sweetalert.css" rel="stylesheet" />
 </head>
 
 
@@ -215,9 +216,10 @@
 
 
 
-                <form id="form_contact" name="form_contact" method="post" 
-                      ng-app="mexacodeApp" 
-                      ng-controller="contactUsController" 
+                <form id="contactForm" name="contactForm" role="form" method="post"
+                      novalidate
+                      ng-app="mexacodeApp"
+                      ng-controller="contactUsController"
                       ng-submit="sendEmail()">
                     <ul>
                         <li><label>Empresa</label></li>
@@ -241,7 +243,8 @@
                         <li><label>Asunto</label></li>
 
                         <li>
-                        <input ng-model="asunto" id="asunto" class="input-con" name="asunto" placeholder="Asunto" data-title="Esta información es necesaria" type="text"></li>
+                            <input ng-model="asunto" id="asunto" class="input-con" name="asunto" placeholder="Asunto" data-title="Esta información es necesaria" type="text">
+                        </li>
 
                         <li><label>Mensaje</label></li>
 
@@ -257,7 +260,13 @@
             &copy 2017 MexaCode Solutions. Derechos reservados.
         </footer>
     </div>
-   
+
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-messages/angular-messages.js"></script>
+    <script src="lib/lodash/dist/lodash.js"></script>
+    <script src="lib/restangular/dist/restangular.js"></script>
+    <script src="js/app/app.min.js"></script>
+    <script src="lib/sweetalert/dist/sweetalert-dev.js"></script>
 </body>
 </html>
 

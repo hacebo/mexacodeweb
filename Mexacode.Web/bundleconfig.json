@@ -2,16 +2,19 @@
 // More info at https://go.microsoft.com/fwlink/?LinkId=808241
 [
   {
-    "outputFileName": "wwwroot/css/site.min.css",
+    "outputFileName": "wwwroot/css/estilos.min.css",
     // An array of relative input file paths. Globbing patterns supported
     "inputFiles": [
-      "wwwroot/css/site.css"
+      "wwwroot/css/estilos.css"
     ]
   },
   {
-    "outputFileName": "wwwroot/js/site.min.js",
+    "outputFileName": "wwwroot/js/app/app.min.js",
+
     "inputFiles": [
-      "wwwroot/js/site.js"
+      "wwwroot/js/app/app.js",
+      "wwwroot/js/app/controllers/contactUsController.js",
+      "wwwroot/js/app/services/contactUsService.js"
     ],
     // Optionally specify minification options
     "minify": {

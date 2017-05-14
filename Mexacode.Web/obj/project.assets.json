@@ -5,6 +5,15 @@
       "AngularJS.Core/1.6.4": {
         "type": "package"
       },
+      "BuildBundlerMinifier/2.4.337": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0"
+        },
+        "build": {
+          "build/BuildBundlerMinifier.targets": {}
+        }
+      },
       "Libuv/1.9.1": {
         "type": "package",
         "dependencies": {
@@ -4334,6 +4343,22 @@
         "content/Scripts/angular.js",
         "content/Scripts/angular.min.js",
         "content/Scripts/angular.min.js.map"
+      ]
+    },
+    "BuildBundlerMinifier/2.4.337": {
+      "sha512": "lsRy1azgEqqElCwebIp/gsSAyGvHKQTN2Z3v92pJ3O1z4RLafFW0t3oIE4TJmiVVsn9tRN2YlXsPxA7HMW5ZNw==",
+      "type": "package",
+      "path": "buildbundlerminifier/2.4.337",
+      "files": [
+        "build/BuildBundlerMinifier.targets",
+        "buildbundlerminifier.2.4.337.nupkg.sha512",
+        "buildbundlerminifier.nuspec",
+        "tools/net46/BundlerMinifier.dll",
+        "tools/net46/NUglify.dll",
+        "tools/net46/Newtonsoft.Json.dll",
+        "tools/netstandard1.3/BundlerMinifier.dll",
+        "tools/netstandard1.3/NUglify.dll",
+        "tools/netstandard1.3/Newtonsoft.Json.dll"
       ]
     },
     "Libuv/1.9.1": {
@@ -11174,6 +11199,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
       "AngularJS.Core >= 1.6.4",
+      "BuildBundlerMinifier >= 2.4.337",
       "MailKit >= 1.16.1",
       "Microsoft.ApplicationInsights.AspNetCore >= 2.0.0",
       "Microsoft.AspNetCore >= 1.1.1",
@@ -11206,6 +11232,9 @@
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
+      "files": {
+        "lib/netcoreapp1.1/Mexacode.Web.dll": "C:\\Users\\hiram.acebo\\Documents\\Visual Studio 2017\\Projects\\Mexacode.Web\\Mexacode.Web\\bin\\placeholder\\netcoreapp1.1\\Mexacode.Web.dll"
+      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
@@ -11215,50 +11244,41 @@
     "frameworks": {
       "netcoreapp1.1": {
         "dependencies": {
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "1.1.1"
+          },
+          "AngularJS.Core": {
+            "target": "Package",
+            "version": "1.6.4"
+          },
+          "BuildBundlerMinifier": {
+            "target": "Package",
+            "version": "2.4.337"
+          },
           "MailKit": {
             "target": "Package",
             "version": "1.16.1"
           },
-          "Restangular": {
+          "Microsoft.ApplicationInsights.AspNetCore": {
             "target": "Package",
-            "version": "1.4.0"
+            "version": "2.0.0"
           },
           "Microsoft.AspNetCore": {
             "target": "Package",
             "version": "1.1.1"
           },
-          "Microsoft.Extensions.Logging.Debug": {
+          "Microsoft.AspNetCore.Mvc": {
+            "target": "Package",
+            "version": "1.1.2"
+          },
+          "Microsoft.AspNetCore.StaticFiles": {
             "target": "Package",
             "version": "1.1.1"
-          },
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-            "target": "Package",
-            "version": "1.1.0"
-          },
-          "Serilog.Sinks.RollingFile": {
-            "target": "Package",
-            "version": "3.3.0"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "target": "Package",
             "version": "1.1.1"
-          },
-          "Serilog": {
-            "target": "Package",
-            "version": "2.4.0"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "1.1.1",
-            "autoReferenced": true
-          },
-          "Microsoft.VisualStudio.Web.BrowserLink": {
-            "target": "Package",
-            "version": "1.1.0"
-          },
-          "AngularJS.Core": {
-            "target": "Package",
-            "version": "1.6.4"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
@@ -11268,21 +11288,33 @@
             "target": "Package",
             "version": "1.1.1"
           },
-          "Microsoft.AspNetCore.Mvc": {
-            "target": "Package",
-            "version": "1.1.2"
-          },
-          "Microsoft.ApplicationInsights.AspNetCore": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
-          "Microsoft.AspNetCore.StaticFiles": {
+          "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "1.1.1"
+          },
+          "Microsoft.VisualStudio.Web.BrowserLink": {
+            "target": "Package",
+            "version": "1.1.0"
+          },
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "target": "Package",
+            "version": "1.1.0"
+          },
+          "Restangular": {
+            "target": "Package",
+            "version": "1.4.0"
+          },
+          "Serilog": {
+            "target": "Package",
+            "version": "2.4.0"
           },
           "Serilog.Extensions.Logging": {
             "target": "Package",
             "version": "1.4.0"
+          },
+          "Serilog.Sinks.RollingFile": {
+            "target": "Package",
+            "version": "3.3.0"
           }
         },
         "imports": [
