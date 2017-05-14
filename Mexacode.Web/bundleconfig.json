@@ -9,8 +9,23 @@
     ]
   },
   {
+    "outputFileName": "wwwroot/js/vendors/vendors.min.js",
+    "inputFiles": [
+      "wwwroot/lib/angular/angular.min.js",
+      "wwwroot/lib/angular-messages/angular-messages.min.js",
+      "wwwroot/lib/lodash/dist/lodash.min.js",
+      "wwwroot/lib/restangular/dist/restangular.min.js",
+      "wwwroot/lib/sweetalert/dist/sweetalert.min.js"
+    ], // Optionally specify minification options
+    "minify": {
+      "enabled": false,
+      "renameLocals": false
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  },
+  {
     "outputFileName": "wwwroot/js/app/app.min.js",
-
     "inputFiles": [
       "wwwroot/js/app/app.js",
       "wwwroot/js/app/controllers/contactUsController.js",
